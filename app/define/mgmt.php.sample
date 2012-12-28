@@ -1,0 +1,42 @@
+<?php
+define ('_SESSION_NAME_', 'ORGPLMGMT');
+define ('_SALT_', 'y9zj4lxg');
+
+// header title
+define ('_TITLE_', '公共施設予約システム');
+
+// header title color
+define ('_TITLE_COLOR_', '#ffffff');
+
+// session timeout
+define ('_IDLE_TIMEOUT_', '3600');
+
+// search postal address from zip code
+define ('_POSTADDRESS_FLG_', false);
+
+define ('_ROOM_STATUS_ALL_DAY_', true);
+
+define ('_USE_SSL_', false);
+
+define ('_PRIVILEGE_TIME_', false);
+
+define ('_USE_OPTIONFEE_', false);
+
+// the login method
+define ('_IC_CARD_', false);
+
+// the privilege file's name
+define ('_PRIVILEGE_FILE_NAME_', 'privilege.ini');
+
+// whether use the ldap: true/false use/not use
+define ('_PRIVILEGE_LDAP_FLAG_', false);
+
+// ldap's login ip
+define ('_PRIVILEGE_LDAP_IP_', 'localhost');
+
+// ldap's login password
+define ('_PRIVILEGE_LDAP_PSW_', 'openreaf');
+
+// ldap's root dn
+define ('_PRIVILEGE_LDAP_ROOTDN_', "dc=city,dc=cityname,dc=prefname,dc=jp");
+?>

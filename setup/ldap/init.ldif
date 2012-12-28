@@ -1,0 +1,56 @@
+dn: dc=openreaf,dc=jp
+objectclass: dcObject
+objectclass: organization
+o: openreaf
+dc: openreaf
+
+dn: cn=Manager,dc=openreaf,dc=jp
+objectclass: organizationalRole
+cn: Manager
+
+dn: dc=city,dc=openreaf,dc=jp
+objectClass: dcObject
+objectClass: organization
+dc: city
+o: 001
+l: OpenReaf
+st: オープンリーフ
+description: 公共施設予約システムOpenReaf
+userPassword: openreaf
+
+dn: ou=01,dc=city,dc=openreaf,dc=jp
+objectClass: organizationalUnit
+objectClass: ReserveUnitExt
+ou: 01
+BushoName: 施設管理課
+BushoShortName: 施設管理
+UpdDate: 00000000
+UpdTime: 000000
+UpdID: 000000
+
+dn: cn=000099,ou=01,dc=city,dc=openreaf,dc=jp
+objectClass: organizationalPerson
+objectClass: posixAccount
+objectClass: shadowAccount
+objectClass: ReservePersonExt
+cn: 000099
+sn: 000099
+uid: 000099
+uidNumber: 5099
+gidNumber: 5099
+homeDirectory: /home/000099
+AppDateFrom: 20101101
+StaffNum: initialStaff
+userPassword: {MD5}Sn0e1BRHTkAzrCnMuGU9mw==
+StaffName: 管理者
+TourokuKbn: 3
+KengenCode1: 10
+KengenCode2: 20
+KengenCode3: 30
+KengenCode4: 40
+KengenCode5: 50
+KengenCode6: 60
+shadowFlag: 0
+UpdDate: 00000000
+UpdTime: 000000
+UpdID: 000000

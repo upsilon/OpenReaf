@@ -1,0 +1,396 @@
+公共施設予約システム OpenREAF インストールガイド 2012.06.06
+
+
+1. はじめに
+
+公共施設予約システム OpenREAF Ver.5.5.0 のインストールについて説明します。
+
+
+2. 動作環境
+
+Webサーバ Apache2
+
+データベースサーバ MySQL 5.0.27以降もしくは PostgreSQL 8.1.23以降のいずれか
+
+メールサーバ Postfix 2.4.x以降
+
+認証サーバ Cyrus SASL2 saslauthd
+(使用するPostfixのバージョンに対応するもの）
+
+PHP 5.2.x以降
+  以下のモジュールも必要です。
+  mbstring
+  mysql
+  ldap
+  gd
+  xml
+  PEAR
+
+  PEAR は以下のパッケージが必要です。
+   DB
+
+(OpenReaf Ver. 5.1.0 から Smarty をキットにバンドルしました。)
+
+
+3. ファイルの設置
+
+ソースキットを展開したトップディレクトリを $KITDIR とします。
+$KITDIR 以下をWebサーバ上に配置します。
+インストールディレクトリを $TOPDIR とします。
+
+実行例を示します。
+(/var/www/html にインストールした場合)
+# cp -r $KITDIR/* /var/www/html
+
+$TOPDIR = /var/www/html
+
+Apache2が書き込むディレクトリのパーミッションを777(動作環境に応じて
+読み替えてください)に変更するか、もしくは所有者を apache や www など
+Apache2の起動アカウントに変更します。
+
+- KITDIR
+      ├ srv
+      │ ├ css
+      │ ├ image
+      │ ├ script
+      │ ├ favicon.ico
+      │ ├ language.php
+      │ └ index.php
+      ├ mgmt
+      │ ├ Applet
+      │ ├ css
+      │ ├ image
+      │ ├ script
+      │ └ index.php
+      ├ app 
+      │ ├ define
+      │ ├ class
+      │ ├ include
+      │ ├ pc
+      │ ├ smart
+      │ ├ mobile 
+      │ ├ mgmt
+      │ ├ templates
+      │ │ ├ pc
+      │ │ ├ smart
+      │ │ ├ mobile
+      │ │ └ mgmt
+      │ └ stamp
+      ├ var
+      │ ├ log
+      │ │ ├ pc [777]
+      │ │ ├ smart [777]
+      │ │ ├ mobile [777]
+      │ │ └ mgmt [777]
+      │ └ templates_c
+      │   ├ pc [777]
+      │   ├ smart [777]
+      │   ├ mobile [777]
+      │   └ mgmt [777]
+      └ setup
+        ├ sql
+        │ ├ mysql
+        │ └ pgsql
+        ├ ldap
+        └ postifx
+
+
+4. データベース構築
+
+MySQL と PostgreSQL で使用する SQL 文が異なりますので、
+対応する SQL 文を使用してください。
+
+それぞれの SQL 文は以下のディレクトリにあります。
+
+MySQL 用 $TOPDIR/setup/mysql
+PostgreSQL 用 $TOPDIR/setup/pgsql
+
+各ディレクトリの SETUP というファイル名のファイルに構築方法を記述してあります。
+
+以下は MySQL を使用する場合について記述します。
+
+以下の3つのSQLスクリプトを使用します。
+
+- create_database.sql データベースとデータベース管理者作成用
+- create_table.sql    テーブル作成用
+- init_data.sql       初期データおよび初期管理者設定用
+
+create_database.sql に以下の項目を設定します。
+your_datadabse_name データベース名
+your_database_user データベース管理者名
+your_database_password データベース管理者パスワード
+
+GRANT 文は、localhost 用とリモートホスト用の雛形があるので、
+必要なもののみ使用してください。
+
+SQL文は create_database.sql、create_table.sql、init_data.sql
+の順に実行します。
+
+実行例を示します。
+$ mysql -u root -p --default-character-set=utf8 < create_database.sql
+$ mysql -u USERNAME -p DBNAME --default-character-set=utf8 < create_table.sql
+$ mysql -u USERNAME -p DBNAME --default-character-set=utf8 < init_data.sql
+
+実行後、mysql ログインして漢字が表示されることを確認してください。
+漢字が表示されない場合は、データベースがUTF-8で作成されていないので、
+手順や実行環境を確認してください。
+
+実行例を示します。
+$ mysql -u USERNAME -p DBNAME --default-character-set=utf8
+mysql> select staffid, pwd, staffname from m_staff;
++---------+------+-----------+
+| staffid | pwd  | staffname |
++---------+------+-----------+
+| 000099  | 1234 | 管理者    |
++---------+------+-----------+
+1 row in set (0.00 sec)
+
+
+5. Webサーバの設定
+
+以下のURLでアクセスする場合を例に挙げます。
+利用者向け http://localhost/
+管理者向け http://localhost/mgmt
+
+バーチャルホストを設定します。
+------------------------------------------------------------------------
+NameVirtualHost *:80
+
+<VirtualHost *:80>
+    DocumentRoot /var/www/html/srv
+    ErrorLog /var/log/httpd/httpd_error_log
+    CustomLog /var/log/httpd/httpd_access_log common
+
+    Alias /mgmt "/var/www/html/mgmt"
+</VirtualHost>
+------------------------------------------------------------------------
+
+SSLでアクセスする場合は、ssl.conf に同様の設定を行います。
+
+
+6. PHPの設定
+
+expose_php = Off
+セキュリティ上Offにします。
+
+memory_limit = 128M
+PDF出力時に処理量によっては
+メモリを多く消費する場合がありますので、
+使用環境に合わせて変更してください。
+
+データベースに合わせてUTF-8に設定します。
+mbstring.language = Japanese
+mbstring.internal_encoding = UTF-8
+mbstring.http_input = auto
+mbstring.http_output = UTF-8
+mbstring.detect_order = auto
+
+
+7. メールサーバの設定
+
+$TOPDIR/setup/postfix に
+main.cf、master.cf、white_list, rejections, helo_restrictions の5ファイルがあります。
+main.cf の YOUR HOSTNAME を使用するサーバのFQDNに、
+YOUR DOMAIN を使用するサーバのドメインに変更してください。
+その他の設定は、必要に応じて行ってください。
+
+
+8. コンフィグレーション
+
+インストール時のコンフィグレーションは、
+$TOPDIR/app/define ディレクトリ配下のファイルで行います。
+それぞれのファイルは以下の用途に使用します。
+
+common.php  システム共通
+pc.php      パソコン画面用
+smart.php   スマートフォン画面用
+mobile.php  携帯電話画面用
+mgmt.php    管理システム用
+
+(1) システム共通コンフィグレーション
+
+common.php.sample を common.php にコピーして使用してください。
+日本語を記述する際の文字コードはUTF-8を使用してください。
+
+DBへの接続情報を記述します。
+$GLOBALS['_OPENREAF_DSN_'] = array(
+	'phptype'  => 'mysql',
+	'username' => 'DBUSER',
+	'password' => 'DBPASSWORD',
+	'hostspec' => 'DBHOST',
+	'database' => 'DBNAME'
+);
+
+phptype は使用するDBと環境に応じて変更してください。
+MySQL の場合 : mysql もしくは mysqli
+PostgreSQL の場合 : pgsql
+
+システムのインストールディレクトリをフルパスで記入します。
+define ('OPENREAF_ROOT_PATH', '/var/www/html');
+
+システム名(ブラウザのタイトルヘッダにも表示します。)
+define ('_SYSTEM_NAME_', '公共施設予約システム');
+
+連絡先電話番号
+define ('_CONTACT_TEL_', '050-3762-0676');
+
+日付例の表示をYYYYMMDD形式で記入します。
+(動作環境等の条件に合わせ、必要に応じて変更してください。)
+define ('_EXAMPLE_DATE_', '20120301');
+
+よく使う施設への最大登録数を指定します。
+define ('_PRESET_MAX_NUM_', '5');
+
+「市長」にあたる文字を変更する場合に指定します。
+define ('_MAYOR_', '市長');
+
+地域区分で表示する「市内」にあたる文字を変更する場合に指定します。
+define ('_INSIDE_', '市内');
+
+地域区分で表示する「市外」にあたる文字を変更する場合に指定します。
+define ('_OUTSIDE_', '市外');
+
+ふり仮名項目の表示を指定します。
+define ('_KANA_', 'かな');
+
+未登録者用の利用者ID
+define ('_UNREGISTED_USER_ID_', '0');
+
+地域コード（変更する必要はありません。）
+define ('_CITY_CODE_', '001');
+
+予約管理テーブル使用の可否
+true: 使用する / false: 使用しない
+define ('_YOYAKUKANRI_TABLE_', true);
+
+以下は変更せずそのままにしてください。
+define ('_COLOR_VACANCY_', '#d1fafa');
+define ('_COLOR_RESERVED_', '#ffe0c1');
+define ('_COLOR_LOT_', '#ffff66');
+define ('_COLOR_CLOSE_', '#90ee90');
+
+
+(2)利用者画面用コンフィグレーション
+
+PC用は、pc.php.sample を pc.php に
+携帯電話用は、mobile.php.sample を mobile.php に
+スマートフォン用は、smart.php.sample を smart.php に
+コピーして使用してください。
+日本語を記述する際の文字コードはUTF-8を使用してください。
+
+セッション名を指定します。
+define ('_SESSION_NAME_', 'ORGPLSRV');
+
+セッションをチェックするときのソルトを指定します。
+define ('_SALT_', 'y9zj4lxg');
+
+フッターメッセージ（ページの下の方に表示します。）
+define ('_FOOTER_MESSAGE_', '○○市施設管理課<br>電話:050-3762-0676');
+
+無操作時の制限時間
+（この時間を越えるとトップメニューに戻ります。）
+define ('_IDLE_TIMEOUT_', '3600');
+
+申し込み状況確認画面と履歴画面での表示件数
+define ('_LIST_DISP_MAX_', '12');
+
+施設選択画面での選択ボタンの数
+define ('_SHISETSU_BUTTON_MAX_', '8');
+
+室場選択画面での選択ボタンの数
+define ('_SHITSUJYOU_BUTTON_MAX_', '8');
+
+利用単位選択画面での選択ボタンの数
+define ('_MEN_BUTTON_MAX_', '8');
+
+SSL使用の可否
+true: 使用する / false: 使用しない
+define ('_USE_SSL_', true);
+
+数字キーの使用の可否
+true: 使用する / false: 使用しない
+define ('_USE_NUMERICKEY_', true);
+
+申し込み状況確認画面で予約情報のみ表示
+true: 予約、抽選当選のみ表示する / false:  取消予約、抽選落選も表示する
+define ('_LIST_RESERVE_ONLY_', false);
+
+ご利用の手引きボタン表示の可否
+true: 表示する / false: 表示しない
+define ('_SHOW_GUIDANCE_BUTTON_', true);
+
+印刷ボタン表示の可否
+true: 表示する / false: 表示しない
+define ('_SHOW_PRINT_BUTTON_', true);
+
+施設のご案内ボタン利用の可否
+true: 利用する / false: 利用しない
+define ('_USE_FACILITY_GUIDE_', true);
+
+よくある質問ページの利用の可否
+true: 利用する / false: 利用しない
+define ('_USE_FAQ_', true);
+
+
+(3)管理者画面用コンフィグレーション
+
+mgmt.php.sample を mgmt.php にコピーして使用してください。
+日本語を記述する際の文字コードはUTF-8を使用してください。
+
+セッション名を指定します。
+define ('_SESSION_NAME_', 'ORGPLMGMT');
+
+セッションをチェックするときのソルトを指定します。
+define ('_SALT_', 'y9zj4lxg');
+
+管理システムで表示するタイトル
+define ('_TITLE_', '公共施設予約システム');
+
+タイトルで使用する文字の色
+define ('_TITLE_COLOR_', '#ffffff');
+
+無操作時の制限時間
+（この時間を越えるとトップメニューに戻ります。）
+define ('_IDLE_TIMEOUT_', '3600');
+
+郵便番号検索使用の可否
+true: 使用する / false: 使用しない
+define ('_POSTADDRESS_FLG_', true);
+
+空き状況表示を１日単位で表示する
+true: １日単位での表示 / false:  午前/午後/夜間での表示
+define ('_ROOM_STATUS_ALL_DAY_', true);
+
+SSLを使用する
+true: 使用する / false: 使用しない
+define ('_USE_SSL_', false);
+
+管理システムのみ予約できる時間を表示する
+true: 使用する / false: 使用しない
+define ('_PRIVILEGE_TIME_', true);
+
+収納時にオプション料金項目を使用する。
+true: 使用する / false: 使用しない
+define ('_USE_OPTIONFEE_', false);
+
+ICカード認証使用の可否
+true: ICカードを使用する / false: ICカードを使用しない
+define ('_IC_CARD_', false);
+
+アクセス権限設定用ファイル（変更する必要はありません。）
+define ('_PRIVILEGE_FILE_NAME_', 'privilege.ini');
+
+LDAP使用フラグ
+true: LDAPを使用する / false: LDAPを使用しない
+define ('_PRIVILEGE_LDAP_FLAG_', false);
+
+LDAPサーバホスト名もしくはIPアドレス
+define ('_PRIVILEGE_LDAP_IP_', 'localhost');
+
+LDAPサーバへのアクセスパスワード
+define ('_PRIVILEGE_LDAP_PSW_', 'openreaf');
+
+LDAP使用時のルートDN
+define ('_PRIVILEGE_LDAP_ROOTDN_', "dc=city,dc=cityname,dc=prefname,dc=jp");
+
+--

@@ -1,0 +1,6 @@
+# Illegal HELO command blocking specification
+# Provided that your mail server's IP address is 223.12.34.56 and its
+# acceptable domain name is "example.com", specify as follows:
+#
+#/^223\.12\.34\.56$/                            REJECT
+#/^(.+\.)?example\.com$/                        REJECT

@@ -1,0 +1,39 @@
+・データベース構築
+
+以下の3つのSQLスクリプトを使用します。
+
+- create_database.sql データベースとデータベース管理者作成用
+- create_table.sql    テーブル作成用
+- init_data.sql       初期データおよび初期管理者設定用
+
+create_database.sql に以下の項目を設定します。
+your_datadabse_name データベース名
+your_database_user データベース管理者名
+your_database_password データベース管理者パスワード
+
+GRANT 文は、localhost 用とリモートホスト用の雛形があるので、
+必要なもののみ使用してください。
+
+SQL文は create_database.sql、create_table.sql、init_data.sql
+の順に実行します。
+
+実行例を示します。
+$ mysql -u root -p --default-character-set=utf8 < create_database.sql
+$ mysql -u USERNAME -p DBNAME --default-character-set=utf8 < create_table.sql
+$ mysql -u USERNAME -p DBNAME --default-character-set=utf8 < init_data.sql
+
+実行後、mysql ログインして漢字が表示されることを確認してください。
+漢字が表示されない場合は、データベースがUTF-8で作成されていないので、
+手順や実行環境を確認してください。
+
+実行例を示します。
+$ mysql -u USERNAME -p DBNAME --default-character-set=utf8
+mysql> select staffid, pwd, staffname from m_staff;
++---------+------+-----------+
+| staffid | pwd  | staffname |
++---------+------+-----------+
+| 000099  | 1234 | 管理者    |
++---------+------+-----------+
+1 row in set (0.00 sec)
+
+--

@@ -1,0 +1,1253 @@
+@charset "utf-8";
+
+/*
+ *  Copyright 2010-2012 ZiWAVE Co., Ltd.
+ *
+ *  main.css
+ */
+
+/*---------------------------
+	初期スタイル調整
+----------------------------*/
+
+body {
+	font-size:100%;
+	font-style:normal;
+	font-family:'ヒラギノ角ゴ Pro W3','Hiragino Kaku Gothic Pro','メイリオ',Meiryo,'ＭＳ Ｐゴシック',sans-serif;
+	color:#333333;
+	line-height:120%;
+	text-align:center;
+	margin:0px;
+	padding:0px;
+	}
+	
+p,div,img,ul,form { margin:0; padding:0; border:0; }
+table,td,th { margin:0px; padding:0px; font-size:100%;}
+hr {display:none;}
+
+/*** h1-h5 ***/
+
+h1 {width:auto;margin:0px;padding:0px;}
+
+h2,h3,h4,h5 {
+	width:auto;
+	margin:0px;
+	padding:0px;
+	font-size:100%;
+	}
+
+/*** link ***/
+
+a:link,
+a:visited,
+a:active {color:#003399;text-decoration:none;}
+a:hover {color:#FF3300;text-decoration:none;}
+
+
+/*-------------------
+フォントカラー
+-------------------*/
+
+.f-blue {color:#0000FF;}
+.f-red {color:#FF3300;}
+.f-ore {color:#ff6600;}
+.f-ore a:visited, .f-ore a:link {color:#ff6600;}
+.f-black {color:#333333;}
+.f-black a:visited, .f-black a:link {color:#333333;}
+.f-gre {color:#009900;}
+.f-gre a:visited, .f-gre a:link {color:#009900;}
+
+.f-sizeup {font-size:140%;}
+.font-midashi {font-size:140%; color:#ffffff; }
+
+/*---------------------------
+	基本構造
+----------------------------*/
+
+/*---header---*/
+
+#header {
+	width:100%;
+	background:url(../image/css/header_bg.gif) repeat-x 50% 0;
+	text-align:center;
+	}
+
+/*---contents---*/
+
+#conts {
+	width:100%;
+	border-top:solid #fff 1px;
+	background:url(../image/css/bg-gray2.gif) repeat-x top;
+	text-align:center;
+	}
+
+#conts-body {
+	width:900px;
+	margin: 0 auto;
+	text-align:left;
+	}
+
+#conts-body p{
+	margin: 7px 0;
+	}
+	
+/*ページタイトル*/
+#conts .title{
+	text-align:right;
+	font-size:105%;
+	margin: 5px 0 0 0;
+	padding: 2px 0 2px 10px;
+	}
+
+.message {
+	display:block;
+	border-top: solid #ffba00 2px;
+	padding: 2px 0 2px 10px;
+	color:#FF0000;
+	margin-bottom:15px;
+	text-align:left;
+	}
+
+/*トップへなどのボタンエリア*/
+
+.button-area {
+	text-align:center;
+	padding: 15px 0px 15px 0px;
+	}
+
+.button-area input {margin: 0px 10px;}
+.button-area img {margin: 0px 10px;}
+
+/*---footer---*/
+
+#footer {
+	width:100%;
+	margin-top:10px;
+	padding:10px 0 0 0; 
+	text-align:center;
+	border-top: solid #009900 3px;
+	position:relative;
+	}
+
+#footer .banner{
+	position:absolute;
+	top:15px;
+	right:10%;
+	width:100px;
+	height:27px;
+	}
+
+#footer address{font-weight: normal;}
+
+
+/*-------------------------
+	floatクリア
+--------------------------*/
+.clr {clear:both;}
+
+/*---------------------------
+	アイコンのボタン配置
+----------------------------*/
+
+#navi {
+	text-align:center;
+	margin-bottom:20px;
+	}
+
+#navi img {
+	margin: 0px 20px;
+	}
+
+/*---------------------------
+	施設の選択
+----------------------------*/
+
+/***施設の選択のカラム***/
+#sentaku-area {
+	margin:0;
+	padding:0 0 0 10px;
+	text-align:left;
+	}
+
+#sentaku-area #left {
+	width:200px;
+	float:left;
+	margin-left:50px;
+	}
+
+*html #sentaku-area #left {
+	margin-left:25px;
+	}
+
+#sentaku-area #right {
+	width:570px;
+	float:left;
+	margin-left:20px;
+	}
+
+.yoyaku-bt{
+	text-align:right;
+	padding:2px 0;
+	}
+	
+/***施設選択のボタン関係***/
+
+/***ボタン配置***/
+.sentaku-table {
+	margin: 0 0 20px 0;
+	width:570px;
+	border-collapse:collapse;
+	}
+
+.sentaku-table td{
+	text-align:center;
+	padding:0 0 15px 0;
+	}
+
+/***マウスアウト***/
+a.shisetsu-bt {
+	display:block;
+	font-weight:bold;
+	width:270px;
+	background:url(../image/css/shisetsu-bt_bg.gif) no-repeat;
+	text-align:center;
+	}
+
+a.shisetsu-bt span{
+	display:block;
+	background:url(../image/css/shisetsu-bt_bottom_bg.gif) no-repeat bottom;
+	padding: 8px 0;
+	}
+
+
+.shisetsu-bt_off {
+	display:block;
+	font-weight:bold;
+	width:270px;
+	background:url(../image/css/shisetsu-bt_off.gif) no-repeat;
+	text-align:center;
+	color:#666;
+	}
+
+.shisetsu-bt_off span{
+	display:block;
+	background:url(../image/css/shisetsu-bt_off_bottom.gif) no-repeat bottom;
+	padding: 8px 0;
+	}
+
+.shisetsu-bt_off strong{
+	font-size:80%;
+	color:#999
+	}
+
+/***オンマウス***/
+a.shisetsu-bt:hover {background:url(../image/css/shisetsu-bt_bg_h.gif) no-repeat;}
+a.shisetsu-bt:hover span{background:url(../image/css/shisetsu-bt_bottom_bg_h.gif) no-repeat bottom;color:#FF0000;}
+
+a.shisetsu-bt:link,
+a.shisetsu-bt:visited,
+a.shisetsu-bt:active { color:#222}
+
+
+/***施設選択サイドバー***/
+
+.menu-title{
+	font-size:110%;
+	color:#333;
+	text-align:center;
+	padding: 4px 0;
+	background:url(../image/css/menu-title_bg.gif) top;
+	border:solid #b98d05 1px;
+	}
+
+#menu {
+	width:196px;
+	margin:0 0 10px 0;
+	font-size:100%;
+	border:solid #aaaaaa 2px;
+	}
+
+#menu li{
+	font-size:110%;
+	list-style:none;
+	}
+
+/***チェックマーク***/
+
+#menu li .on{ 
+	display:block;
+	font-weight:bold;
+	color:#bf3f00;
+	background:#fff4aa url(../image/css/menu-on.gif) no-repeat 1% 50%;
+	padding: 1px 0 1px 20px;
+	border-top:solid #d6bc2a 1px;
+	border-bottom:solid #d6bc2a 1px;
+	}
+
+#menu li .off{ 
+	display:block;
+	font-weight:bold;
+	color:#333;
+	background:#dfdfdf url(../image/css/menu-off.gif) no-repeat 1% 10%;
+	padding: 2px 0 2px 20px;
+	}
+
+#menu li .edit{ 
+	display:block;
+	font-weight:bold;
+	color:#333;
+	background:#f5f5ed url(../image/css/menu-off2.gif) no-repeat 1% 10%;
+	padding: 2px 0 2px 20px;
+	border-bottom: dotted #c7c7c7 2px;
+	}
+
+#menu li ul {
+	font-size:65%;
+	margin:0px;
+	padding:0px;
+	}
+
+#menu li ul li{
+	margin: 0 0 0 0;
+	padding: 0 0 0 20px;
+	background:url(../image/css/menu-list.gif) no-repeat 0 50%;
+	}
+
+/***月選択のヘッダー***/
+
+.month-cal-top {
+	border-collapse:collapse;
+	border-bottom:solid #8ec711 2px;
+	margin-bottom:2px;
+	}
+
+.month-cal-top th{
+	font-size:120%;
+	text-align:center;
+	border: solid #a3cf74 1px;
+	border-bottom:0;
+	background:url(../image/css/bg-gre.gif) repeat-x top;
+	}
+
+.month-cal-top th.shisets-name{
+	font-size:120%;
+	margin: 0 8px;
+	padding: 8px 0 8px 50px;
+	text-align:left;
+	border:0;
+	background:url(../image/css/shisetsu-name.gif) no-repeat 0% 0%;
+	}
+
+.month-cal-top th.shisets-name span{font-size:65%; margin: 0 4px;}
+
+.month-cal-head {
+	font-size:95%;
+	text-align:center;
+	border: solid #a3cf74 1px;
+	padding: 3px 0;
+	background:url(../image/css/bg-gre.gif) repeat-x top;
+	}
+
+/*---------------------------
+	テーブルレイアウト
+	
+	月別カレンダー等
+	汎用的に使用
+	色はclassで指定
+----------------------------*/
+.table-style {
+	text-align:center;
+	font-size:80%;
+	margin:5px 0;
+	font-weight: bold;
+	border-collapse:collapse;
+	}
+
+.table-style th {
+	border:solid #aaaaaa 1px;
+	padding:0 4px;
+	}
+
+.table-style td {
+	border:solid #aaaaaa 1px;
+	padding:0 4px;
+	}
+
+.table-style td a{
+	display:block;
+	font-weight:bold;
+	padding: 10px 0;
+	}
+
+.table-style input,
+.register-table input {
+	margin:2px;
+	}
+
+.table-style td.no-border {border:solid #fff 1px;}
+
+.table-style td.button-area {
+	border:0;
+	padding-top:7px;
+	font-size:120%;
+	}
+
+/*---------------------------
+	レイアウトテーブル
+	
+	レイアウト用に使用
+	色はclassで指定
+----------------------------*/
+
+.layout-style {
+	text-align:center;
+	margin:5px 0;
+	font-weight: bold;
+	border-collapse:collapse;
+	}
+
+.layout-style th {
+	padding:5px 10px;
+	border: solid #fff 1px;
+	}
+
+.layout-style td {
+	padding:10px;
+	border-bottom: dotted #dddddd 1px;
+	}
+
+.layout-style input{margin: 3px 5px;}
+
+.layout-style td label{ margin: 5px;}
+
+/*--------------------
+	利用者登録用
+	フォームテーブル
+--------------------*/
+
+.register-table {
+	border:solid #bbbbbb 2px;
+	text-align:center;
+	font-size:80%;
+	margin:5px 0;
+	font-weight: bold;
+	border-collapse:collapse;
+	}
+
+.register-table th
+	{
+	background:#e3e1d9;
+	border:solid #aaaaaa 1px;
+	padding:5px;
+	}
+
+.register-table td
+ 	{
+	border:solid #aaaaaa 1px;
+	padding:5px 5px 5px 60px;
+	}
+	
+.register-table td.hissu {
+	background:url(../image/hissu.gif) no-repeat 10px 50%;
+	}
+
+.register-table .error {
+	border: solid #FF6600 2px;
+	}
+
+.register-table td.error {
+	color:#FF3300;
+	}
+
+.register-btn-area {
+	margin: 10px 0;
+	text-align:center;
+	}
+
+/*--------------
+登録内容確認画面
+tdの余白消し
+---------------*/
+.comp td{
+	padding:5px 5px 5px 10px;
+	}
+
+/***テーブルのカラーチェンジ**/
+
+.bg-yellow-1 {background:#fffc00;}/*濃い黄色*/
+.bg-yellow-2 {background:#ffff89;}/*黄色*/
+.bg-yellow-3 {background:#ffffcc;}/*薄い黄色*/
+
+/*グレイ*/
+.bg-gray-1 {background:#7d7b6f;color:#FFFFFF;}/*濃いグレイ*/
+.bg-gray-2 {background:#e3e1d9;}/*グレイ*/
+.bg-gray-3 {background:#f6f4ee;}/*薄いグレイ*/
+
+/*青*/
+.bg-blue-1 {background:#006699;color:#FFFFFF;}/*濃い青*/
+.bg-blue-2 {background:#a4dcff;}/*青*/
+.bg-blue-3 {background:#d7f6ff;}/*薄い青*/
+
+/*赤*/
+.bg-red-1 {background:#e63964;color:#FFFFFF;}/*濃い赤*/
+.bg-red-2 {background:#ffabab;}/*赤*/
+.bg-red-3 {background:#ffe1e1;}/*薄い赤*/
+
+/***時間選択のヘッダー***/
+
+.time-title {
+	font-size:115%;
+	text-align:center;
+	padding: 2px 0 ;
+	border: solid #bbbbbb 1px;
+	border-bottom:solid #b0af97 2px;
+	background:url(../image/css/bg-gray.gif) repeat-x top;
+	}
+
+/*---------------------------
+	各種ボタンスタイル
+	
+	月のボタン
+	1日前、1週間の遷移ボタン
+----------------------------*/
+
+/***月のボタン***/
+.month-bt {
+	display:block;
+	text-align:center;
+	font-weight:bolder;
+	font-size:120%;
+	border:solid #ffa302 2px;
+	margin:2px;
+	padding: 6px 0;
+	background:#fffecb url(../image/css/bg-yellow.gif) repeat-x bottom;
+	}
+
+.month-bt:hover {
+	background: #fed804 url(../image/css/bg-yellow_h.gif) repeat-x bottom;
+	color:#9A1449;
+	border:solid #ff2a00 2px;
+	}
+
+/*選択済み*/
+.month-bt_on {
+	display:block;
+	text-align:center;
+	font-weight:bolder;
+	font-size:120%;
+	border:solid #ff2a00 2px;
+	margin: 2px;
+	padding: 6px 0;
+	color:#9A1449;
+	background:url(../image/css/bg-yellow_h.gif) repeat-x bottom;
+	}
+
+/***週間の遷移ボタン***/
+
+.week-back {
+	background:url(../image/css/week-back-bt.gif) 0 50% no-repeat ;
+	padding: 5px 5px 5px 27px;
+	font-size:90%;
+	font-weight:bolder;
+	}
+
+.week-next {
+	background:url(../image/css/week-next-bt.gif) 100% 50% no-repeat ;
+	padding: 5px 27px 5px 5px;
+	font-size:90%;
+	font-weight:bolder;
+	}
+
+.day-back {
+	background:url(../image/css/day-back-bt.gif) 0 50% no-repeat ;
+	padding: 5px 5px 5px 27px;
+	font-size:90%;
+	font-weight:bolder;
+	}
+
+.day-next {
+	background:url(../image/css/day-next-bt.gif) 100% 50% no-repeat ;
+	padding: 5px 27px 5px 5px;
+	font-size:90%;
+	font-weight:bolder;
+	}
+
+/*オンマウス*/
+.week-back:hover {background:url(../image/css/week-back-bt_h.gif) 0 50% no-repeat ;}
+.week-next:hover {background:url(../image/css/week-next-bt_h.gif) 100% 50% no-repeat ;}
+.day-back:hover {background:url(../image/css/day-back-bt_h.gif) 0 50% no-repeat ;}
+.day-next:hover {background:url(../image/css/day-next-bt_h.gif) 100% 50% no-repeat ;}
+
+/***ログイン画面のボタン***/
+
+.num-bt {
+	display:block;
+	text-align:center;
+	font-weight:900;
+	font-size:160%;
+	border:solid #ff9000 4px;
+	margin: 2px;
+	}
+
+.num-bt span{
+	display:block;
+	border:solid #fff 2px;
+	padding: 0.6em 0;
+	background:url(../image/css/bg-yellow.gif) repeat-x bottom #ffffe6;
+	}
+
+.num-bt2 {
+	display:block;
+	text-align:center;
+	font-weight:900;
+	font-size:120%;
+	border:solid #ff9000 4px;
+	margin: 2px;
+	}
+
+.num-bt2 span{
+	display:block;
+	border:solid #fff 2px;
+	padding: 0.8em 0;
+	background:url(../image/css/bg-yellow.gif) repeat-x bottom #ffffe6;
+	}
+
+.num-bt:hover, .num-bt2:hover {border:solid #ff9000 3px;}
+.num-bt:hover span, .num-bt:hover span{background:url(../image/css/bg-yellow_h.gif) repeat-x bottom #ffffe6;}
+
+
+/***ボタン***/
+.table-style .disp-bt,
+.disp-bt {
+	display:block;
+	text-align:center;
+	font-weight:bolder;
+	font-size:100%;
+	border:solid #ffa302 2px;
+	background:#fffecb url(../image/css/bg-yellow.gif) repeat-x bottom;
+	padding: 2px 0 ;
+	margin:2px 4px;
+	}
+
+.disp-bt-no {
+	display:block;
+	text-align:center;
+	font-weight:bolder;
+	font-size:100%;
+	border:solid #cccccc 2px;
+	background:#fffecb url(../image/css/bg-gray.gif) repeat-x top;
+	padding: 2px 0 ;
+	margin:2px 4px;
+	color:#666666;
+	}
+
+.table-style .disp-bt:hover,
+.disp-bt:hover {background:url(../image/css/bg-yellow_h.gif) repeat-x bottom #ffffe6;color:#9A1449;border:solid #ff2a00 2px;}
+
+
+/*---------------------------
+	汎用的に使うボタン
+----------------------------*/
+
+/*黄色いボタン 150X40 */
+.yellow-bt {
+	background:url(../image/css/yellow-bt_bg.gif) no-repeat 0 40%;
+	font-size:100%;
+	font-weight:bold;
+	color:#52390a;
+	border:0;
+	width:150px;
+	height:40px;
+	cursor:pointer;
+	margin: 0 10px;
+	}
+
+/*緑色のボタン 150X40 */
+.green-bt {
+	background:url(../image/css/green-bt_bg.gif) no-repeat 0 40%;
+	font-size:100%;
+	font-weight:bold;
+	color:#354b0b;
+	border:0;
+	width:150px;
+	height:40px;
+	cursor:pointer;
+	margin: 0 10px;
+	}
+
+/*青色のボタン 150X40 */
+.blue-bt {
+	background:url(../image/css/blue-bt_bg.gif) no-repeat 0 40%;
+	font-size:100%;
+	font-weight:bold;
+	color:#063e55;
+	border:0;
+	width:150px;
+	height:40px;
+	cursor:pointer;
+	margin: 0 10px;
+	}
+
+/*次へなど右矢印の汎用ボタン 140X30 */
+.next-bt {
+	background:url(../image/css/next-bt_bg.gif) no-repeat;
+	font-size:100%;
+	font-weight:bold;
+	color:#52390a;
+	border:0;
+	width:140px;
+	height:35px;
+	cursor:pointer;
+	margin: 0 10px;
+	padding-bottom:3px;
+	}
+
+/*キャンセルなどの汎用ボタン 140X30 */
+.cancel-bt {
+	background:url(../image/css/cancel-bt_bg.gif) no-repeat 0 50%;
+	font-size:100%;
+	font-weight:bold;
+	color:#52390a;
+	width:90px;
+	height:40px;
+	cursor:pointer;
+	margin: 0 10px;
+	border:0;
+	padding:0 0 3px 4px;
+	}
+
+.cancel-dis-bt {
+	background:url(../image/css/cancel-dis-bt_bg.gif) no-repeat 0 50%;
+	font-size:100%;
+	font-weight:bold;
+	color:#fff;
+	width:90px;
+	height:40px;
+	cursor:pointer;
+	margin: 0 10px;
+	border:0;
+	padding:0 0 3px 4px;
+	}
+
+/*---------------------------
+	ログイン画面
+----------------------------*/
+
+#login-box {
+	width:700px;
+	text-align:center;
+	margin:0px auto;
+	margin-bottom:30px;
+	}
+
+#login-box #left {
+	width:325px;
+	float:left;
+	margin-right:25px;
+	}
+
+#login-box #right {
+	width:350px;
+	float:left;
+	}
+
+#login-box #right .login-area {
+	background-color:#CCCCCC;
+	padding:15px;
+	}
+
+#login-box #right .passID {
+	text-align:center;
+	margin:15px;
+	}
+
+/*---------------------------
+	ユーザーメニュー
+----------------------------*/
+
+.user-info ul {
+	list-style:none;
+	font-size:90%;
+	padding: 5px;
+	border-top: solid #ffbc3b 2px;
+	border-bottom: solid #ffbc3b 2px;
+	}
+
+/*---------------------------
+	各種ボタンスタイル
+	月のボタン
+	1日前、1週間の遷移ボタン
+----------------------------*/
+
+#apply-left {
+	width:280px;
+	float:left;
+	margin-top:10px;
+	font-size:85%;
+	}
+
+#apply-right {
+	width:258px;
+	padding:10px;
+	margin-top:10px;
+	margin-left:10px;
+	float:left;
+	border:solid #cccccc 1px;
+	background-color:#eeeeee;
+	font-size:90%;
+	}
+
+/*---------------------------
+	ユーザー情報変更画面
+----------------------------*/
+
+#henko-area {
+	width:800px;
+	margin:0 auto;
+	text-align:center;
+	}
+
+.henko-message {
+	background:#f3f3f3;
+	padding:10px;
+	border:solid #bbbbbb 1px;
+	text-align:left;
+	color:#ff3300;
+	}
+
+
+#henko-area .henko-left {
+	width:500px;
+	margin-left:10px;
+	text-align:left;
+	clear:both;
+	float:left;
+	}
+
+#henko-area .henko-right {
+	width:270px;
+	padding: 8px 0;
+	float:left;
+	text-align:center;
+	}
+
+#henko-area .henko-right input {
+	margin-bottom:15px;
+	}
+
+#henko-area .henko-right img {
+	margin-bottom:15px;
+	}
+
+#pwdhenko {
+	width:500px;
+	padding:8px 0px;
+	}
+
+/*---------------------------
+	ご利用の手引き
+----------------------------*/
+
+.tebiki-area {
+	padding: 0px 15px;
+	}
+
+.tebiki {
+	clear:both;
+	margin:5px 0px;
+	padding: 0px 0 37px 0px;
+	font-size:95%;
+	background:url(../image/css/arrow.gif) no-repeat 50% 100%;
+	}
+
+.tebiki-btm {
+	clear:both;
+	margin:5px 0px;
+	padding: 0px 0 10px 0px;
+	font-size:95%;
+	}
+
+.tebiki dt,
+.tebiki-btm dt{
+	font-size:130%;
+	font-weight:bold;
+	border: solid #e6803c 1px;
+	padding:3px 0;
+	background:url(../image/css/bg-ore.gif) repeat-x top;
+	}
+
+.tebiki dd,
+.tebiki-btm dd{
+	margin:0;
+	padding: 5px 10px 5px 10px;
+	text-align:left;
+	border-bottom: dotted #e6803c 1px;
+	}
+
+.koma-area {
+	margin: 8px 0;
+	}
+
+.koma-table {
+	text-align:center;
+	font-size:80%;
+	font-weight: bold;
+	border-collapse:collapse;
+	}
+
+.koma-table th {
+	border:solid #aaaaaa 1px;
+	background:#777777;
+	color:#ffffff;
+	}
+
+.koma-table th a:link,
+.koma-table th a:visited,
+.koma-table th a:active {color:#fff;text-decoration:none;}
+
+.koma-table th a:hover {color:#FF6600;text-decoration:none;}
+
+.koma-table td {
+	border:solid #aaaaaa 1px;
+	}
+
+
+/*---------------------------
+	各種レイアウト
+----------------------------*/
+
+/*-------------------
+	各種ボタン配置など
+	汎用的に使用
+-------------------*/
+
+.main-area {
+	width:720px;
+	text-align:center;
+	margin: 20px auto 10px auto;
+	}
+
+.main-area img {
+	margin: 0px 20px;
+	}
+
+.main-area-bt2 {
+	text-align:center;
+	padding: 20px 0px 30px 0px;
+	}
+
+.main-area-bt2 img {
+	margin: 0px 10px;
+	}
+
+/*-------------------
+	トップページ
+-------------------*/
+
+.top-message {
+	width:700px;
+	margin:0px auto 10px auto;
+	padding: 0 0 0 55px;
+	text-align:left;
+	}
+
+#new {
+	text-align:center;
+	width:700px;
+	margin:0px auto 15px auto;
+	padding:0px 0px 5px 0px;
+	border-bottom:solid #ffcd20 2px;
+	}
+
+#new ul {
+	margin:10px;
+	padding:0px ;
+	text-align:left;
+	list-style-image:url(../image/css/new-list.gif);
+	}
+
+#new ul li {
+	margin-left:10px ;
+	}
+
+#new h3 {
+	margin:0px;
+	padding: 8px 0 8px 80px;
+	text-align:left;
+	position:relative;
+	border-bottom:solid #ffcd20 2px;
+	background:url(../image/css/new-title_bg.gif) no-repeat 2% 50%;
+	}
+
+#new h3 img{vertical-align:-4px; margin:2px 0 0 10px;}
+	
+#new a.new-bt{
+	font-size:85%;
+	padding:0 5px;
+	background: #f5dc67 ;
+	border:solid #ceb300 2px;
+	position:absolute;
+	top:8px;
+	right:0px;
+	}
+
+.oshirase {
+	width:620px;
+	margin: 5px auto 15px auto;
+	padding: 10px 10px 10px 70px;
+	text-align:left;
+	background:url(../image/oshirase.gif) no-repeat 0 50%;
+	border-bottom:#FFCC00 dotted 3px;
+	line-height:150%;
+	}
+
+.oshirase strong{font-size:115%;color:#FF0000;}
+	
+/*-------------------
+	注意事項の表示
+-------------------*/
+
+.meisai-box {
+	margin:10px auto;
+	padding:8px 0px;
+	background-color:#f1f1f1;
+	border:solid #888888 1px;
+	font-size:90%;
+	text-align:center;
+	}
+
+.meisai-box strong{
+	color:#FF0000;
+	}
+
+
+/**************  agreement.tpl  **************/
+
+#agreement {
+	margin:10px 30px;
+	text-align:left;
+	}
+
+#agreement dl dt{
+	margin:5px 0px;
+	font-weight: bold;
+	}
+
+/*-------------------
+よくある質問と回答
+-------------------*/
+
+#faq-area {
+	margin:10px 35px;
+	}
+
+#faq-area h2{
+	padding:3px;
+	border:solid #cccccc 1px;
+	background-position:bottom;
+	background-repeat:repeat-x;
+	color:#FF0000;
+	}
+
+#faq-area h3{
+	padding:3px 3px 3px 8px;
+	border-bottom:solid #FFCC66 1px;
+	border-left:solid #FF9900 5px;
+	margin:10px 0px 15px 0px;
+	font-weight: bold;
+	text-align:left;
+	}
+
+#faq-area dl{
+	text-align:left;
+	font-size:85%;
+	margin-left:10px;
+	}
+
+#faq-area dl dt{
+	margin:5px 0px;
+	border-bottom: solid #0066FF 1px;
+	font-weight: bold;
+	}
+
+#faq-area dl dt span {
+	font-size:110%;
+	color:#FF3300;
+	margin: 0px 8px 8px 0px ;
+	}
+
+#faq-area dl dd{
+	margin:5px 0px 10px 0px;
+	border-bottom: dashed #cccccc 1px;
+	}
+
+#faq-area dl dd span {
+	font-size:110%;
+	color:#0000FF;
+	margin: 0px 8px 8px 0px ;
+	font-weight: bold;
+	}
+
+/*-------------------
+	お知らせの一覧
+	info.tplで使用
+-------------------*/
+
+#info-area {
+	width:720px;
+	text-align:center;
+	margin: 0px auto 8px auto ;
+	}
+
+#info-area h3 {
+	text-align:left;
+	border-bottom: solid #FF9900 1px;
+	padding: 3px 0 3px 25px;
+	margin-bottom:5px;
+	background:url(../image/css/new-list.gif) 5px 50% no-repeat;
+	}
+
+#info-area p {
+	text-align:left;
+	padding:8px;
+	border-bottom: solid #dddddd 1px;
+	margin-bottom:15px;
+	}
+
+/**************  annai.tpl  **************/
+
+#annai-table {
+	margin: 10px auto;
+	font-size:90%;
+	border-collapse:collapse;
+	}
+
+#annai-table th{
+	border: solid #EFE6C2 1px;
+	white-space: nowrap;
+	padding: 1px;
+	background:#EFFC98;
+	}
+
+#annai-table th.shisetsu-neme{
+	border: solid #EFE6C2 1px;
+	text-align:left;
+	padding-left:10px;
+	background:#F8FFD9;
+	}
+
+#annai-table td{
+	border: solid #EFE6C2 1px;
+	padding: 0 3px;
+	background:#F8FFD9;
+	}
+
+/**************  UsrHenko.tpl  **************/
+
+#usrhenko-area {
+	width:700px;
+	margin:0px 20px;
+	text-align:left;
+	}
+
+#usrhenko-area h3 {
+	clear:left;
+	text-align:left;
+	padding: 8px 0;
+	}
+
+#usrhenko-area table {
+	width:390px;
+	padding:8px 0px;
+	border:solid #ffcb4e 2px;
+	border-collapse:collapse;
+	font-size:90%;
+	}
+
+#usrhenko-area table th {
+	width:104px;
+	text-align:center;
+	border-bottom: dashed #FF6600 1px;
+	padding:3px;
+	}
+
+#usrhenko-area table td{
+	width:274px;
+	border-bottom: dashed #FF6600 1px;
+	padding:3px;
+	text-align:left;
+	}
+
+#usrhenko-area table.float-left {
+	float:left;
+	}
+
+#usrhenko-area .usrhenko-right {
+	width:290px;
+	margin-left:20px;
+	float:left;
+	}
+
+/**************  kensaku layout  **************/
+
+.kensaku-bt {
+	text-align:center;
+	margin:10px 0 6px 0;
+	}
+	
+.kensaku-bt img {
+	margin-left:13px;
+	}
+
+/************** textlayout **************/
+
+.textbox-left {
+	margin: 0px 40px;
+	text-align:left;
+	font-size:90%;
+	}
+
+/************** datail.tpl  **************/
+
+#datail {
+	width:600px;
+	margin: 0 auto;
+	position:relative;
+	}
+
+#datail .cancel-area{
+	width:100px;
+	position:absolute;
+	top:10px;
+	right:-100px;
+	}
+
+/************** list.tpl  **************/
+
+.prevpage {
+	padding:6px 0;
+	}
+
+.prevpage a.pv{
+	border: solid #dddddd 2px;
+	padding:3px 8px;
+	background:url(../image/css/bg-gray3.gif) repeat-x top; 
+	}
+
+.prevpage a.pv:hover{
+	border: solid #ffcc00 2px;
+	}
+
+.prevpage span{
+	border: solid #ffcc00 2px;
+	padding:3px 8px;
+	background:url(../image/css/bg-yellow2.gif) repeat-x top;
+	}
+
+.sort-mark:link,
+.sort-mark:visited,
+.sort-mark:active {
+	font-size:80%;
+	color:#ff9900;
+	text-decoration:none;
+	}

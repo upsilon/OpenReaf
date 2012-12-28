@@ -1,0 +1,669 @@
+@charset "utf-8";
+
+/*
+ *  Copyright 2010-2012 ZiWAVE Co., Ltd. 
+ *
+ *  default.css
+ */
+
+/******************************************
+	　初期スタイル 調整
+*******************************************/
+
+body {
+	padding:0;
+	margin:0;
+	font-size:78%;
+	font-family:'ヒラギノ角ゴ Pro W3','Hiragino Kaku Gothic Pro','メイリオ',Meiryo,'ＭＳ Ｐゴシック',sans-serif;
+	}
+
+#backnone {
+	width:100%;
+	padding:8px;
+	margin:2px;
+	background-image:none;
+	}
+
+#co_calendar {
+	width:100%;
+	padding:0;
+	margin:0;
+	background-image:none;
+	}
+
+ul,ol,table,img,p,div,a,dl,{margin:0; padding:0;}
+table {font-size:100%;}
+img { border:0;}
+
+textarea {font-size:100%;}
+input {cursor: pointer;}
+select {cursor: pointer;}
+
+/*** link ***/
+
+a {text-decoration:none;}
+a:hover{text-decoration:underline;}
+
+/*** h1-h5 ***/
+
+h2 {margin:2px 0 6px; padding:0; font-size:100%;}
+h4 {margin:7px 0; font-size:105%;}
+
+/*------------------------
+	フォントスタイル
+------------------------*/
+
+.f-red {color:#FF3300;}
+.f-blue {color:#0066CC;}
+.f-brack {color:#aaaaaa;}
+.f-s_down {
+	width:44px;
+	font-size:0.6em;
+}
+
+/*-----------------------------------------
+	ログイン画面
+------------------------------------------*/
+
+#login {
+	background:#fff;
+	text-align:center;
+	}
+	
+#loginitem {
+	width:500px;
+	margin: 10px auto;
+	font-size:115%;
+	background:url(../image/login-area_bg.gif) no-repeat;
+	}
+
+#loginitem .login-body{
+	padding: 30px 0;
+	background:url(../image/login-btm_bg.gif) no-repeat bottom;
+	}
+
+#loginitem .login-body p{
+	margin:0;
+	padding:0;
+	text-align:left;
+	padding: 0 20px;
+	}
+
+#loginitem h2{
+	font-size:115%;
+	margin-bottom:20px;
+	}
+
+#loginitem table th{
+	font-size:130%;
+	}
+
+#loginitem .text-area{
+	width:180px;
+	padding:2px 0;
+	font-size:130%;
+	}
+ 
+#msgitem {
+	font-size:200%;
+	padding: 20px;
+	}
+
+/*-----------------------------------------
+
+	基本構造　各ページ共通
+	
+------------------------------------------*/
+
+#main {
+	width:100%;
+	background:#f3f3f3;
+	}
+	
+/*----------------------
+	ヘッダー
+----------------------*/
+
+
+#header {
+	width:100%;
+	height:50px;
+	background:url(../image/header_bg.gif) ;
+	border-top:solid #015180 2px;
+	}
+
+#header #logo {
+	margin: 0px 0 0 20px;
+	font-size:150%;
+	position:absolute;
+	top:20px;
+	left:10px;
+	}
+
+#logout {
+	position: absolute;
+	top:2px;
+	right:5px;
+	text-align:center;
+	border:solid #b4c9d8 1px;
+	background:url(../image/logout_bg.gif) 0 50% repeat-x #dedede;
+	padding:3px 8px 3px 8px;
+	font-size:87%;
+	}
+
+/*------IE対策------*/
+*html #logout {padding:2px 8px 5px 8px;}/*-IE6-*/
+/*------*/
+.logout-bt {
+	font-size:95%;
+	margin: 0 5px;
+	padding: 0 8px;
+	}
+
+#logout .day{
+	color:#0368cf;
+	margin: 0 3px 0 0;
+	padding:2px 10px 2px 20px;
+	background:url(../image/days.gif) 0 50%  no-repeat;
+	}
+
+#logout .user{
+	margin: 0 3px 0 5px;
+	padding:2px 10px 2px 20px;
+	background:url(../image/user.gif) 0 50%  no-repeat;
+	}
+
+#logout .user-name{
+	color:#FF0000;
+	}
+
+/*-----------------------------------------
+	タブナビげージョン
+	初期カラーはオレンジ
+	カラーチェンジは専用クラスを使用
+------------------------------------------*/
+
+#navi-area {
+	padding: 3px 0 0 0;
+	width:100%;
+	background:url(../image/header_bg.gif) bottom;
+	position:relative;
+	height:25px;
+	border-bottom: solid #bbbbbb 2px;
+	z-index:1;
+	}
+
+#navi {
+	display:block;
+	position:absolute;
+	left:5px;
+	bottom:0;
+	margin:0;
+	padding:0;
+	font-size:123%;
+	width:1000px;
+	}
+
+#navi li{
+	float:left;
+	list-style:none;
+	margin-left: 2px;
+	border:solid #fff 1px;
+	border-bottom:0;
+	}
+
+
+/*----タブのカラー-----*/
+
+
+#navi li a{
+	display:block;
+	padding:2px 7px 1px 7px;
+	background:url(../image/navi_ore_bg.gif) ;
+	}
+
+#navi li a:hover {
+	color:#fff;
+	background:url(../image/navi_ore_bg.gif) ;
+	}
+	
+#navi li a:link,
+#navi li a:visited,
+#navi li a:active
+	{
+	color:#111;
+	}
+
+/*----タブのプルダウンがない時のクラス-----*/
+
+#navi li.over a{
+	display:block;
+	background:url(../image/navi_ore_bg.gif) ;
+	}
+
+#navi li.over a:hover {
+	color:#fff;
+	background:url(../image/navi_ore_bg_h.gif) ;
+	}
+
+#navi li.over a:link,
+#navi li.over a:visited,
+#navi li.over a:active
+	{
+	color:#111;
+	}
+
+/*----------緑のタブ----------*/
+
+#navi li a.gre{background:url(../image/navi_gre_bg.gif);}
+#navi li a.gre:hover {color:#111;background:url(../image/navi_gre_bg.gif) ;}
+
+/*----タブのプルダウンがない時用のクラス-----*/
+#navi li.over a.gre:hover {color:#111;background:url(../image/navi_gre_bg_h.gif) ;}
+
+#navi li a.gre:link,
+#navi li a.gre:visited,
+#navi li a.gre:active{color:#3b2400;}
+
+/*----------赤のタブ----------*/
+
+#navi li a.red{background:url(../image/navi_red_bg.gif) ;}
+
+#navi li a.red:hover {color:#111;background:url(../image/navi_red_bg.gif) ;}
+
+/*----タブのプルダウンがない時用のクラス-----*/
+#navi li.over a.red:hover {color:#111;background:url(../image/navi_red_bg_h.gif) ;}
+
+#navi li a.red:link,
+#navi li a.red:visited,
+#navi li a.red:active{color:#3b2400;}
+
+/*----------濃いオレンジのタブ----------*/
+
+#navi li a.ore{background:url(../image/navi_ore2red_bg.gif) ;}
+
+#navi li a.ore:hover {color:#111;background:url(../image/navi_ore2_bg_h.gif) ;}
+
+/*----タブのプルダウンがない時用のクラス-----*/
+#navi li.over a.ore:hover {color:#111;background:url(../image/navi_ore2_bg.gif) ;}
+
+#navi li a.red:link,
+#navi li a.red:visited,
+#navi li a.red:active{color:#3b2400;}
+
+/*------------------------------
+	プルダウンメニュー
+------------------------------*/
+
+/*-マウスアウト-*/
+#navi li.off {list-style-type:none;}
+#navi li.off ul {display:none;}
+#navi li.on {list-style-type:none;}
+
+/*-マウスオーバー-*/
+#navi li.on ul {
+	display:block;
+	position:absolute;
+	top:19px;
+	border-left:solid #bfbfbf 1px;
+	border-top:solid #bfbfbf 1px;
+	border-right:solid #9f9f9f 2px;
+	border-bottom:solid #9f9f9f 2px;
+	background: #ffffff;
+	z-index:3;
+	margin:0;
+	padding:0;
+	}
+
+/*------IE対策------*/
+html>/**/body #navi li.on ul { top /*\**/:17px\9; }/*-IE8-*/
+*html #navi li.on ul { width:230px;}/*-IE6-*/
+/*------*/
+
+#navi li.on ul li{
+	float:none;
+	border-bottom: solid #dddddd 1px;
+	padding:0 5px;
+	height:auto;
+	margin:0;
+	padding:0;
+	}
+
+#navi li.on ul li.dead{
+	background: url(../image/navi_li_dead.gif) 0 50% no-repeat ;
+	padding: 3px 8px 3px 30px;
+	color:#999999;
+	}
+
+#navi li.on ul li a{
+	width:auto;
+	height:auto;
+	background:url(../image/navi_li_bg.gif) 0 50% no-repeat ;
+	padding: 3px 8px 3px 30px;
+	}
+
+#navi li.on ul li a:hover{
+	color:#FF3300;
+	background:url(../image/navi_li_bg_h.gif) 0 50% no-repeat ;
+	}
+
+*html #navi li.on ul {height:1%;}
+
+/*------------------------------
+	内部コンテンツ
+------------------------------*/
+
+#contents {
+	background:#fff;
+	display:block;
+	width:97%;
+	padding: 0 2% 30px 1% ;
+	position:relative;
+	z-index:0;
+	}
+
+.margin-box {
+	margin-left:60px;
+	margin-bottom:20px;
+	}
+
+#pagetop {
+	position:absolute;
+	top:150px;
+	right:0;
+	}
+
+/*横スクロールが出る時にページトップボタンを消す*/
+#rsv-body #contents #pagetop { display:none;}
+
+/*------------------------------
+	フッター
+------------------------------*/
+
+#footer {
+	border-top: solid #bbbbbb 1px;
+	border-bottom: solid #bbbbbb 1px;
+	width:96%;
+	padding:15px 2% 15px 2%;
+	text-align:center;
+	background:url(../image/footer_bg.gif) repeat-x #fff;
+	}
+
+/*------------------------------
+	コンテンツのデザイン
+------------------------------*/
+
+#title {
+	padding: 4px 0 2px 12px;
+	margin: 3px 0 10px 0 ;
+	border: solid #2f9cb0 1px;
+	font-size:120%;
+	color: #003369;
+	background: url(../image/title_bg.gif) repeat-x top;
+	}
+
+/*------IE対策------*/
+
+*html #title {height:1%;}/*-IE6-*/
+
+/*----パンくずリスト-----*/
+
+#searchbox {
+	padding:8px 4px;
+	background:#f8f8f8;
+	border-bottom:solid #dddddd 1px;
+	}
+
+/*------------------
+	各余白に使用
+------------------*/
+
+.itemtop-area {
+	margin:8px 0 8px 5px;
+	}
+
+.itemtop-area h3{
+	margin-bottom:5px;
+	}
+
+.bt-area {
+	margin:8px 0;
+	}
+
+.item-left {
+	width:350px;
+	float:left;
+	margin-right:10px;
+	}
+
+.item-right {
+	width:350px;
+	float:left;
+	}
+
+.line-height-style {
+	line-height:2em;
+	margin:2em 0;
+	}
+
+/*------------------------------
+	統計データ
+------------------------------*/
+
+.tokei-top {
+	margin:20px;
+	}
+
+.tokei-top input{
+	width:220px;
+	}
+
+/*------------------------------
+	職員管理
+------------------------------*/
+
+.facilities-select {
+	width:200px;
+	}
+
+/*------------------------------
+	利用者登録
+------------------------------*/
+
+.user-reg {
+	padding:7px 15px;
+	margin: 15px 0;
+	list-style:none;
+	border-bottom: solid #c0cda3 2px;
+	
+	}
+
+.user-reg li{
+	display:inline;
+	margin:0 4px;
+	}
+
+.user-reg li.user-reg-title{
+	font-size:130%;
+	font-weight:bold;
+	margin: 0 10px 0 0;
+	}
+
+.user-reg li a{
+	padding: 2px 15px;
+	background:url(../image/navi_gre_bg.gif) top repeat-x;
+	border:solid #76ab4a 1px;
+	color:#253f0c;
+	}
+
+.user-reg li a:link,
+.user-reg li a:visited,
+.user-reg li a:active { color:#253f0c;}
+	
+.user-reg li a:hover{background:url(../image/navi_gre_bg_h.gif) top repeat-x; color:#FF3300;}
+
+/******************************************
+	施設情報照会
+*******************************************/
+
+/*------------------------------
+	タイトル
+------------------------------*/
+
+.subtitle01 {
+	font-size:120%;
+	padding:2px 0 1px 25px;
+	border-bottom: solid #378dd0 2px;
+	background:url(../image/subtitle01_bg.gif) no-repeat 3px 50%;
+	}
+
+.subtitle02 {
+	font-size:110%;
+	padding:3px 0 6px 15px;
+	background:url(../image/subtitle02_bg.gif) repeat-x bottom;
+	}
+
+.subtitle03 {
+	font-size:110%;
+	margin-bottom:10px;
+	text-decoration: underline;
+	}
+
+/*------------------------------
+	ボタン用スタイル
+------------------------------*/
+
+.btn-01 {
+	margin:7px 7px 7px 0;
+	}
+
+.btn-02 {
+	width:100px;
+	height:18px;
+	font-size:0.9em;
+	}
+
+#room-menu {
+	margin-top:15px;
+	width: 90%;
+	}
+
+#room-menu .btn {
+	height: 30px;
+	width: 160px;
+	}
+
+#room-menu table{
+	margin:15px 30px 0 30px;
+	}
+
+/*------------------------------
+	float クリア
+------------------------------*/
+
+.clear {clear:both;}
+
+/*
+.error {
+    background: #FF0000;
+}
+*/
+
+/*------------------------------
+	エラーメッセージ
+------------------------------*/
+
+.error {
+	background: #fff ;
+	border: 1px solid #FF3300;
+	}
+
+#errorbox {
+	background:#fff;
+	width: 500px;
+	border: solid #FF3300 1px;
+	padding:5px;
+	margin: 5px 0;
+	color: #FF3300;
+	}
+
+.errorMsg {color: #FF3300;}
+
+.textBox_r_red {
+	background-color: #FFFFCC;
+  	color:red
+	}
+
+.textBox_r {
+	background: #eeeeee;
+	border: solid #A4B97F 1px;
+	}
+
+/*------------------------------
+	テキストエリア料金の横幅
+------------------------------*/
+
+.area-size {
+	width:50px;
+	}
+
+#itm1 {
+	margin-bottom: 5px;
+}
+
+.selects {
+	background-color: #FFFFCC;
+	width: 210px;
+}
+
+/*------------------------------
+	予約管理空き状況の
+	フォントカラー操作
+------------------------------*/
+
+/*---背景色---*/
+.sun-bg{background:#FFCCFF;}
+.sat-bg{background:#CCFFFF;}
+.gray{background:#efefef;}
+
+/*---青色系 空きあり----*/
+
+.y-blu {color:#005aff;font-weight: bold;}
+.y-blu a:link,
+.y-blu a:visited,
+.y-blu a:active {color: #005aff;font-weight: bold;}
+
+.y-blu a:hover {color: #ee0b00;font-weight: bold;}
+
+/*---オレンジ系　一部予約済----*/
+
+/*--保守・点検----*/
+.y-ore {color:#ff6000;font-weight: bold;}
+
+/*--一部予約済----*/
+.y-ore2 {color:#ff5b01;font-weight: bold;}
+.y-ore2 a:link,
+.y-ore2 a:visited,
+.y-ore2 a:active {color: #ff5b01;font-weight: bold;}
+
+.y-ore2 a:hover {color: #0500e8;font-weight: bold;}
+
+/*---赤系 予約済み----*/
+
+.y-red {color:#FF0000;font-weight: bold;}
+.y-pink {color:#FF0099;font-weight: bold;}
+
+
+/*---緑色系 行事・イベント----*/
+
+.y-gre {color:#009900;font-weight: bold;}
+
+/*---黒色　予約期間外----*/
+
+.y-black {color:#000099;font-weight: bold;}/*黒に近い青*/
+
+
+/*---フォントサイズアップ----*/
+
+.fsize_10 {font-size: 10px;}
+.fsize_15 {font-size: 15px;}

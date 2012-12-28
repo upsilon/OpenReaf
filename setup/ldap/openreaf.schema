@@ -1,0 +1,146 @@
+attributetype ( 1.3.6.1.4.1.761009.1.1
+	NAME 'AppDateFrom'
+	DESC 'AppDateFrom'
+	EQUALITY numericStringMatch
+	SUBSTR numericStringSubstringsMatch
+	SYNTAX 1.3.6.1.4.1.1466.115.121.1.36
+	SINGLE-VALUE )
+
+attributetype ( 1.3.6.1.4.1.761009.1.2
+	NAME 'StaffNum'
+	DESC 'StaffNum'
+	EQUALITY caseIgnoreMatch
+	SUBSTR caseIgnoreSubstringsMatch
+	SYNTAX 1.3.6.1.4.1.1466.115.121.1.15
+	SINGLE-VALUE )
+
+attributetype ( 1.3.6.1.4.1.761009.1.3
+	NAME 'StaffName'
+	DESC 'StaffName'
+	EQUALITY caseIgnoreMatch
+	SUBSTR caseIgnoreSubstringsMatch
+	SYNTAX 1.3.6.1.4.1.1466.115.121.1.15
+	SINGLE-VALUE )
+
+attributetype ( 1.3.6.1.4.1.761009.1.4
+	NAME 'TourokuKbn'
+	DESC 'TourokuKbn'
+	EQUALITY caseIgnoreMatch
+	SUBSTR caseIgnoreSubstringsMatch
+	SYNTAX 1.3.6.1.4.1.1466.115.121.1.15
+	SINGLE-VALUE )
+
+attributetype ( 1.3.6.1.4.1.761009.1.5
+	NAME 'KengenCode1'
+	DESC 'KengenCode1'
+	EQUALITY caseIgnoreMatch
+	SUBSTR caseIgnoreSubstringsMatch
+	SYNTAX 1.3.6.1.4.1.1466.115.121.1.15
+	SINGLE-VALUE )
+
+attributetype ( 1.3.6.1.4.1.761009.1.6
+	NAME 'KengenCode2'
+	DESC 'KengenCode2'
+	EQUALITY caseIgnoreMatch
+	SUBSTR caseIgnoreSubstringsMatch
+	SYNTAX 1.3.6.1.4.1.1466.115.121.1.15
+	SINGLE-VALUE )
+
+attributetype ( 1.3.6.1.4.1.761009.1.7
+	NAME 'KengenCode3'
+	DESC 'KengenCode3'
+	EQUALITY caseIgnoreMatch
+	SUBSTR caseIgnoreSubstringsMatch
+	SYNTAX 1.3.6.1.4.1.1466.115.121.1.15
+	SINGLE-VALUE )
+
+attributetype ( 1.3.6.1.4.1.761009.1.8
+	NAME 'KengenCode4'
+	DESC 'KengenCode4'
+	EQUALITY caseIgnoreMatch
+	SUBSTR caseIgnoreSubstringsMatch
+	SYNTAX 1.3.6.1.4.1.1466.115.121.1.15
+	SINGLE-VALUE )
+
+attributetype ( 1.3.6.1.4.1.761009.1.9
+	NAME 'KengenCode5'
+	DESC 'KengenCode5'
+	EQUALITY caseIgnoreMatch
+	SUBSTR caseIgnoreSubstringsMatch
+	SYNTAX 1.3.6.1.4.1.1466.115.121.1.15
+	SINGLE-VALUE )
+
+attributetype ( 1.3.6.1.4.1.761009.1.10
+	NAME 'KengenCode6'
+	DESC 'KengenCode6'
+	EQUALITY caseIgnoreMatch
+	SUBSTR caseIgnoreSubstringsMatch
+	SYNTAX 1.3.6.1.4.1.1466.115.121.1.15
+	SINGLE-VALUE )
+
+attributetype ( 1.3.6.1.4.1.761009.1.11
+	NAME 'HaishiDate'
+	DESC 'HaishiDate'
+	EQUALITY numericStringMatch
+	SUBSTR numericStringSubstringsMatch
+	SYNTAX 1.3.6.1.4.1.1466.115.121.1.36
+	SINGLE-VALUE )
+
+attributetype ( 1.3.6.1.4.1.761009.1.12
+	NAME 'UpdDate'
+	DESC 'UpdDate'
+	EQUALITY numericStringMatch
+	SUBSTR numericStringSubstringsMatch
+	SYNTAX 1.3.6.1.4.1.1466.115.121.1.36
+	SINGLE-VALUE )
+
+attributetype ( 1.3.6.1.4.1.761009.1.13
+	NAME 'UpdTime'
+	DESC 'UpdTime'
+	EQUALITY numericStringMatch
+	SUBSTR numericStringSubstringsMatch
+	SYNTAX 1.3.6.1.4.1.1466.115.121.1.36
+	SINGLE-VALUE )
+
+attributetype ( 1.3.6.1.4.1.761009.1.14
+	NAME 'UpdID'
+	DESC 'UpdID'
+	EQUALITY caseIgnoreMatch
+	SUBSTR caseIgnoreSubstringsMatch
+	SYNTAX 1.3.6.1.4.1.1466.115.121.1.15
+	SINGLE-VALUE )
+
+attributetype ( 1.3.6.1.4.1.761009.1.15
+	NAME 'BushoName'
+	DESC 'BushoName'
+	EQUALITY caseIgnoreMatch
+	SUBSTR caseIgnoreSubstringsMatch
+	SYNTAX 1.3.6.1.4.1.1466.115.121.1.15
+	SINGLE-VALUE )
+
+attributetype ( 1.3.6.1.4.1.761009.1.16
+	NAME 'BushoShortName'
+	DESC 'BushoShortName'
+	EQUALITY caseIgnoreMatch
+	SUBSTR caseIgnoreSubstringsMatch
+	SYNTAX 1.3.6.1.4.1.1466.115.121.1.15
+	SINGLE-VALUE )
+
+
+objectclass ( 1.3.6.1.4.1.761009.3.1
+    NAME 'ReservePersonExt'
+	DESC 'Reserve System Person Extension'
+    SUP top AUXILIARY
+	MUST AppDateFrom
+	MAY (
+		StaffNum $ StaffName $ TourokuKbn $ KengenCode1 $ KengenCode2 $
+		KengenCode3 $ KengenCode4 $ KengenCode5 $ KengenCode6 $
+		HaishiDate $ UpdDate $ UpdTime $ UpdID )
+	)
+
+objectclass ( 1.3.6.1.4.1.761009.3.2
+    NAME 'ReserveUnitExt'
+	DESC 'Reserve System Person Extension'
+    SUP top AUXILIARY
+	MAY ( BushoName $ BushoShortName $ UpdDate $ UpdTime $ UpdID )
+	)

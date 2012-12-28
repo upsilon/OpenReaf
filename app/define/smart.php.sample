@@ -1,0 +1,14 @@
+<?php
+define ('_SESSION_NAME_', 'ORGPLSMARTPHONE');
+define ('_SALT_', 'y9zj4lxg');
+
+define ('_FOOTER_MESSAGE_', '○○市施設管理課<br>電話:050-3762-0676');
+
+define ('_IDLE_TIMEOUT_', '3600');
+
+define ('_LIST_DISP_MAX_', '8');
+
+define ('_USE_SSL_', false);
+
+define ('_LIST_RESERVE_ONLY_', false);
+?>

@@ -1,0 +1,4326 @@
+# *** PUBLISHED S25R WHITE LIST ***
+# Last update: Mar 04, 2012
+# (*): reported by a contributor
+
+# Mar 04, 2012: (revised)
+# Aug 14, 2010: (revised)
+# Aug 07, 2010: pixiv.net's (*)
+/^113x33x39x196\.ap113\.ftth\.ucom\.ne\.jp$/ OK
+/^125x100x191x30\.ap125\.ftth\.ucom\.ne\.jp$/ OK
+/^210\.168\.27\.5$/ OK
+/^210\.168\.27\.69$/ OK
+
+# Mar 04, 2012: kannon-tobira.com's (*)
+/^148246\.com$/ OK
+
+# Mar 04, 2012: iog-model.jp's (*)
+/^202\.229\.236\.142$/ OK
+
+# Mar 04, 2012: (revised)
+# Dec 24, 2011: (revised)
+# Nov 19, 2011: mym.nttnavi.co.jp (*)
+/^202\.234\.199\.15[1-3]$/ OK
+
+# Jan 29, 2012: mail.maverick-jp.com (*)
+/^x088059\.ppp\.asahi-net\.or\.jp$/ OK
+
+# Jan 26, 2012: mag.ci-labo.co.jp's (*)
+/^210\.162\.19\.139$/ OK
+
+# Jan 26, 2012: sanko-seika.com's (*)
+/^117-102-174-85\.nplus-net\.jp$/ OK
+
+# Jan 26, 2012: 21-domain.com's (*)
+/^s4\.HhirosimaFL2\.vectant\.ne\.jp$/ OK
+
+# Jan 26, 2012: hokkaido-jin.jp's (*)
+/^110\.50\.93\.186\.hotcn\.ne\.jp$/ OK
+
+# Jan 12, 2012: symphonic-choir.com's
+/^203\.138\.125\.102$/ OK
+
+# Jan 09, 2012: (revised)
+# Oct 24, 2011: (revised)
+# Apr 28, 2011: (revised)
+# Feb 06, 2011: hobibox.net's
+/^124x32x94x(2|[8-9]|10)\.ap124\.ftth\.ucom\.ne\.jp$/ OK
+
+# Dec 27, 2011: (revised)
+# Jul 03, 2011: sankyofrontier.com's (*)
+/^221\.186\.154\.84$/ OK
+
+# Dec 24, 2011: gm5501-01.mbga.jp (*)
+/\.mbga\.jp$/ OK
+
+# Dec 24, 2011: angfa-store.jp's (*)
+/^210\.128\.1\.218$/ OK
+
+# Dec 24, 2011: mxa.myprint.co.jp's (*)
+/^aa2002111203004\.userreverse\.dion\.ne\.jp$/ OK
+/^124\.109\.141\.161$/ OK
+
+# Dec 24, 2011: heart-well.co.jp's (*)
+/^134\.135\.214\.202\.xf\.2iij\.net$/ OK
+
+# Dec 24, 2011: ml.vector.co.jp's (*)
+/^203\.140\.233\.132$/ OK
+
+# Dec 24, 2011: takuhaicook123.jp's (*)
+/^109\.2\.50\.123\.ap\.yournet\.ne\.jp$/ OK
+
+# Dec 05, 2011: jptdc1ld10.prudential.com, etc. (*)
+/\.prudential\.com$/ OK
+
+# Dec 05, 2011: ottojapan.co.jp's (*)
+/^s025201086111\.seint-userreverse\.kddi\.ne\.jp$/ OK
+
+# Dec 03, 2011: marukai.com's (*)
+/^55\.160\.132\.206\.sta\.pointred\.us$/ OK
+
+# Dec 03, 2011: daiei.co.jp's (*)
+/^116\.91\.138\.16(4|5)$/ OK
+
+# Dec 03, 2011: citysuper.com's (*)
+/^202\.153\.125\.166$/ OK
+
+# Dec 03, 2011: rntall.bridge-net.co.jp's (*)
+/^www26313u\.sakura\.ne\.jp$/ OK
+
+# Dec 03, 2011: sanritsuseika.co.jp's (*)
+/^211121184155\.cidr\.odn\.ne\.jp$/ OK
+
+# Dec 03, 2011: dai.co.jp's (*)
+/^164\.152\.94\.219\.dedicated\.sakura\.ne\.jp$/ OK
+
+# Dec 03, 2011: taiyo-tsushin.com's (*)
+/^unused-210-172-183-062\.interq\.or\.jp$/ OK
+
+# Dec 03, 2011: mx.sbisonpo.co.jp's (*)
+/^y2sbikigw0(1|2)\.index\.or\.jp$/ OK
+
+# Dec 03, 2011: transcend.co.jp's (*)
+/^219-118-179-7\.cust\.bit-drive\.ne\.jp$/ OK
+
+# Dec 03, 2011: hnd-rsv.aeif.or.jp's (*)
+/^p30219-ipbffx02marunouchi\.tokyo\.ocn\.ne\.jp$/ OK
+
+# Dec 03, 2011: lifecorp.co.jp's (*)
+/^122\.218\.106\.137$/ OK
+
+# Dec 03, 2011: ohshimaya.co.jp's (*)
+/^aa2003020787004\.userreverse\.dion\.ne\.jp$/ OK
+
+# Dec 03, 2011: kashi-bb.gr.jp's (*)
+/^118-82-123-160\.secure\.ne\.jp$/ OK
+
+# Dec 03, 2011: royalofjapan.co.jp's (*)
+/^s17\.ALPHA-w6\.vectant\.ne\.jp$/ OK
+
+# Dec 03, 2011: confex.co.jp's (*)
+/^202\.232\.96\.214$/ OK
+
+# Dec 03, 2011: yamatodenki.co.jp's (*)
+/^211\.15\.59\.19$/ OK
+
+# Dec 03, 2011: idpass-net.nenkin.go.jp's (*)
+/^202\.232\.127\.11$/ OK
+
+# Dec 03, 2011: kurogane-kks.co.jp's (*)
+/^122\.1\.89\.195$/ OK
+
+# Dec 03, 2011: syokuhinsokuho.jp's (*)
+/^203\.138\.122\.163$/ OK
+
+# Dec 03, 2011: mm.e-trend.co.jp's (*)
+/^221\.253\.81\.58$/ OK
+
+# Dec 03, 2011: interfactory.co.jp's (*)
+/^ec2-175-41-238-216\.ap-northeast-1\.compute\.amazonaws\.com$/ OK
+
+# Dec 03, 2011: va-nttcom.jp's (*)
+/^p14240-ipbffx02marunouchi\.tokyo\.ocn\.ne\.jp$/ OK
+
+# Dec 03, 2011: ms.scsk.jp's (*)
+/^ff8gtw1\.as\.netxdc\.ne\.jp$/ OK
+
+# Nov 28, 2011: (added)
+# May 05, 2010: letao.jp's (*)
+/^111\.171\.211\.164$/ OK
+/^202\.177\.35\.4(1|3)$/ OK
+/^61\.198\.22\.(69|77)$/ OK
+
+# Nov 25, 2011: grache.net's (*)
+/^st0005\.nas831\.p-tokyo\.nttpc\.ne\.jp$/ OK
+
+# Nov 25, 2011: tocoo.jp's (*)
+/^121-201\.hus\.aics\.ne\.jp$/ OK
+
+# Nov 25, 2011: golferweb.jp's (*)
+/^218\.216\.141\.171$/ OK
+
+# Nov 22, 2011: e-shoprussell.jp's
+/^210\.188\.243\.240$/ OK
+
+# Nov 21, 2011: JUAS-SV5X3.juas.or.jp (*)
+/\.juas\.or\.jp$/ OK
+
+# Nov 19, 2011: mail.rakuten.com's yagdis.nsbcity.com (*)
+/^113x32x173x52\.ap113\.ftth\.ucom\.ne\.jp$/ OK
+
+# Nov 19, 2011: jimisun.com's (*)
+/^210\.166\.227\.28$/ OK
+
+# Nov 19, 2011: mym.nttnavi.co.jp (*)
+/^202\.234\.199\.151$/ OK
+
+# Nov 19, 2011: fukunishiimono.co.jp's (*)
+/^34\.165\.151\.118\.rev\.iijgio\.jp$/ OK
+
+# Nov 19, 2011: ml.j-bus.co.jp (*)
+/^219\.97\.239\.72$/ OK
+
+# Nov 19, 2011: kinkireins.or.jp's (*)
+/^202\.248\.116\.147$/ OK
+
+# Nov 19, 2011: local-power.jp's (*)
+/^27\.112\.108\.162$/ OK
+
+# Nov 19, 2011: ml.vector.co.jp's (*)
+/^210\.155\.146\.(9|18)$/ OK
+
+# Nov 19, 2011: gm.golfdigest.co.jp's (*)
+/^118\.155\.241\.20[3-6]$/ OK
+
+# Nov 19, 2011: vill.shimokitayama.nara.jp (*)
+/^p212107\.mirai\.ne\.jp$/ OK
+
+# Nov 19, 2011: mta186119.news.hermes.com, etc. (*)
+/\.hermes\.com$/ OK
+
+# Nov 19, 2011: noma.co.jp's (*)
+/^202\.218\.251\.123$/ OK
+
+# Nov 19, 2011: gdata.co.jp's (*)
+/^(7a\.6d|22\.4b)\.79ae\.static\.theplanet\.com$/ OK
+
+# Nov 19, 2011: urato-uminoko.jp's (*)
+/^v-182-163-94-79\.ub-freebit\.net$/ OK
+
+# Nov 19, 2011: dnp.ad.jp's IDC (green-japan.com's etc.) (*)
+/^210\.133\.9[6-9]\.[0-9]+$/ OK
+
+# Nov 19, 2011: ultim.co.jp's (*)
+/^115-146-62-133\.secure\.ne\.jp$/ OK
+
+# Nov 19, 2011: sekisan.co.jp's (*)
+/^118-82-123-63\.secure\.ne\.jp$/ OK
+
+# Nov 19, 2011: intecrece.co.jp's (*)
+/^115-146-6-35\.secure\.ne\.jp$/ OK
+
+# Sep 11, 2011: mail1.polysagawa.com (*)
+/^211\.154\.131\.167$/ OK
+
+# Sep 11, 2011: a.mx.econ.co.jp
+/^61\.215\.205\.182$/ OK
+
+# Aug 31, 2011: melonbooks.co.jp's
+/^202\.228\.220\.220$/ OK
+
+# Aug 31, 2011: crosshead.co.jp's
+/^aa045224\.ppp\.asahi-net\.or\.jp$/ OK
+
+# Aug 31, 2011: (revised) McAfee SaaS service (*)
+# Feb 27, 2010: stormgroup.net's p01c12o149.mxlogic.net (*)
+/\.mxlogic\.net$/ OK
+
+# Aug 06, 2011: dev201-007.ulvac.com (*)
+/\.ulvac\.com$/ OK
+
+# Jul 18, 2011: nikkeibook.com's (*)
+/^124-110-65-41\.skyarch\.ne\.jp$/ OK
+
+# Jul 18, 2011: isl.co.jp's (*)
+/^210\.251\.66\.227$/ OK
+
+# Jul 18, 2011: (revised)
+# May 05, 2010: nihonchokuhan.co.jp's (*)
+/^203\.183\.145\.(1[7-9]|2[0-9]|30)$/ OK
+
+# Jul 18, 2011: amail03-05.nicovideo.jp, etc. (*)
+/\.nicovideo\.jp$/ OK
+
+# Jul 03, 2011: softcreate.co.jp's (*)
+/^0\.55\.239\.210\.scnet\.ne\.jp$/ OK
+
+# Jul 03, 2011: www.8044.jp (*)
+/^219\.94\.181\.141$/ OK
+
+# Jul 03, 2011: cs-coms.jp (*)
+/^111\.68\.22\.203$/ OK
+
+# Jul 03, 2011: chuyo.co.jp's (*)
+/^210\.230\.245\.147$/ OK
+
+# Jul 03, 2011: futaba-kashi.co.jp's (*)
+/^219\.117\.224\.13\.static\.zoot\.jp$/ OK
+
+# Jul 03, 2011: meito-sangyo.co.jp's (*)
+/^61\.119\.44\.82$/ OK
+
+# Jul 03, 2011: fujiseinet.co.jp's (*)
+/^61\.199\.228\.154$/ OK
+
+# Jul 03, 2011: hinodesyoji.co.jp's (*)
+/^211\.5\.199\.66$/ OK
+
+# Jul 03, 2011: gl10080.toshiba-finance.co.jp (*)
+/\.toshiba-finance\.co\.jp$/ OK
+
+# Jul 03, 2011: takasou.co.jp's (*)
+/^202\.212\.132\.163$/ OK
+
+# Jul 03, 2011: harima-bussan.co.jp's mail3014.wh2.ocn.ne.jp, etc. (*)
+/^mail.*\.ocn\.ne\.jp$/ OK
+
+# Jul 03, 2011: proactive.jp's (*)
+/^ff7gw4\.as\.netxdc\.ne\.jp$/ OK
+
+# Jul 03, 2011: oyatsu.co.jp's (*)
+/^202\.78\.248\.196$/ OK
+
+# Jul 03, 2011: ajinomoto.com's (*)
+/^zz20090302167192874[c-d]\.userreverse\.dion\.ne\.jp$/ OK
+
+# Jul 03, 2011: abeko.co.jp's (*)
+/^210\.196\.92\.(11|114)$/ OK
+
+# Jul 03, 2011: shozankan.com's (*)
+/^vps-115-146-22-32\.secure\.ne\.jp$/ OK
+
+# Jul 03, 2011: doshisha.co.jp's (*)
+/^203\.179\.53\.133$/ OK
+
+# Jul 03, 2011: interfactory.co.jp's (*)
+/^ec2-175-41-223-74\.ap-northeast-1\.compute\.amazonaws\.com$/ OK
+
+# Jul 03, 2011: niyac.co.jp's (*)
+/^ktk-003-086\.ktknet\.net$/ OK
+
+# May 28, 2011: itfrontier.co.jp's (*)
+/^bgag50005[0-9]\.tk\.mesh\.ad\.jp$/ OK
+
+# Apr 16, 2011: (DNS problem has been solved.)
+# Apr 12, 2011: mail.travel.rakuten.co.jp's (*)
+#/^202\.189\.147\.46$/
+
+# Apr 16, 2011: f2mail01.travel.rakuten.co.jp (*)
+/\.travel\.rakuten\.co\.jp$/ OK
+
+# Apr 16, 2011: mail.af-kml.com's (*)
+/^171\.21\.250\.76$/ OK
+
+# Apr 16, 2011: mangazenkan.com's (*)
+/^59\.106\.44\.124$/ OK
+
+# Apr 16, 2011: touki-kyoutaku-support.moj.go.jp (*)
+/^202\.217\.36\.161$/ OK
+
+# Apr 16, 2011: (revised)
+# Feb 06, 2011: supertak.com (*)
+/^ac120129\.ppp\.asahi-net\.or\.jp$/ OK
+
+# Apr 12, 2011: ebookjapan.co.jp's (*)
+/^203\.141\.249\.111$/ OK
+
+# Apr 12, 2011: mytc-mlsrv-mr01-01.tsutaya.co.jp, etc. (*)
+/\.tsutaya\.co\.jp$/ OK
+
+# Apr 12, 2011: tsutaya.co.jp's (*)
+/^61\.213\.172\.21$/ OK
+
+# Apr 12, 2011: mail.travel.rakuten.co.jp's (*)
+/^116\.91\.143\.55$/ OK
+/^219\.101\.226\.246$/ OK
+
+# Apr 12, 2011: w11287sv01mail.shinsei.pref.osaka.jp (*)
+/\.pref\.osaka\.jp$/ OK
+
+# Apr 12, 2011: marutsu.co.jp's (*)
+/^202\.238\.63\.38$/ OK
+
+# Apr 12, 2011: newsletter-smtp02-1.excite.co.jp, etc. (*)
+/\.excite\.co\.jp$/ OK
+
+# Apr 12, 2011: bvea32173.mmgw.biglobe.ne.jp, etc. (*)
+/\.mmgw\.biglobe\.ne\.jp$/ OK
+
+# Apr 12, 2011: 210.136.232.163.valuecommerce.com, etc. (*)
+/\.valuecommerce\.com$/ OK
+
+# Apr 12, 2011: h212.sk3.estore.co.jp, etc. (*)
+/\.estore\.co\.jp$/ OK
+
+# Apr 12, 2011: twsmtp07-1.nm.naver.com (*)
+/^twsmtp.*\.naver\.com$/ OK
+
+# Mar 31, 2011: ntr1mail1.netricoh.com (*)
+/\.netricoh\.com$/ OK
+
+# Mar 11, 2011: daiwadaw.jp's (*)
+/^7c294771\.i-revonet\.jp$/ OK
+
+# Mar 02, 2011: jm01t01sl.e-hon.ne.jp (*)
+/^jm01t01sl\.e-hon\.ne\.jp$/ OK
+
+# Feb 22, 2011: sej.co.jp's (*)
+/^133\.250\.226\.31$/ OK
+
+# Feb 22, 2011: mail.my.sompo-japan.co.jp (*)
+/^60\.32\.152\.81$/ OK
+
+# Feb 21, 2011: diamond.co.jp's (*)
+/^211\.0\.130\.66$/ OK
+
+# Feb 15, 2011: smtp.sunloft.co.jp (*)
+/^p009\.net218219062\.tokai\.or\.jp$/ OK
+
+# Feb 12, 2011: ishop.tbs.co.jp's malpc01m.fromail.info
+/^203\.140\.237\.61$/ OK
+
+# Feb 11, 2011: mobile-mail0-57.a8.net, etc. (*)
+/^mobile-mail.*\.a8\.net$/ OK
+
+# Feb 11, 2011: xtinmta02-30.exacttarget.com, etc. (*)
+/^xtinmta.*\.exacttarget\.com$/ OK
+
+# Feb 06, 2011: interses.net's
+/^66\.219\.30\.215$/ OK
+
+# Feb 06, 2011: mail.selecsonic.com (*)
+/^202\.217\.44\.70$/ OK
+
+# Feb 06, 2011: a192-156.smtp-out.amazonses.com, etc. (*)
+/\.smtp-out\.amazonses\.com$/ OK
+
+# Dec 08, 2010: u1nxzsvgmde2.osakafu-u.ac.jp (*)
+/\.osakafu-u\.ac\.jp$/ OK
+
+# Nov 21, 2010: nicovideo.jp's
+/^202\.248\.110\.219$/ OK
+
+# Aug 07, 2010: animate-onlineshop.jp's (*)
+/^118\.67\.109\.(3[3-9]|[4-5][0-9]|6[0-2])$/ OK
+
+# Aug 07, 2010: mgame.co.jp's (*)
+/^124\.211\.52\.[0-9]+$/ OK
+
+# Aug 07, 2010: s8j28kh38x005.kdn.co.jp (*)
+/\.kdn\.co\.jp$/ OK
+
+# Aug 01, 2010: digi-tsuhan.jp
+/^219-106-249-174\.cust\.bit-drive\.ne\.jp$/ OK
+
+# Jul 13, 2010: mx.melonbooks.com
+/^113x35x71x172\.ap113\.ftth\.ucom\.ne\.jp$/ OK
+
+# Jun 28, 2010: mail.slogical.co.jp (*)
+/^vps-115-146-19-83\.secure\.ne\.jp$/ OK
+
+# Jun 20, 2010: mail.its-grp.co.jp
+/^210\.196\.154\.226$/ OK
+
+# Jun 14, 2010: px04-2.datacraft.co.jp (*)
+/\.datacraft\.co\.jp$/ OK
+
+# Jun 14, 2010: c0103160.powerfuture.co.jp (*)
+/\.powerfuture\.co\.jp$/ OK
+
+# Jun 14, 2010: indies-av.co.jp's (*)
+/^203\.209\.148\.30$/ OK
+
+# Jun 14, 2010: fudosan-hakase.com's (*)
+/^211\.16\.230\.25$/ OK
+
+# Jun 14, 2010: mg1.nipponsoft.co.jp (*)
+/^aa2009032108d2eecda2\.userreverse\.dion\.ne\.jp$/ OK
+
+# Jun 14, 2010: expression.com's (*)
+/^203\.85\.49\.29$/ OK
+
+# Jun 14, 2010: ml.furu1online.net (*)
+/^s194\.hchibafl12\.vectant\.ne\.jp$/ OK
+
+# Jun 14, 2010: takashimaya.co.jp's (*)
+/^202\.221\.136\.107$/ OK
+
+# Jun 14, 2010: (revised)
+# May 25, 2010: tus1smtoutpex01.symantec.com
+/\.symantec\.com$/ OK
+
+# Jun 05, 2010: zenrin.co.jp's (*)
+/^210\.172\.233\.97$/ OK
+
+# Jun 02, 2010: dmm.com's (*)
+/^203\.209\.149\.47$/ OK
+
+# Jun 02, 2010: sb-selection.jp's (*)
+/^210\.146\.14\.69$/ OK
+
+# Jun 02, 2010: smtp.do-yo.tv (*)
+/^116\.58\.173\.186\.static\.zoot\.jp$/ OK
+
+# May 25, 2010: pipe02.netbk.co.jp, etc.
+/^59\.106\.100\.(1(29|[3-9][0-9])|2([0-4][0-9]|5[0-4]))$/ OK
+
+# May 25, 2010: www.fom.fujitsu.com (*)
+/^202\.216\.103\.10$/ OK
+
+# May 25, 2010: book-iland.com's (*)
+/^p10151-ipbffx02funabasi\.chiba\.ocn\.ne\.jp$/ OK
+
+# May 25, 2010: bussanten.jp's (*)
+/^pro-100-67\.kagoya\.net$/ OK
+
+# May 25, 2010: b-up.info's (*)
+/^sv203183030002\.extlink\.co\.jp$/ OK
+
+# May 23, 2010: uccard.co.jp's
+/^h210133111009\.mediagalaxy\.ne\.jp$/ OK
+
+# May 11, 2010: his-world.co.jp's (*)
+/^119\.173\.27\.138$/ OK
+
+# May 11, 2010: tecc.co.jp's (*)
+/^210\.169\.75\.120$/ OK
+
+# May 11, 2010: fimmh[0-9]*v[0-9].mail.rakuten-bank.co.jp (*)
+/\.rakuten-bank\.co\.jp$/ OK
+
+# May 11, 2010: finnair-promotion.jp's (*)
+/^203-191-246-19\.iwavedesign\.com$/ OK
+
+# May 11, 2010: xilinx.com's (*)
+/^bc2020[0-9][0-9]\.cnv004\.net$/ OK
+
+# May 11, 2010: jr-servicenet.com's (*)
+/^58x157x247x189\.ap58\.ftth\.ucom\.ne\.jp$/ OK
+
+# May 11, 2010: pandasecurity.com's (*)
+/^193\.104\.218\.[0-9]+$/ OK
+
+# May 05, 2010: ustage.net's (*)
+/^58x12x166x46\.ap58\.ftth\.ucom\.ne\.jp$/ OK
+
+# May 05, 2010: nicho.co.jp's (*)
+/^58x13x221x156\.ap58\.ftth\.ucom\.ne\.jp$/ OK
+
+# May 05, 2010: k81.jp's (*)
+/^58x157x150x115\.ap58\.ftth\.ucom\.ne\.jp$/ OK
+
+# May 05, 2010: 20000yen-doh.co.jp's (*)
+/^58x157x255x236\.ap58\.ftth\.ucom\.ne\.jp$/ OK
+
+# May 05, 2010: systemmetrix.jp's (*)
+/^59x158x187x10(6|7)\.ap59\.ftth\.ucom\.ne\.jp$/ OK
+
+# May 05, 2010: intelli.jp's (*)
+/^59x158x187x110\.ap59\.ftth\.ucom\.ne\.jp$/ OK
+
+# May 05, 2010: wna.jp's (*)
+/^113x32x89x83\.ap113\.ftth\.ucom\.ne\.jp$/ OK
+
+# May 05, 2010: antenna.co.jp's (*)
+/^113x32x177x180\.ap113\.ftth\.ucom\.ne\.jp$/ OK
+
+# May 05, 2010: bos.ne.jp's (*)
+/^113x32x18x72\.ap113\.ftth\.ucom\.ne\.jp$/ OK
+
+# May 05, 2010: inte.co.jp's (*)
+/^113x36x45x200\.ap113\.ftth\.ucom\.ne\.jp$/ OK
+
+# May 05, 2010: zennama.or.jp's (*)
+/^113x36x145x148\.ap113\.ftth\.ucom\.ne\.jp$/ OK
+
+# May 05, 2010: akibang.com's (*)
+/^113x36x149x118\.ap113\.ftth\.ucom\.ne\.jp$/ OK
+
+# May 05, 2010: cookst.jp's (*)
+/^122x208x101x137\.ap122\.ftth\.ucom\.ne\.jp$/ OK
+
+# May 05, 2010: akibang.com's (*)
+/^122x209x127x238\.ap122\.ftth\.ucom\.ne\.jp$/ OK
+
+# May 05, 2010: kuraberu.jp's (*)
+/^122x212x247x199\.ap122\.ftth\.ucom\.ne\.jp$/ OK
+
+# May 05, 2010: web-kyodo.co.jp's (*)
+/^122x213x197x11\.ap122\.ftth\.ucom\.ne\.jp$/ OK
+
+# May 05, 2010: ig3.jp's (*)
+/^122x215x62x33\.ap122\.ftth\.ucom\.ne\.jp$/ OK
+
+# May 05, 2010: golf-yoyaku.jp's (*)
+/^122x216x211x18\.ap122\.ftth\.ucom\.ne\.jp$/ OK
+
+# May 05, 2010: akibaoo.co.jp's (*)
+/^122x218x103x42\.ap122\.ftth\.ucom\.ne\.jp$/ OK
+
+# May 05, 2010: koffeephoto.jp's (*)
+/^122x219x74x9\.ap122\.ftth\.ucom\.ne\.jp$/ OK
+
+# May 05, 2010: nunome.co.jp's (*)
+/^122x219x254x130\.ap122\.ftth\.ucom\.ne\.jp$/ OK
+
+# May 05, 2010: dena.jp's (*)
+/^122x220x64x7\.ap122\.ftth\.ucom\.ne\.jp$/ OK
+
+# May 05, 2010: jiku.co.jp's (*)
+/^122x221x93x36\.ap122\.ftth\.ucom\.ne\.jp$/ OK
+
+# May 05, 2010: jasa.jp's (*)
+/^124x38x142x243\.ap124\.ftth\.ucom\.ne\.jp$/ OK
+
+# May 05, 2010: sanno.ac.jp's (*)
+/^124x38x199x50\.ap124\.ftth\.ucom\.ne\.jp$/ OK
+
+# May 05, 2010: atgames.jp's (*)
+/^124x39x15x14\.ap124\.ftth\.ucom\.ne\.jp$/ OK
+
+# May 05, 2010: filetruck.jp's (*)
+/^220x218x68x237\.ap220\.ftth\.ucom\.ne\.jp$/ OK
+
+# May 05, 2010: fideli.com's (*)
+/^221x116x23x149\.ap221\.ftth\.ucom\.ne\.jp$/ OK
+
+# May 05, 2010: ube-daido.co.jp's (*)
+/^221x247x59x93\.ap221\.ftth\.ucom\.ne\.jp$/ OK
+
+# May 05, 2010: sharp.co.jp's (*)
+/^221x247x143x114\.ap221\.ftth\.ucom\.ne\.jp$/ OK
+
+# May 05, 2010: tennisonline.jp's (*)
+/^221x251x1x68\.ap221\.ftth\.ucom\.ne\.jp$/ OK
+
+# May 05, 2010: jpn.tuv.com's (*)
+/^221x252x13x91\.ap221\.ftth\.ucom\.ne\.jp$/ OK
+
+# May 05, 2010: bd800.com's (*)
+/^221x254x171x149\.ap221\.ftth\.ucom\.ne\.jp$/ OK
+
+# May 05, 2010: oguma-group.co.jp's (*)
+/^aa2003030030002\.userreverse\.dion\.ne\.jp$/ OK
+
+# May 05, 2010: hiroden.co.jp's (*)
+/^aa2003061299004\.userreverse\.dion\.ne\.jp$/ OK
+
+# May 05, 2010: sempuku.co.jp's (*)
+/^aa2005091117d305f2c1\.userreverse\.dion\.ne\.jp$/ OK
+
+# May 05, 2010: kariya-coop.or.jp's (*)
+/^aa2006120235d2eff305\.userreverse\.dion\.ne\.jp$/ OK
+
+# May 05, 2010: dbfocus.jp's (*)
+/^aa2009020393769fe77a\.userreverse\.dion\.ne\.jp$/ OK
+
+# May 05, 2010: web2cad.co.jp's (*)
+/^aa2009020447d2ffbb0a\.userreverse\.dion\.ne\.jp$/ OK
+
+# May 05, 2010: awa.or.jp's (*)
+/^aa2009030872d2ffb81(0|5)\.userreverse\.dion\.ne\.jp$/ OK
+
+# May 05, 2010: aa-material.co.jp's (*)
+/^zz2007040091d2c48e03\.userreverse\.dion\.ne\.jp$/ OK
+
+# May 05, 2010: tenmaya.co.jp's (*)
+/^zz2008080091769bd00c\.userreverse\.dion\.ne\.jp$/ OK
+
+# May 05, 2010: chuo-bussan.co.jp's (*)
+/^zz2008120038719281c2\.userreverse\.dion\.ne\.jp$/ OK
+
+# May 05, 2010: seiko-co.com's (*)
+/^p1003-ipbfpfx02sizuokaden\.shizuoka\.ocn\.ne\.jp$/ OK
+
+# May 05, 2010: e-fp.co.jp's (*)
+/^p15226-ipbffx02marunouchi\.tokyo\.ocn\.ne\.jp$/ OK
+
+# May 05, 2010: fuji-y.co.jp's (*)
+/^p16018-ipbffx02sasajima\.aichi\.ocn\.ne\.jp$/ OK
+
+# May 05, 2010: worldins.co.jp's (*)
+/^p2242-ipngnfx01marunouchi\.tokyo\.ocn\.ne\.jp$/ OK
+
+# May 05, 2010: ryuken-net.co.jp's (*)
+/^p4073-ipngnfx01marunouchi\.tokyo\.ocn\.ne\.jp$/ OK
+
+# May 05, 2010: sncj.co.jp's (*)
+/^p5050-ipbffx01douji\.osaka\.ocn\.ne\.jp$/ OK
+
+# May 05, 2010: higashiyadelica.jp's (*)
+/^p6035-ipbffx02souka\.saitama\.ocn\.ne\.jp$/ OK
+
+# May 05, 2010: oita-koseiren.com's (*)
+/^p6047-ipbffx02oomichi\.oita\.ocn\.ne\.jp$/ OK
+
+# May 05, 2010: kakoki.co.jp's (*)
+/^061196231211\.cidr\.odn\.ne\.jp$/ OK
+
+# May 05, 2010: atbrain1.co.jp's (*)
+/^210197088034\.cidr\.odn\.ne\.jp$/ OK
+
+# May 05, 2010: secom-sonpo.co.jp's (*)
+/^211008119083\.cidr\.odn\.ne\.jp$/ OK
+
+# May 05, 2010: kankuhineno.jp's (*)
+/^211127204234\.cidr\.odn\.ne\.jp$/ OK
+
+# May 05, 2010: bb-s.jp's (*)
+/^219067144167\.cidr\.odn\.ne\.jp$/ OK
+
+# May 05, 2010: mitsuwa.co.jp's (*)
+/^s219067243-10\.bizhost\.odn\.ne\.jp$/ OK
+
+# May 05, 2010: landes.co.jp's (*)
+/^s219067244-193\.bizhost\.odn\.ne\.jp$/ OK
+
+# May 05, 2010: sumidacorp.co.jp's (*)
+/^s61201017-174\.bizhost\.odn\.ne\.jp$/ OK
+
+# May 05, 2010: nagano-nissan.co.jp's (*)
+/^s61201022-155\.bizhost\.odn\.ne\.jp$/ OK
+
+# May 05, 2010: kozuchi-net.jp's (*)
+/^s61201022-217\.bizhost\.odn\.ne\.jp$/ OK
+
+# May 05, 2010: tom-yamada.co.jp's (*)
+/^s61201018-39\.bizhost\.odn\.ne\.jp$/ OK
+
+# May 05, 2010: koi-machi.com's (*)
+/^61\.206\.122\.242\.static\.zoot\.jp$/ OK
+
+# May 05, 2010: nakanohito.jp's (*)
+/^116\.58\.176\.193\.static\.zoot\.jp$/ OK
+
+# May 05, 2010: akibang.com's (*)
+/^202\.61\.30\.114\.static\.zoot\.jp$/ OK
+
+# May 05, 2010: order403.com's (*)
+/^203\.141\.138\.105\.static\.zoot\.jp$/ OK
+/^203\.143\.114\.129\.static\.zoot\.jp$/ OK
+/^203\.152\.201\.244\.static\.zoot\.jp$/ OK
+/^219\.117\.249\.124\.static\.zoot\.jp$/ OK
+/^219\.117\.252\.143\.static\.zoot\.jp$/ OK
+
+# May 05, 2010: kansatobunseki.co.jp's (*)
+/^203\.152\.223\.54\.static\.zoot\.jp$/ OK
+
+# May 05, 2010: a-chance.jp's (*)
+/^210\.48\.233\.75\.static\.zoot\.jp$/ OK
+
+# May 05, 2010: aedin.jp's (*)
+/^219\.117\.205\.210\.static\.zoot\.jp$/ OK
+
+# May 05, 2010: hirogin-ri.jp's (*)
+/^86\.188\.128\.210\.bf\.2iij\.net$/ OK
+
+# May 05, 2010: francois.co.jp's (*)
+/^9\.128\.180\.203\.bf\.2iij\.net$/ OK
+
+# May 05, 2010: imao.jp's (*)
+/^10\.121\.232\.202\.bf\.2iij\.net$/ OK
+
+# May 05, 2010: pmac.co.jp's (*)
+/^190\.88\.138\.210\.bf\.2iij\.net$/ OK
+
+# May 05, 2010: soc.co.jp's (*)
+/^195\.252\.214\.202\.bf\.2iij\.net$/ OK
+
+# May 05, 2010: jnotary.com's (*)
+/^229\.66\.214\.202\.economy\.2iij\.net$/ OK
+
+# May 05, 2010: koffeephoto.jp's (*)
+/^210-251-240-185\.cust\.bit-drive\.ne\.jp$/ OK
+
+# May 05, 2010: spokyo.jp's (*)
+/^210-251-246-4\.cust\.bit-drive\.ne\.jp$/ OK
+
+# May 05, 2010: vveb.jp's (*)
+/^218-216-68-213\.cust\.bit-drive\.ne\.jp$/ OK
+
+# May 05, 2010: lightware.co.jp's (*)
+/^219-106-249-236\.cust\.bit-drive\.ne\.jp$/ OK
+
+# May 05, 2010: cmpjapan.com's (*)
+/^219-118-184-23\.cust\.bit-drive\.ne\.jp$/ OK
+
+# May 05, 2010: tateshiba.co.jp's (*)
+/^s36\.ALPHA-w8\.vectant\.ne\.jp$/ OK
+
+# May 05, 2010: ferpc.jp's (*)
+/^s52\.HhirosimaFL1\.vectant\.ne\.jp$/ OK
+
+# May 05, 2010: odakyu-dentetsu.co.jp's (*)
+/^s148\.HkanagawaFL3\.vectant\.ne\.jp$/ OK
+
+# May 05, 2010: panda.co.jp's (*)
+/^s162\.HtokyoFL19\.vectant\.ne\.jp$/ OK
+
+# May 05, 2010: seamile.jp's (*)
+/^s228\.HkanagawaFL10\.vectant\.ne\.jp$/ OK
+
+# May 05, 2010: orchid-style.com's (*)
+/^157\.152\.94\.219\.dedicated\.sakura\.ne\.jp$/ OK
+
+# May 05, 2010: officeboya.jp's (*)
+/^59-106-15-100\.r-bl100\.sakura\.ne\.jp$/ OK
+
+# May 05, 2010: cruiseinc.co.jp's (*)
+/^irongw1-ext[1-3]\.sproxy\.kddi\.ne\.jp$/ OK
+
+# May 05, 2010: inaba.co.jp's (*)
+/^irongw2-ext[1-3]\.sproxy\.kddi\.ne\.jp$/ OK
+
+# May 05, 2010: tsukasa-ind.co.jp's (*)
+/^irongw3-ext1\.sproxy\.kddi\.ne\.jp$/ OK
+
+# May 05, 2010: showa-ele.co.jp's (*)
+/^d242242\.ppp\.asahi-net\.or\.jp$/ OK
+
+# May 05, 2010: lib-yama.jp's (*)
+/^s193074\.ppp\.asahi-net\.or\.jp$/ OK
+
+# May 05, 2010: nichidan.co.jp's (*)
+/^l197203\.ppp\.asahi-net\.or\.jp$/ OK
+
+# May 05, 2010: infomart.co.jp's (*)
+/^i04si40051-p\.jptkyo6\.savvis\.net$/ OK
+
+# May 05, 2010: fujirobotics.com's (*)
+/^p3plsmtpa01-(0[1-9]|10)\.prod\.phx3\.secureserver\.net$/ OK
+
+# May 05, 2010: maruo-cal.co.jp's (*)
+/^st0075\.nas931\.kobe\.nttpc\.ne\.jp$/ OK
+
+# May 05, 2010: asukanet.co.jp's (*)
+/^160\.238\.118\.219\.megaegg\.ne\.jp$/ OK
+
+# May 05, 2010: mysite-is.jp's (*)
+/^210-89-193-86\.gip-dyn\.canvas\.ne\.jp$/ OK
+
+# May 05, 2010: tokyo-shoseki-ptg.co.jp's (*)
+/^210\.253\.155\.62\.customerlink\.pwd\.ne\.jp$/ OK
+
+# May 05, 2010: ymfoods.co.jp's (*)
+/^218-223-38-94\.nplus-net\.jp$/ OK
+
+# May 05, 2010: apamanshop.co.jp's (*)
+/^225-1\.hus\.aics\.ne\.jp$/ OK
+
+# May 05, 2010: cosmo-oil.co.jp's (*)
+/^c000mta01\.cosmo-oil\.co\.jp$/ OK
+
+# May 05, 2010: FujiRobotics.com's (*)
+/^cmr-208-97-96-82\.cr\.net\.cable\.rogers\.com$/ OK
+
+# May 05, 2010: recoo.jp's (*)
+/^col-210-134-62-5(0|1)\.kagoya\.net$/ OK
+
+# May 05, 2010: cs.jp.fujitsu.com (*)
+/^cwc2b01\.coworco\.com$/ OK
+
+# May 05, 2010: kouryakuhou.com's (*)
+/^CS2-6FG2-16\.d-r\.jp$/ OK
+
+# May 05, 2010: fujikyu-travel.co.jp's (*)
+/^F00-212.197\.183.203\.fs-user\.net$/ OK
+
+# May 05, 2010: scs.co.jp's (*)
+/^ff5gw(1|2)\.as\.netxdc\.ne\.jp$/ OK
+/^ff7gw3\.as\.netxdc\.ne\.jp$/ OK
+
+# May 05, 2010: network-exchange.com's (*)
+/^fu-157-122\.edit\.ne\.jp$/ OK
+
+# May 05, 2010: imao.jp's (*)
+/^global204-070\.aitai\.ne\.jp$/ OK
+
+# May 05, 2010: dokidoki.ne.jp's (*)
+/^hearts174095100\.hearts\.ne\.jp$/ OK
+
+# May 05, 2010: matsuyafoods.co.jp's (*)
+/^intd20s103\.gulfnet\.ne\.jp$/ OK
+
+# May 05, 2010: chuomitsui.jp's (*)
+/^jc031s38\.mitsuitrust-fg\.co\.jp$/ OK
+
+# May 05, 2010: maruchan.co.jp's (*)
+/^jimu3-in4\.maruchan\.co\.jp$/ OK
+
+# May 05, 2010: y-sakuragaoka.ed.jp's (*)
+/^kplo1-133\.stellar\.meon\.ne\.jp$/ OK
+
+# May 05, 2010: aquaside.co.jp's (*)
+/^ktks-228-193\.ktknet\.net$/ OK
+
+# May 05, 2010: mimosa.gr.jp's (*)
+/^m030090030\.mediawars\.net$/ OK
+
+# May 05, 2010: proma.ne.jp's (*)
+/^mail-01-0[2-3]\.pressman\.jp$/ OK
+
+# May 05, 2010: tigers-net.com's (*)
+/^mailsv1-(1|2)\.tigers-net\.com$/ OK
+
+# May 05, 2010: jrep.co.jp's (*)
+/^p202-216-246-51\.sub\.ne\.jp$/ OK
+
+# May 05, 2010: sousyoku.maff.go.jp (*)
+/^ssmta1p1\.sousyoku\.maff\.go\.jp$/ OK
+
+# May 05, 2010: 1500.co.jp's (*)
+/^sv210239039242\.blitzforces\.com$/ OK
+
+# May 05, 2010: healthcure.jp's (*)
+/^sv203183080002\.extlink\.co\.jp$/ OK
+
+# May 05, 2010: beingcorp.co.jp's (*)
+/^tbt-26-028\.beingcorp\.co\.jp$/ OK
+
+# May 05, 2010: alsok-oki.co.jp's (*)
+/^www64-111\.step-bb\.jp$/ OK
+
+# May 05, 2010: order-nobori.com's (*)
+/^z2\.in(2|9)\.squarestart\.ne\.jp$/ OK
+
+# May 05, 2010: S503LXAZ2.city.ube.yamaguchi.jp (*)
+/\.city\.ube\.yamaguchi\.jp$/ OK
+
+# May 05, 2010: ou500058.ja-kyosai.or.jp (*)
+/\.ja-kyosai\.or\.jp$/ OK
+
+# May 05, 2010: nikkei.com's (*)
+/\.nikkei\.co\.jp$/ OK
+
+# May 05, 2010: mail04-8.mpx.club.panasonic.jp's (*)
+/\.panasonic\.jp$/ OK
+
+# May 05, 2010: netratings.co.jp (*)
+/\.netratings\.co\.jp$/ OK
+
+# May 05, 2010: leopalace21.com's (*)
+/\.leopalace21\.com$/ OK
+
+# May 05, 2010: logmein.com's (*)
+/\.logmein\.com$/ OK
+
+# May 05, 2010: opensmile.co.jp's (*)
+/^59\.106\.59\.35$/ OK
+
+# May 05, 2010: ml2.cocacola.co.jp
+/^59\.106\.47\.8(4|5)$/ OK
+
+# May 05, 2010: bikenkougyou.co.jp's (*)
+/^59\.106\.74\.130$/ OK
+
+# May 05, 2010: zakura.co.jp's (*)
+/^59\.106\.92\.3$/ OK
+
+# May 05, 2010: fighters.co.jp's (*)
+/^59\.106\.105\.15(4|6)$/ OK
+
+# May 05, 2010: alibaba-inc.jp's (*)
+/^59\.106\.148\.20$/ OK
+
+# May 05, 2010: logistics.jp's (*)
+/^59\.106\.122\.17$/ OK
+
+# May 05, 2010: moshimo.com's (*)
+/^59\.106\.157\.17[6-9]$/ OK
+
+# May 05, 2010: kanpachi.jp's (*)
+/^59\.106\.163\.3$/ OK
+
+# May 05, 2010: hts.or.jp's (*)
+/^60\.32\.13\.114$/ OK
+
+# May 05, 2010: diamond.co.jp's (*)
+/^60\.32\.5\.202$/ OK
+
+# May 05, 2010: tohsui.co.jp's (*)
+/^60\.32\.72\.66$/ OK
+
+# May 05, 2010: tsr-net.co.jp's (*)
+/^60\.32\.145\.2$/ OK
+
+# May 05, 2010: torichiku.or.jp's (*)
+/^60\.32\.206\.34$/ OK
+
+# May 05, 2010: nihon-kogyo.co.jp's (*)
+/^61\.58\.40\.98$/ OK
+
+# May 05, 2010: kishugiken.co.jp's (*)
+/^61\.89\.228\.11$/ OK
+
+# May 05, 2010: city.iwakuni.yamaguchi.jp's (*)
+/^61\.113\.123\.68$/ OK
+
+# May 05, 2010: fresta.co.jp's (*)
+/^61\.113\.123\.154$/ OK
+
+# May 05, 2010: lube.co.jp's (*)
+/^61\.114\.178\.5$/ OK
+
+# May 05, 2010: animate-shop.jp's (*)
+/^61\.114\.181\.8$/ OK
+
+# May 05, 2010: dousan.net's (*)
+/^61\.114\.236\.21$/ OK
+
+# May 05, 2010: frappe-market.com's (*)
+/^61\.114\.236\.27$/ OK
+
+# May 05, 2010: shimane.med.or.jp's (*)
+/^61\.119\.63\.22$/ OK
+
+# May 05, 2010: kbixgroup.co.jp's (*)
+/^61\.120\.59\.108$/ OK
+
+# May 05, 2010: toyofpp.co.jp's (*)
+/^61\.120\.60\.188$/ OK
+
+# May 05, 2010: jtad.jp's (*)
+/^61\.123\.228\.79$/ OK
+
+# May 05, 2010: yayoi-kk.co.jp's (*)
+/^61\.125\.140\.158$/ OK
+
+# May 05, 2010: malsok.co.jp's (*)
+/^61\.194\.247\.190$/ OK
+
+# May 05, 2010: monokakido.jp's (*)
+/^61\.195\.154\.147$/ OK
+
+# May 05, 2010: settsucarton.co.jp's (*)
+/^61\.119\.36\.18$/ OK
+
+# May 05, 2010: e-royce.com's (*)
+/^61\.198\.17\.164$/ OK
+
+# May 05, 2010: minato-yamaguchi.co.jp's (*)
+/^61\.199\.252\.205$/ OK
+
+# May 05, 2010: asahi-ei.co.jp's (*)
+/^61\.201\.19\.131$/ OK
+
+# May 05, 2010: fastem-eng.co.jp's (*)
+/^61\.206\.12\.42$/ OK
+
+# May 05, 2010: kenbijin.com's (*)
+/^61\.206\.113\.160$/ OK
+
+# May 05, 2010: calpis.co.jp's (*)
+/^61\.206\.228\.246$/ OK
+
+# May 05, 2010: itochu-sugar.co.jp's (*)
+/^61\.208\.97\.18$/ OK
+
+# May 05, 2010: janex.jp's (*)
+/^61\.208\.108\.11$/ OK
+
+# May 05, 2010: yamaguchi-sc.co.jp's (*)
+/^61\.208\.186\.186$/ OK
+
+# May 05, 2010: nowgetta.com's (*)
+/^61\.211\.234\.72$/ OK
+
+# May 05, 2010: realmarket.jp's (*)
+/^61\.213\.60\.20$/ OK
+
+# May 05, 2010: gate.sws.co.jp
+/^77\.124\.4\.79$/ OK
+
+# May 05, 2010: weve.co.jp's (*)
+/^82\.80\.129\.70$/ OK
+
+# May 05, 2010: veincarry.jp's (*)
+/^112\.78\.115\.209$/ OK
+
+# May 05, 2010: cad-data.com's (*)
+/^112\.78\.116\.148$/ OK
+
+# May 05, 2010: taisei-wellnet.co.jp's (*)
+/^112\.78\.124\.42$/ OK
+
+# May 05, 2010: jmamail.jp's (*)
+/^112\.78\.198\.184$/ OK
+
+# May 05, 2010: cmsite.co.jp's (*)
+/^113\.32\.43\.149$/ OK
+
+# May 05, 2010: yayoi-kk.co.jp's (*)
+/^114\.31\.93\.204$/ OK
+
+# May 05, 2010: yoshikawa-gumi.co.jp's (*)
+/^116\.197\.170\.162$/ OK
+
+# May 05, 2010: jp.pepperl-fuchs.com's (*)
+/^116\.228\.8\.162$/ OK
+
+# May 05, 2010: jdv.co.jp's (*)
+/^117\.55\.220\.194$/ OK
+
+# May 05, 2010: agrishikyo.jp's (*)
+/^118\.22\.8\.194$/ OK
+
+# May 05, 2010: tenmaya.co.jp's (*)
+/^118\.103\.35\.12$/ OK
+
+# May 05, 2010: yumekokudo.net's (*)
+/^119\.10\.160\.51$/ OK
+
+# May 05, 2010: pelican.co.jp's (*)
+/^119\.18\.219\.29$/ OK
+
+# May 05, 2010: prdaily.jp's (*)
+/^119\.82\.28\.20$/ OK
+
+# May 05, 2010: kobebussan.co.jp's (*)
+/^121\.83\.218\.1(78|8(2|3))$/ OK
+
+# May 05, 2010: kyoeisteel.co.jp's (*)
+/^121\.83\.219\.14$/ OK
+
+# May 05, 2010: odakyu-dentetsu.co.jp's (*)
+/^121\.111\.233\.148$/ OK
+
+# May 05, 2010: taishotechnos.jp's (*)
+/^121\.119\.176\.95$/ OK
+
+# May 05, 2010: hn.cik.co.jp's (*)
+/^122\.28\.33\.201$/ OK
+
+# May 05, 2010: alsok.co.jp's (*)
+/^122\.212\.187\.50$/ OK
+
+# May 05, 2010: almc.jp's (*)
+/^122\.216\.194\.179$/ OK
+
+# May 05, 2010: e-frontier.co.jp's (*)
+/^124\.37\.75\.60$/ OK
+
+# May 05, 2010: prestigefood.co.jp's (*)
+/^124\.40\.8\.96$/ OK
+
+# May 05, 2010: kodama-eng.com's (*)
+/^124\.146\.168\.44$/ OK
+
+# May 05, 2010: ureruzo.com's (*)
+/^124\.146\.181\.248$/ OK
+
+# May 05, 2010: pigeonnet.co.jp's (*)
+/^124\.146\.193\.245$/ OK
+
+# May 05, 2010: e-tax.nta.go.jp's (*)
+/^124\.211\.31\.207$/ OK
+
+# May 05, 2010: maxvalu.co.jp's (*)
+/^124\.211\.50\.27$/ OK
+
+# May 05, 2010: e-tax.nta.go.jp's (*)
+/^124\.211\.59\.175$/ OK
+
+# May 05, 2010: cocos-jpn.co.jp's (*)
+/^124\.215\.241\.207$/ OK
+
+# May 05, 2010: air.nittsu.co.jp's (*)
+/^124\.216\.215\.243$/ OK
+
+# May 05, 2010: omura.co.jp's (*)
+/^125\.6\.137\.32$/ OK
+
+# May 05, 2010: akibaoo.co.jp's (*)
+/^125\.6\.137\.36$/ OK
+
+# May 05, 2010: camb.co.jp's (*)
+/^125\.6\.139\.177$/ OK
+
+# May 05, 2010: genkimaster.jp's (*)
+/^125\.6\.140\.5$/ OK
+
+# May 05, 2010: town.motegi.tochigi.jp's (*)
+/^125\.206\.211\.37$/ OK
+
+# May 05, 2010: oes2000.co.jp's (*)
+/^125\.206\.126\.141$/ OK
+
+# May 05, 2010: freshfutech.co.jp's (*)
+/^128\.121\.156\.45$/ OK
+
+# May 05, 2010: alibaba-inc.com's (*)
+/^128\.242\.127\.110$/ OK
+
+# May 05, 2010: yamaguchi-u.ac.jp's (*)
+/^133\.62\.162\.245$/ OK
+
+# May 05, 2010: frontier-u.jp's (*)
+/^157\.76\.40\.192$/ OK
+
+# May 05, 2010: y-nakamura.ed.jp's (*)
+/^164\.46\.245\.68$/ OK
+
+# May 05, 2010: toyota-lf-niigata.co.jp's (*)
+/^202\.7\.30\.73$/ OK
+
+# May 05, 2010: ucot.co.jp's (*)
+/^202\.7\.104\.10$/ OK
+
+# May 05, 2010: odakyu-dept.co.jp's (*)
+/^202\.8\.83\.212$/ OK
+
+# May 05, 2010: kaigo.pref.yamaguchi.lg.jp (*)
+/^202\.16\.155\.2$/ OK
+
+# May 05, 2010: mail.shinsei.pref.yamaguchi.lg.jp (*)
+/^202\.16\.156\.1$/ OK
+
+# May 05, 2010: koanet.co.jp's (*)
+/^202\.41\.214\.45$/ OK
+
+# May 05, 2010: prometric-jp.com's (*)
+/^202\.48\.207\.197$/ OK
+
+# May 05, 2010: mail.tdb.co.jp (*)
+/^202\.51\.52\.165$/ OK
+
+# May 05, 2010: mapple.co.jp's (*)
+/^202\.51\.52\.178$/ OK
+
+# May 05, 2010: tsukumo.co.jp's (*)
+/^202\.55\.136\.69$/ OK
+
+# May 05, 2010: town.tsuwano.shimane.jp's (*)
+/^202\.73\.215\.188$/ OK
+
+# May 05, 2010: sun-net.jp's (*)
+/^202\.73\.215\.204$/ OK
+
+# May 05, 2010: kurocp.jp's (*)
+/^202\.74\.7\.149$/ OK
+
+# May 05, 2010: entermedia.jp's (*)
+/^202\.79\.242\.244$/ OK
+
+# May 05, 2010: city.hagi.lg.jp's (*)
+/^202\.87\.238\.254$/ OK
+
+# May 05, 2010: himdx.co.jp's (*)
+/^202\.94\.144\.30$/ OK
+
+# May 05, 2010: bunshi.co.jp's (*)
+/^202\.143\.8\.148$/ OK
+
+# May 05, 2010: mickey-web.net's (*)
+/^202\.143\.64\.130$/ OK
+
+# May 05, 2010: rurubu.travel's (*)
+/^202\.143\.76\.20(6|7)$/ OK
+
+# May 05, 2010: jtb.co.jp's (*)
+/^202\.143\.77\.227$/ OK
+
+# May 05, 2010: motto.club-ntt-w.com (*)
+/^202\.143\.87\.225$/ OK
+
+# May 05, 2010: k-bousai.city.hiroshima.jp's (*)
+/^202\.146\.18\.1[6-8]$/ OK
+
+# May 05, 2010: jkt.itochu.co.id (*)
+/^202\.171\.22\.3$/ OK
+
+# May 05, 2010: miyoshi-wine.co.jp's (*)
+/^202\.171\.148\.147$/ OK
+
+# May 05, 2010: tems-system.com's (*)
+/^202\.177\.22\.205$/ OK
+
+# May 05, 2010: sns24.net's (*)
+/^202\.181\.108\.11$/ OK
+
+# May 05, 2010: the-journal.jp's (*)
+/^202\.189\.153\.210$/ OK
+
+# May 05, 2010: mms.ne.jp's (*)
+/^202\.212\.47\.195$/ OK
+
+# May 05, 2010: ktf.katosangyo.co.jp (*)
+/^202\.212\.61\.84$/ OK
+
+# May 05, 2010: juntendo.co.jp's (*)
+/^202\.212\.61\.110$/ OK
+
+# May 05, 2010: shinnishimura.com's (*)
+/^202\.212\.172\.34$/ OK
+
+# May 05, 2010: okawara-mfg.jp's (*)
+/^202\.212\.172\.44$/ OK
+
+# May 05, 2010: t-gaia.co.jp's (*)
+/^202\.212\.205\.133$/ OK
+
+# May 05, 2010: misuzukoki.co.jp's (*)
+/^202\.214\.16\.150$/ OK
+
+# May 05, 2010: w-nexco.co.jp's (*)
+/^202\.214\.81\.209$/ OK
+
+# May 05, 2010: mail.mighty.co.jp (*)
+/^202\.214\.151\.180$/ OK
+
+# May 05, 2010: esupply.co.jp's (*)
+/^202\.214\.180\.133$/ OK
+
+# May 05, 2010: filebank.co.jp's (*)
+/^202\.215\.98\.117$/ OK
+
+# May 05, 2010: kousei-ehime.or.jp's (*)
+/^202\.216\.237\.98$/ OK
+
+# May 05, 2010: symantecstore.jp's (*)
+/^202\.217\.88\.170$/ OK
+
+# May 05, 2010: re-member.jp's (*)
+/^202\.218\.32\.17(4|8)$/ OK
+
+# May 05, 2010: recyclejapan.jp's (*)
+/^202\.218\.32\.226$/ OK
+
+# May 05, 2010: keyence.co.jp's (*)
+/^202\.218\.33\.(13|5(3|4))$/ OK
+
+# May 05, 2010: proma.ne.jp's (*)
+/^202\.218\.43\.167$/ OK
+
+# May 05, 2010: alsok.co.jp's (*)
+/^202\.218\.125\.1(39|49)$/ OK
+
+# May 05, 2010: mitsuboshicamera.co.jp's (*)
+/^202\.218\.147\.44$/ OK
+
+# May 05, 2010: shopgear.ne.jp's (*)
+/^202\.218\.250\.91$/ OK
+
+# May 05, 2010: first-techno.com's (*)
+/^202\.218\.252\.158$/ OK
+
+# May 05, 2010: axis.or.jp's (*)
+/^202\.219\.94\.243$/ OK
+
+# May 05, 2010: sanpou-s.net's (*)
+/^202\.222\.25\.8$/ OK
+
+# May 05, 2010: e-fukuyoshi.com's (*)
+/^202\.222\.27\.110$/ OK
+
+# May 05, 2010: fuji-y.co.jp's (*)
+/^202\.222\.141\.26$/ OK
+
+# May 05, 2010: arcuscomputer.com's (*)
+/^202\.224\.244\.60$/ OK
+
+# May 05, 2010: 55100.com's (*)
+/^202\.224\.(227\.82|232\.42)$/ OK
+
+# May 05, 2010: canon-mj.co.jp's (*)
+/^202\.228\.190\.90$/ OK
+
+# May 05, 2010: postfile.jp's (*)
+/^202\.229\.52\.148$/ OK
+
+# May 05, 2010: toysrus.co.jp's (*)
+/^202\.229\.69\.1$/ OK
+
+# May 05, 2010: 3qja.jp's (*)
+/^202\.229\.180\.132$/ OK
+
+# May 05, 2010: mynavi.jp's (*)
+/^202\.232\.127\.146$/ OK
+
+# May 05, 2010: enjoytokyo.jp's (*)
+/^202\.232\.144\.201$/ OK
+
+# May 05, 2010: toto-dream.com's (*)
+/^202\.233\.46\.101$/ OK
+
+# May 05, 2010: trywimax.uqwimax.jp (*)
+/^202\.234\.60\.3$/ OK
+
+# May 05, 2010: maruha-nichiro.co.jp's (*)
+/^202\.248\.40\.130$/ OK
+
+# May 05, 2010: tsumura.co.jp's (*)
+/^202\.254\.41\.14$/ OK
+
+# May 05, 2010: med.showa-u.ac.jp's (*)
+/^202\.254\.227\.4$/ OK
+
+# May 05, 2010: adwires.com's (*)
+/^203\.83\.240\.61$/ OK
+
+# May 05, 2010: tomoe-const.jp's (*)
+/^203\.83\.246\.193$/ OK
+
+# May 05, 2010: nagoya2.jrc.or.jp's (*)
+/^203\.129\.120\.154$/ OK
+
+# May 05, 2010: tsubaki.co.jp's (*)
+/^203\.138\.82\.2$/ OK
+
+# May 05, 2010: linkshare.ne.jp's (*)
+/^203\.138\.237\.83$/ OK
+
+# May 05, 2010: e-classis.co.jp's (*)
+/^203\.140\.47\.12$/ OK
+
+# May 05, 2010: fideli.com's (*)
+/^203\.140\.47\.43$/ OK
+
+# May 05, 2010: nichiyunet.co.jp's (*)
+/^203\.140\.73\.226$/ OK
+
+# May 05, 2010: shinsenkan.com's (*)
+/^203\.140\.76\.2(18|22)$/ OK
+
+# May 05, 2010: acls.jp's (*)
+/^203\.140\.231\.17$/ OK
+
+# May 05, 2010: president-vision.com's (*)
+/^203\.140\.236\.115$/ OK
+
+# May 05, 2010: esupply.co.jp's (*)
+/^203\.140\.253\.248$/ OK
+
+# May 05, 2010: ebookjapan.co.jp's (*)
+/^203\.141\.249\.119$/ OK
+
+# May 05, 2010: makeshop.jp's (*)
+/^203\.141\.249\.162$/ OK
+
+# May 05, 2010: tomoda.co.jp's (*)
+/^203\.173\.81\.32$/ OK
+
+# May 05, 2010: san-inshinpan.co.jp's (*)
+/^203\.173\.83\.3(6|7)$/ OK
+
+# May 05, 2010: oji-cs.co.jp's (*)
+/^203\.179\.26\.105$/ OK
+
+# May 05, 2010: sanki.co.jp's (*)
+/^203\.180\.41\.52$/ OK
+
+# May 05, 2010: ttk-corp.co.jp's (*)
+/^203\.181\.88\.2$/ OK
+
+# May 05, 2010: healthcure.jp's (*)
+/^203\.183\.80\.20$/ OK
+
+# May 05, 2010: ml.suctec.jp's (*)
+/^203\.183\.159\.5$/ OK
+
+# May 05, 2010: gift-tamamo.jp's (*)
+/^203\.190\.237\.138$/ OK
+
+# May 05, 2010: mailmag.geo-online.co.jp's (*)
+/^203\.216\.136\.(1[0-3]$|35|49|50|11(8|9)|120)/ OK
+
+# May 05, 2010: sbi-com.jp's (*)
+/^203\.216\.208\.157$/ OK
+
+# May 05, 2010: 7netshopping.jp's (*)
+/^203\.216\.220\.15$/ OK
+
+# May 05, 2010: lycos.co.kr's (*)
+/^203\.226\.253\.218$/ OK
+
+# May 05, 2010: kkrobotics.com's (*)
+/^203\.248\.195\.14(1|2)$/ OK
+
+# May 05, 2010: ozshopping.jp's (*)
+/^207\.97\.226\.29$/ OK
+
+# May 05, 2010: city.kure.lg.jp's (*)
+/^210\.128\.188\.38$/ OK
+
+# May 05, 2010: nko.co.jp's (*)
+/^210\.128\.252\.198$/ OK
+
+# May 05, 2010: shimz.co.jp's (*)
+/^210\.130\.202\.50$/ OK
+
+# May 05, 2010: opt.nifty.com's (*)
+/^210\.131\.5\.13$/ OK
+
+# May 05, 2010: dreammail.ne.jp's (*)
+/^210\.132\.100\.74$/ OK
+
+# May 05, 2010: econmw.co.jp's (*)
+/^210\.136\.78\.79$/ OK
+
+# May 05, 2010: valuecommerce.ne.jp's (*)
+/^210\.136\.232\.245$/ OK
+
+# May 05, 2010: tdk.co.jp's (*)
+/^210\.138\.245\.5$/ OK
+
+# May 05, 2010: kinden.co.jp's (*)
+/^210\.141\.158\.115$/ OK
+
+# May 05, 2010: soundhouse.co.jp's (*)
+/^210\.143\.(133\.50|140\.98)$/ OK
+
+# May 05, 2010: inagaki-inc.com's (*)
+/^210\.145\.62\.20(8|9)$/ OK
+
+# May 05, 2010: cgr.mlit.go.jp's (*)
+/^210\.148\.109\.15$/ OK
+
+# May 05, 2010: listen.co.jp's (*)
+/^210\.148\.253\.252$/ OK
+
+# May 05, 2010: zeon.co.jp's (*)
+/^210\.149\.8\.66$/ OK
+
+# May 05, 2010: tak-s.co.jp's (*)
+/^210\.149\.116\.174$/ OK
+
+# May 05, 2010: yamato-material.co.jp's (*)
+/^210\.150\.88\.224$/ OK
+
+# May 05, 2010: tni.co.jp's (*)
+/^210\.151\.1\.43$/ OK
+
+# May 05, 2010: lixxi.jp's (*)
+/^210\.151\.15\.160$/ OK
+
+# May 05, 2010: sankotech.co.jp's (*)
+/^210\.154\.26\.67$/ OK
+
+# May 05, 2010: lmsite.jp's (*)
+/^210\.158\.36\.137$/ OK
+
+# May 05, 2010: hibiyakadan.com's (*)
+/^210\.160\.254\.49$/ OK
+
+# May 05, 2010: service.bunka-s.co.jp's (*)
+/^210\.161\.156\.75$/ OK
+
+# May 05, 2010: ja-yckousei.or.jp's (*)
+/^210\.162\.35\.130$/ OK
+
+# May 05, 2010: jaymgube.or.jp's (*)
+/^210\.162\.104\.235$/ OK
+
+# May 05, 2010: malox.co.jp's (*)
+/^210\.162\.159\.2$/ OK
+
+# May 05, 2010: city.shimonoseki.yamaguchi.jp's (*)
+/^210\.163\.221\.166$/ OK
+
+# May 05, 2010: ube-ind.co.jp's (*)
+/^210\.166\.55\.100$/ OK
+
+# May 05, 2010: atengineer.com's (*)
+/^210\.166\.213\.206$/ OK
+
+# May 05, 2010: takigen.jp's (*)
+/^210\.166\.217\.39$/ OK
+
+# May 05, 2010: comf.jp's (*)
+/^210\.166\.221\.77$/ OK
+
+# May 05, 2010: pitfukuoka.jp's (*)
+/^210\.168\.252\.8$/ OK
+
+# May 05, 2010: untitled.co.jp's (*)
+/^210\.168\.252\.22$/ OK
+
+# May 05, 2010: tni.co.jp's (*)
+/^210\.169\.150\.43$/ OK
+
+# May 05, 2010: skymark.jp's (*)
+/^210\.169\.200\.105$/ OK
+
+# May 05, 2010: tamura-ss.co.jp's (*)
+/^210\.170\.103\.164$/ OK
+
+# May 05, 2010: cross-docking.com's (*)
+/^210\.172\.2\.92$/ OK
+
+# May 05, 2010: mizuno.co.jp's (*)
+/^210\.172\.52\.196$/ OK
+
+# May 05, 2010: house-wf.co.jp's (*)
+/^210\.172\.100\.2$/ OK
+
+# May 05, 2010: riskmonster.co.jp's (*)
+/^210\.174\.169\.141$/ OK
+
+# May 05, 2010: nichiden.com's (*)
+/^210\.175\.98\.1$/ OK
+
+# May 05, 2010: okitour.net's (*)
+/^210\.175\.225\.98$/ OK
+
+# May 05, 2010: outletplaza.co.jp's (*)
+/^210\.175\.234\.7$/ OK
+
+# May 05, 2010: medifast.com's (*)
+/^210\.177\.229\.33$/ OK
+
+# May 05, 2010: annex.co.jp's (*)
+/^210\.188\.185\.13$/ OK
+
+# May 05, 2010: ns.ejcm.or.jp's (*)
+/^210\.188\.196\.59$/ OK
+
+# May 05, 2010: otptjob.com's (*)
+/^210\.188\.220\.32$/ OK
+
+# May 05, 2010: futurism.ws's (*)
+/^210\.188\.245\.193$/ OK
+
+# May 05, 2010: k-crm.jp's (*)
+/^210\.189\.84\.74$/ OK
+
+# May 05, 2010: hmdh.co.jp's (*)
+/^210\.191\.215\.68$/ OK
+
+# May 05, 2010: kashiken.co.jp's (*)
+/^210\.196\.99\.1(62|70)$/ OK
+
+# May 05, 2010: lji.co.jp's (*)
+/^210\.196\.162\.238$/ OK
+
+# May 05, 2010: tanaka-elec.co.jp's (*)
+/^210\.196\.237\.171$/ OK
+
+# May 05, 2010: otakaland.jp's (*)
+/^210\.197\.88\.33$/ OK
+
+# May 05, 2010: yomiuri-ryokou.co.jp's (*)
+/^210\.198\.74\.167$/ OK
+
+# May 05, 2010: jmamail.jp's (*)
+/^210\.224\.177\.153$/ OK
+
+# May 05, 2010: bodymaker.jp's (*)
+/^210\.224\.177\.178$/ OK
+
+# May 05, 2010: warranty.co.jp's (*)
+/^210\.227\.47\.111$/ OK
+
+# May 05, 2010: nissin-chem.jp's (*)
+/^210\.227\.170\.51$/ OK
+
+# May 05, 2010: g-networks.jp's (*)
+/^210\.230\.64\.103$/ OK
+
+# May 05, 2010: osaka-ti.co.jp's (*)
+/^210\.235\.95\.(4|5)$/ OK
+
+# May 05, 2010: lixxi.jp's (*)
+/^210\.237\.182\.182$/ OK
+
+# May 05, 2010: ocean-system.com's (*)
+/^210\.239\.18\.42$/ OK
+
+# May 05, 2010: ktkt.jp's (*)
+/^210\.239\.36\.20(6|7)$/ OK
+
+# May 05, 2010: hibiyakadan.com's (*)
+/^210\.239\.139\.177$/ OK
+
+# May 05, 2010: org.mitsubishicorp.com (*)
+/^210\.248\.140\.41$/ OK
+
+# May 05, 2010: onze11.co.jp's (*)
+/^210\.248\.168\.86$/ OK
+
+# May 05, 2010: aji-kobou-masaya.com's (*)
+/^210\.248\.168\.180$/ OK
+
+# May 05, 2010: strapack.co.jp's (*)
+/^210\.249\.72\.16(6|9)$/ OK
+
+# May 05, 2010: ns.nidec-pm.co.jp (*)
+/^210\.249\.125\.139$/ OK
+
+# May 05, 2010: marukou-inc.co.jp's (*)
+/^210\.253\.209\.149$/ OK
+
+# May 05, 2010: store.hanabatakebokujo.com (*)
+/^210\.254\.72\.18(1|2)$/ OK
+
+# May 05, 2010: jwnet.jp's (*)
+/^210\.254\.103\.123$/ OK
+
+# May 05, 2010: edm-net.co.jp's (*)
+/^210\.255\.69\.7(7|8)$/ OK
+
+# May 05, 2010: the-fuji.com's (*)
+/^210\.255\.176\.243$/ OK
+
+# May 05, 2010: toner-fpc.co.jp's (*)
+/^210\.255\.240\.126$/ OK
+
+# May 05, 2010: 32123.co.jp's (*)
+/^211\.5\.242\.202$/ OK
+
+# May 05, 2010: daifuku.net's (*)
+/^211\.8\.71\.183$/ OK
+
+# May 05, 2010: careerpartners.co.jp's (*)
+/^211\.9\.38\.242$/ OK
+
+# May 05, 2010: cadbox.jp's (*)
+/^211\.10\.5\.85$/ OK
+
+# May 05, 2010: fruitmail.net's (*)
+/^211\.10\.20\.124$/ OK
+
+# May 05, 2010: e-bill.sagawa-exp.co.jp (*)
+/^211\.12\.23\.121$/ OK
+
+# May 05, 2010: ads-tec.co.jp's (*)
+/^211\.13\.210\.182$/ OK
+
+# May 05, 2010: mail01.digilab.co.jp (*)
+/^211\.15\.55\.33$/ OK
+
+# May 05, 2010: toba.co.jp's (*)
+/^211\.18\.209\.49$/ OK
+
+# May 05, 2010: festivalgolf.jp's (*)
+/^211\.18\.255\.130$/ OK
+
+# May 05, 2010: peevee.tv's (*)
+/^211\.19\.50\.11$/ OK
+
+# May 05, 2010: technocraft.co.jp's (*)
+/^211\.120\.233\.190$/ OK
+
+# May 05, 2010: nsk-nt.co.jp's (*)
+/^211\.123\.119\.18$/ OK
+
+# May 05, 2010: infratec.co.jp's (*)
+/^211\.126\.236\.160$/ OK
+
+# May 05, 2010: hiraboku.co.jp's (*)
+/^211\.127\.144\.130$/ OK
+
+# May 05, 2010: ecstudio.jp's (*)
+/^211\.128\.27\.1[2-4]$/ OK
+
+# May 05, 2010: tokyu-cnst.co.jp's (*)
+/^211\.130\.3\.15(3|4)$/ OK
+
+# May 05, 2010: listserver.jp.dell.com's (*)
+/^211\.130\.110\.88$/ OK
+
+# May 05, 2010: jf-ymg.or.jp's (*)
+/^211\.130\.198\.11$/ OK
+
+# May 05, 2010: niye.go.jp's (*)
+/^211\.132\.178\.140$/ OK
+
+# May 05, 2010: takex-eng.co.jp's (*)
+/^218\.42\.147\.251$/ OK
+
+# May 05, 2010: n-js.co.jp's (*)
+/^218\.44\.151\.33$/ OK
+
+# May 05, 2010: mailk.torikyo.ed.jp (*)
+/^218\.44\.152\.58$/ OK
+
+# May 05, 2010: takasagodenki.co.jp's (*)
+/^218\.44\.224\.194$/ OK
+
+# May 05, 2010: mishimaya.cgc-g.jp's (*)
+/^218\.45\.1\.196$/ OK
+
+# May 05, 2010: jec.ac.jp's (*)
+/^218\.45\.210\.172$/ OK
+
+# May 05, 2010: wam.go.jp's (*)
+/^218\.45\.253\.22$/ OK
+
+# May 05, 2010: adidas-futsalpark.jp's (*)
+/^218\.216\.67\.50$/ OK
+
+# May 05, 2010: ube-ygc.ed.jp's (*)
+/^218\.217\.253\.103$/ OK
+
+# May 05, 2010: iai-robot.co.jp's (*)
+/^218\.219\.62\.9$/ OK
+
+# May 05, 2010: toyoseimaiki.co.jp's (*)
+/^218\.224\.240\.121$/ OK
+
+# May 05, 2010: ohmiya-jp.com's (*)
+/^218\.251\.126\.10$/ OK
+
+# May 05, 2010: washington-shoes.com's (*)
+/^219\.94\.132\.78$/ OK
+
+# May 05, 2010: chupea-mall.jp's (*)
+/^219\.94\.146\.175$/ OK
+
+# May 05, 2010: fukuoka-wh.com's (*)
+/^219\.94\.148\.63$/ OK
+
+# May 05, 2010: kilat.co.jp's (*)
+/^219\.94\.153\.171$/ OK
+
+# May 05, 2010: kentoushi.cc's (*)
+/^219\.94\.178\.155$/ OK
+
+# May 05, 2010: kokusaikyujotai.com's (*)
+/^219\.94\.193\.169$/ OK
+
+# May 05, 2010: kadosha.co.jp's (*)
+/^219\.94\.195\.54$/ OK
+
+# May 05, 2010: primaham.co.jp's (*)
+/^219\.96\.213\.53$/ OK
+
+# May 05, 2010: jnet-inc.co.jp's (*)
+/^219\.96\.229\.46$/ OK
+
+# May 05, 2010: media.nikkan.co.jp (*)
+/^219\.101\.45\.130$/ OK
+
+# May 05, 2010: bk1.co.jp's (*)
+/^219\.101\.159\.186$/ OK
+
+# May 05, 2010: kanzei.ac.jp's (*)
+/^219\.111\.222\.180$/ OK
+
+# May 05, 2010: torihachi.com's (*)
+/^219\.117\.252\.141$/ OK
+
+# May 05, 2010: mt-r.jp's (*)
+/^219\.118\.164\.178$/ OK
+
+# May 05, 2010: rikuchi.co.jp's (*)
+/^219\.118\.165\.34$/ OK
+
+# May 05, 2010: moriyas.co.jp's (*)
+/^219\.118\.166\.85$/ OK
+
+# May 05, 2010: jasrac.or.jp's (*)
+/^219\.122\.5\.126$/ OK
+
+# May 05, 2010: ikegami.co.jp's (*)
+/^219\.127\.86\.72$/ OK
+
+# May 05, 2010: nipponham.co.jp's (*)
+/^219\.127\.123\.111$/ OK
+
+# May 05, 2010: wbf.co.jp's (*)
+/^219\.127\.193\.19(3|4)$/ OK
+
+# May 05, 2010: ryokou.co.jp's (*)
+/^219\.163\.16\.180$/ OK
+
+# May 05, 2010: mds.tcos.jp's (*)
+/^219\.163\.22\.102$/ OK
+
+# May 05, 2010: jbook.co.jp's (*)
+/^219\.163\.58\.116$/ OK
+
+# May 05, 2010: wasaki-iin.or.jp's (*)
+/^219\.163\.250\.130$/ OK
+
+# May 05, 2010: koizumi-jm.jp's (*)
+/^219\.166\.8\.130$/ OK
+
+# May 05, 2010: zennoh-butsuryu.co.jp's (*)
+/^219\.166\.32\.130$/ OK
+
+# May 05, 2010: service.bunka-s.co.jp (*)
+/^220\.110\.15\.225$/ OK
+
+# May 05, 2010: seamec.co.jp's (*)
+/^220\.110\.37\.176$/ OK
+
+# May 05, 2010: bas-partners.com's (*)
+/^220\.110\.38\.194$/ OK
+
+# May 05, 2010: jane.co.jp's (*)
+/^220\.110\.151\.122$/ OK
+
+# May 05, 2010: web-mind.jp's (*)
+/^220\.110\.156\.185$/ OK
+
+# May 05, 2010: otsuka-bs.co.jp's (*)
+/^220\.110\.182\.204$/ OK
+
+# May 05, 2010: ubekojo-h.ed.jp's (*)
+/^220\.110\.213\.10$/ OK
+
+# May 05, 2010: frontier-k.co.jp's (*)
+/^220\.110\.213\.147$/ OK
+
+# May 05, 2010: kc-kanmon.com's (*)
+/^220\.110\.213\.154$/ OK
+
+# May 05, 2010: dmn.co.jp's (*)
+/^220\.110\.213\.244$/ OK
+
+# May 05, 2010: venus.sdcns.co.jp (*)
+/^220\.110\.216\.201$/ OK
+
+# May 05, 2010: wbf.co.jp's (*)
+/^220\.111\.37\.80$/ OK
+
+# May 05, 2010: global-jtc.com's (*)
+/^220\.161\.90\.2$/ OK
+
+# May 05, 2010: wise.co.jp's (*)
+/^220\.254\.33\.170$/ OK
+
+# May 05, 2010: abide.co.jp's (*)
+/^221\.186\.64\.65$/ OK
+
+# May 05, 2010: rinnet.co.jp's (*)
+/^221\.186\.126\.104$/ OK
+
+# May 05, 2010: trial-net.co.jp's (*)
+/^221\.186\.126\.181$/ OK
+
+# May 05, 2010: plus-web.co.jp's (*)
+/^221\.186\.132\.218$/ OK
+
+# May 05, 2010: food-shop.suntory.co.jp (*)
+/^221\.186\.157\.130$/ OK
+
+# May 05, 2010: ja-shimonoseki.or.jp's (*)
+/^221\.186\.182\.10$/ OK
+
+# May 05, 2010: janex.jp's (*)
+/^221\.186\.182\.91$/ OK
+
+# May 05, 2010: yobou.or.jp's (*)
+/^221\.186\.182\.162$/ OK
+
+# May 05, 2010: paymentstation.jp's (*)
+/^221\.186\.213\.55$/ OK
+
+# May 05, 2010: elisnet.or.jp's (*)
+/^221\.249\.162\.182$/ OK
+
+# May 05, 2010: st-c.co.jp's (*)
+/^221\.254\.250\.50$/ OK
+
+# May 05, 2010: sh-fujiyusoki.com's (*)
+/^222\.73\.4\.178$/ OK
+
+# May 05, 2010: toyokohan.co.jp's (*)
+/^222\.151\.248\.3$/ OK
+
+# Apr 14, 2010: playstation.com's (*)
+/^203\.216\.142\.13[5-6]$/ OK
+
+# Apr 06, 2010: mail.almex.jp (*)
+/^122x208x42x44\.ap122\.ftth\.ucom\.ne\.jp$/ OK
+
+# Mar 15, 2010: incentive.co.jp's (*)
+/^210\.146\.48\.114$/ OK
+
+# Mar 15, 2010: mail.wordpress.org (*)
+/^72\.233\.56\.13[0-1]$/ OK
+
+# Mar 15, 2010: awa.or.jp's (*)
+/^aa2009030872d2ffb81c\.userreverse\.dion\.ne\.jp$/ OK
+
+# Mar 15, 2010: skinet.co.jp's mail.geibunsha.co.jp (*)
+/^221x245x208x52\.ap221\.ftth\.ucom\.ne\.jp$/ OK
+
+# Mar 15, 2010: seagaia.com's (*)
+/^218\.224\.253\.42$/ OK
+
+# Mar 15, 2010: futabasha.co.jp's (*)
+/^202\.218\.229\.250$/ OK
+
+# Mar 15, 2010: skymark.jp's (*)
+/^210\.169\.200\.106$/ OK
+
+# Mar 15, 2010: shogakukan-mp.co.jp's (*)
+/^61\.199\.243\.147$/ OK
+
+# Mar 14, 2010: pixiv.net's
+/^122x220x7x227\.ap122\.ftth\.ucom\.ne\.jp$/ OK
+
+# Mar 05, 2010: book-center.co.jp's (*)
+/^FLH9Aae130\.tky\.mesh\.ad\.jp$/ OK
+
+# Feb 27, 2010: ravens.jp's (*)
+/^202\.218\.49\.115$/ OK
+
+# Feb 27, 2010: team-maru.com's (*)
+/^219\.166\.38\.210$/ OK
+
+# Feb 27, 2010: snowboardnet.jp's (*)
+/^128\.121\.159\.132$/ OK
+
+# Feb 27, 2010: techart.co.jp's (*)
+/^221x249x156x238\.ap221\.ftth\.ucom\.ne\.jp$/ OK
+
+# Feb 27, 2010: boatechnology.com's (*)
+/^exhub015-3\.exch015\.msoutlookonline\.net$/ OK
+
+# Feb 27, 2010: ngps.jp's (*)
+/^59\.106\.120\.10$/ OK
+
+# Feb 27, 2010: tdb.co.jp's (*)
+/^202\.219\.113\.147$/ OK
+
+# Feb 18, 2010: dns1.howa-s.co.jp (*)
+/^210\.196\.155\.82$/ OK
+
+# Jan 05, 2010: verifier.port25.com (*)
+/^207-36-201-235\.ptr\.primarydns\.com$/ OK
+
+# Jan 05, 2010: oisix.com's (*)
+/^202\.234\.167\.102$/ OK
+
+# Jan 05, 2010: c00ggns001.city.kyotango.kyoto.jp (*)
+/\.city\.kyotango\.kyoto\.jp$/ OK
+
+# Jan 05, 2010: 2007isvw.kpu.ac.jp (*)
+/\.kpu\.ac\.jp$/ OK
+
+# Dec 18, 2009: r-and-y.co.jp's (*)
+/^122\.1\.86\.20[0-1]$/ OK
+
+# Dec 15, 2009: mail.k2japan.com (*)
+/^221x246x241x227\.ap221\.ftth\.ucom\.ne\.jp$/ OK
+
+# Dec 15, 2009: sonysonpo.co.jp's (*)
+/^219\.112\.241\.162$/ OK
+
+# Dec 15, 2009: mail.cmpjapan.jp (*)
+/^116\.197\.169\.20$/ OK
+
+# Dec 09, 2009: kingprinters.com's (*)
+/^206\.223\.145\.182$/ OK
+
+# Dec 09, 2009: po.meijisp.jp (*)
+/^64\.56\.171\.184$/ OK
+
+# Dec 03, 2009: rete.co.jp (*)
+/^64\.27\.24\.35$/ OK
+
+# Dec 03, 2009: niseko343.com (*)
+/^203\.83\.240\.87$/ OK
+
+# Dec 01, 2009: www.sic-s.co.jp (*)
+/^218\.44\.252\.202$/ OK
+
+# Dec 01, 2009: www.scrio.co.jp (*)
+/^F00-142\.229\.183\.203\.fs-user\.net$/ OK
+
+# Dec 01, 2009: w7udb1.ssnet.co.jp (*)
+/\.ssnet\.co\.jp$/ OK
+
+# Dec 01, 2009: escorp4smtp01.pandasecurity.com (*)
+/\.pandasecurity\.com$/ OK
+
+# Nov 18, 2009: frantz.jp (*)
+/^219\.94\.193\.92$/ OK
+
+# Nov 18, 2009: kinezo.jp's (*)
+/^202\.218\.249\.5$/ OK
+
+# Nov 18, 2009: maxltd01.max-ltd.co.jp (*)
+/^61\.127\.110\.9$/ OK
+
+# Nov 18, 2009: team-6.jp's (*)
+/^sv-3-85-31-114\.isde\.jp$/ OK
+
+# Nov 16, 2009: offinet.com's (*)
+/^59\.106\.71\.11$/ OK
+
+# Nov 05, 2009: mx1.cic-net.co.jp, etc. (*)
+/^118\.67\.80\.2(2[5-9]|3[0-8])$/ OK
+
+# Oct 29, 2009: morisawa-register.com (*)
+/^203\.183\.46\.165$/ OK
+
+# Oct 27, 2009: (revised)
+# Aug 22, 2009: www0.borndigital.jp (*)
+/^aa2003090157010\.userreverse\.dion\.ne\.jp$/ OK
+
+# Oct 24, 2009: meishishop.com's (*)
+/^210\.188\.206\.226$/ OK
+
+# Oct 24, 2009: ibeweb.gardenhotels.co.jp (*)
+/^211\.19\.35\.74$/ OK
+
+# Oct 24, 2009: hpgrp.com's (*)
+/^122x219x40x42\.ap122\.ftth\.ucom\.ne\.jp$/ OK
+
+# Oct 24, 2009: windsenterprises.com (*)
+/^203186106002\.ctinets\.com$/ OK
+
+# Oct 24, 2009: mail.win.gr.jp (*)
+/^210\.189\.92\.241$/ OK
+
+# Oct 24, 2009: teamlink.sg's (*)
+/^174\.132\.225\.229$/ OK
+
+# Oct 24, 2009: 7dream.com's (*)
+/^133\.250\.226\.(33|40)$/ OK
+/^202\.170\.94\.62$/ OK
+
+# Oct 24, 2009: smtp.scope-inc.co.jp (*)
+/(124\.38\.142\.211|203\.173\.76\.200)$/ OK
+
+# Oct 24, 2009: keylinkgroup.sina.net's (*)
+/^r3-136\.sinamail\.sina\.com\.cn$/ OK
+
+# Oct 24, 2009: fedex-hub.com's (*)
+/^202\.76\.10\.60$/ OK
+
+# Oct 24, 2009: comfort-goto.co.jp (*)
+/^s3(3|4)\.IchibaFL2\.vectant\.ne\.jp$/ OK
+
+# Oct 19, 2009: po7.keibabook.co.jp (*)
+/^210\.175\.252\.243$/ OK
+
+# Oct 19, 2009: mail.pcserver1.jp (*)
+/^aa2006110339d2fb5b23\.userreverse\.dion\.ne\.jp$/ OK
+
+# Oct 19, 2009: m-serv.jp's (*)
+/^122x208x112x82\.ap122\.ftth\.ucom\.ne\.jp$/ OK
+
+# Oct 19, 2009: mx.yamanaka-gh.jp (*)
+/^15\.skyarch\.ne\.jp$/ OK
+
+# Oct 19, 2009: coccaregistry.net's (*)
+/^203\.119\.12\.30$/ OK
+
+# Oct 15, 2009: hfm.co.jp's (*)
+/^61\.213\.58\.56$/ OK
+
+# Oct 13, 2009: mail.fw-jp.com (*)
+/^st0056\.nas931\.maebashi\.nttpc\.ne\.jp$/ OK
+
+# Oct 13, 2009: maruya-inc.co.jp (*)
+/^119\.82\.26\.126$/ OK
+
+# Oct 13, 2009: r-kyokai.com's (*)
+/^219\.117\.223\.241\.static\.zoot\.jp$/ OK
+
+# Oct 13, 2009: mail.cafetalk.jp (*)
+/^165\.152\.94\.219\.dedicated\.sakura\.ne\.jp$/ OK
+
+# Oct 13, 2009: nipponrentacar.co.jp's (*)
+/^202\.8\.81\.130$/ OK
+
+# Oct 13, 2009: mail2.sub.golfyoyaku.jp (*)
+/^117\.120\.49\.176$/ OK
+
+# Oct 05, 2009: sakaiya.com (*)
+/^211\.10\.15\.130$/ OK
+
+# Oct 01, 2009: aki-search.jp's (*)
+/^210x175x233x33\.caerux-server\.jp$/ OK
+
+# Oct 01, 2009: sfc.co.jp's (*)
+/^113x35x98x62\.ap113\.ftth\.ucom\.ne\.jp$/ OK
+
+# Sep 28, 2009: komehyo.co.jp's (*)
+/^210\.158\.202\.53$/ OK
+
+# Sep 28, 2009: comolife.co.jp's (*)
+/^250\.211131232\.odn\.ne\.jp$/ OK
+
+# Sep 18, 2009: recruit.co.jp's (*)
+/^180-164-148-210\.r-rackie\.com$/ OK
+
+# Sep 18, 2009: biglobe.ne.jp's bsab31691.tk.mesh.ad.jp (*)
+/^bsab[0-9]+\.tk\.mesh\.ad\.jp$/ OK
+
+# Sep 18, 2009: slownet.ne.jp's (*)
+/^210\.148\.17\.129$/ OK
+
+# Sep 18, 2009: doyu.jp's (*)
+/^124\.109\.155\.12$/ OK
+
+# Sep 18, 2009: hytrust.com's (*)
+/^173-8-128-221-sfba\.hfc\.comcastbusiness\.net$/ OK
+
+# Sep 18, 2009: mail.anyemails.com (*)
+/^66\.48\.81\.131$/ OK
+
+# Sep 18, 2009: calcam.jp's rtlb01.forts.jp (*)
+/^202\.53\.20\.70$/ OK
+
+# Sep 16, 2009: takayama-inf.com's (*)
+/^aa2005051004003\.userreverse\.dion\.ne\.jp$/ OK
+
+# Sep 16, 2009: mail.inst-tokyo.jp (*)
+/^210\.145\.179\.204$/ OK
+
+# Sep 16, 2009: svfu007.cocostore-east.co.jp (*)
+/^125\.206\.210\.162$/ OK
+
+# Sep 16, 2009: amenity-net.co.jp's (*)
+/^202\.214\.196\.66$/ OK
+
+# Sep 16, 2009: m-78.jp's (*)
+/^211\.4\.228\.100$/ OK
+
+# Sep 16, 2009: mail.mqsys.jp (*)
+/^60\.32\.133\.210$/ OK
+
+# Sep 16, 2009: mail1.kose.co.jp (*)
+/^122\.220\.250\.57$/ OK
+
+# Sep 16, 2009: ytcg03.kuronekoyamato.co.jp (*)
+/^218\.40\.1\.216$/ OK
+
+# Sep 11, 2009: shop-andante.com's plus43.host4u.net (*)
+/^216\.71\.130\.43$/ OK
+
+# Sep 08, 2009: hs4f4010.jp.nomura.com (*)
+/\.nomura\.com$/ OK
+
+# Sep 08, 2009: mail.vc-support.com (*)
+/^210\.150\.117\.10$/ OK
+
+# Sep 08, 2009: mail.arario.jp (*)
+/^119\.75\.233\.47$/ OK
+
+# Sep 02, 3009: mail2.nc-nippon.com (*)
+/^210\.197\.89\.90$/ OK
+
+# Sep 02, 2009: ms01.asia-info.com (*)
+/^221x242x250x34\.ap221\.ftth\.ucom\.ne\.jp$/ OK
+
+# Sep 01, 2009: bsaa42097.wc24.wii.com (*)
+/\.wii\.com$/ OK
+
+# Sep 01, 2009: taniguchi.co.jp's (*)
+/^210-251-243-214\.cust\.bit-drive\.ne\.jp$/ OK
+
+# Aug 31, 2009: (revised)
+# Jun 19, 2009: bison.co.jp's, cow-soap.co.jp's (*)
+/^210\.160\.212\.1(3[7-9]|4[0-2])$/ OK
+
+# Aug 31, 2009: livesense.co.jp's (*)
+/^119\.18\.218\.[0-9]+$/ OK
+
+# Aug 30, 2009: digi-tsuhan.jp's
+/^219-106-249-169\.cust\.bit-drive\.ne\.jp$/ OK
+
+# Aug 29, 2009: tokiomarine-nichido.co.jp's (*)
+/^202\.34\.(6[4-9]|[7-9][0-9]|1([0-1][0-9]|2[0-7]))\.[0-9]+$/ OK
+
+# Aug 29, 2009: d8ffef042.siella.jp (*)
+/\.siella\.jp$/ OK
+
+# Aug 29, 2009: ampm.jp's s58.siella.jp, etc. (*)
+/^59\.106\.142\.([1-9]|[1-9][0-9]|1([0-1][0-9]|2[0-6]))$/ OK
+
+# Aug 29, 2009: mail.chuya-online.com (*)
+/^KD210196243121\.ec-userreverse\.dion\.ne\.jp$/ OK
+
+# Aug 29, 2009: boonty.com's emailer112-128.emv2.net (*)
+/^emailer.*\.emv2\.net$/ OK
+
+# Aug 28, 2009: room1048.jp's (*)
+/^125\.29\.52\.182$/ OK
+
+# Aug 28, 2009: univnet.jp (*)
+/^219\.94\.190\.212$/ OK
+
+# Aug 28, 2009: (revised)
+# Dec 14, 2007: bizmail.jp's (*)
+/^202\.218\.36\.2(04|10)$/ OK
+
+# Aug 28, 2009: mail.moonage.co.jp (*)
+/^61\.195\.147\.131$/ OK
+
+# Aug 28, 2009: gamecom.jp's (*)
+/^202\.229\.10(8|9)\.[0-9]+$/ OK
+
+# Aug 28, 2009: ns.a-gekiyasu.net (*)
+/^219-122-247-243\.eonet\.ne\.jp$/ OK
+
+# Aug 22, 2009: (revised)
+# Jun 19, 2009: mail01-v1.dpj.or.jp (*)
+/\.dpj\.or\.jp$/ OK
+
+# Aug 22, 2009: (revised)
+# Dec 14, 2007: prsd.co.jp's (*)
+/^aa2003061182d2fb646e\.userreverse\.dion\.ne\.jp$/ OK
+
+# Aug 22, 2009: boonty.com's emailer113-156.emv5.com (*)
+/^emailer.*\.emv5\.com$/ OK
+
+# Aug 22, 2009: shueisha.net's helsinki.mediagalaxy.ne.jp (*)
+/^210\.133\.105\.174$/ OK
+
+# Aug 22, 2009: 5a-g01-d1.data-hotel.net, etc. (*)
+/^203\.104\.(9[6-9]|1(0[0-9]|10))\.[0-9]+$/ OK
+
+# Aug 22, 2009: e1.t-mark.co.jp (*)
+/^113x35x71x242\.ap113\.ftth\.ucom\.ne\.jp$/ OK
+
+# Aug 22, 2009: hp.com's client-1-163.delivery.net (*)
+/\.delivery\.net$/ OK
+
+# Aug 22, 2009: nib.jp's bsaf70056.tk.mesh.ad.jp (*)
+/bsaf[0-9]+\.tk\.mesh\.ad\.jp$/ OK
+
+# Aug 21, 2009: mail.digitalstage.net (*)
+/^124\.146\.204\.214$/ OK
+
+# Aug 19, 2009: mail.st-c.co.jp (*)
+/^221x254x250x50\.ap221\.ftth\.ucom\.ne\.jp$/ OK
+
+# Aug 17, 2009: pop.tug-group.com (*)
+/^210\.198\.7\.176$/ OK
+
+# Aug 17, 2009: scope-inc.jp's (*)
+/^124\.38\.142\.211$/ OK
+
+# Aug 17, 2009: murasaki.co.jp's (*)
+/^FL1-125-197-156-235\.chb\.mesh\.ad\.jp$/ OK
+
+# Aug 16, 2009: pixiv.net's (*)
+/^113x34x105x62\.ap113\.ftth\.ucom\.ne\.jp$/ OK
+
+# Aug 16, 2009: cedyna.jp's (*)
+/^219\.101\.247\.25$/ OK
+
+# Aug 16, 2009: kanseki.com (*)
+/^p202-216-239-101\.sub\.ne\.jp$/ OK
+
+# Aug 12, 2009: www.cac-cosme.co.jp (*)
+/^210\.225\.145\.210$/ OK
+
+# Aug 12, 2009: biglobe.ne.jp's (*)
+/^bgas[0-9]+\.tk\.mesh\.ad\.jp$/ OK
+
+# Aug 10, 2009: santec.co.jp's (*)
+/^210\.233\.58\.155$/ OK
+
+# Aug 10, 2009: mail.saniel.jp (*)
+/^202\.218\.250\.26$/ OK
+
+# Aug 10, 2009: ejac.jp's newservers.sendmail.ne.jp (*)
+/^121\.83\.204\.85$/ OK
+
+# Aug 10, 2009: thebe.yokamon.net (*)
+/^aa2003050453007\.userreverse\.dion\.ne\.jp$/ OK
+
+# Aug 10, 2009: noomise.com's (*)
+/^203\.183\.43\.29$/ OK
+
+# Aug 10, 2009: selectcafe.jp's (*)
+/^59x106x36x1(67|74)\.sjk\.shard\.jp$/ OK
+
+# Aug 10, 2009: www.perfect-s.com (*)
+# Jul 29, 2009: mail2.perfect-s.com (*)
+/^202\.218\.212\.21(8|9)$/ OK
+
+# Aug 08, 2009: letao.jp's (*)
+/^ipptr611982276\.h-ix\.jp$/ OK
+
+# Aug 05, 2009: mail.skywaycc.com (*)
+/^219\.117\.252\.202\.static\.zoot\.jp$/ OK
+
+# Aug 05, 2009: ms.yamada-denki.jp (*)
+/^122x215x192x98\.ap122\.ftth\.ucom\.ne\.jp$/ OK
+
+# Aug 05, 2009: mail3.schick-jp.com (*)
+/^219\.94\.148\.60$/ OK
+
+# Aug 04, 2009: siterock.co.jp's (*)
+/^aa20070516113b8b15b2\.userreverse\.dion\.ne\.jp$/ OK
+
+# Aug 04, 2009: skins.net's (*)
+/^exhub017-[1-4]\.exch017\.msoutlookonline\.net$/ OK
+
+# Aug 04, 2009: (revised)
+# Jul 31, 2009: y-f.co.jp's (*)
+/^61\.125\.135\.129$/ OK
+
+# Jul 31, 2009: mouse-jp.co.jp's (*)
+/^43\.253\.19\.131$/ OK
+
+# Jul 31, 2009: www.arm-consulting.co.jp (*)
+/^m07670\.marugoto-server\.com$/ OK
+
+# Jul 31, 2009: burn-repair.co.jp's (*)
+/^122x216x13x4\.ap122\.ftth\.ucom\.ne\.jp$/ OK
+
+# Jul 31, 2009: mail.san-j.com (*)
+/^static-64-83-51-242\.t1\.cavtel\.net$/ OK
+
+# Jul 31, 2009: yado-sagashi.com (*)
+/^219\.94\.167\.82$/ OK
+
+# Jul 30, 2009: ms1.town.mie-kihoku.lg.jp (*)
+/^210\.236\.163\.92$/ OK
+
+# Jul 30, 2009: mail.tsurugacorp.co.jp (*)
+/^F00-175\.237\.218\.202\.fs-user\.net$/ OK
+
+# Jul 29, 2009: rsv.hankyu-hotel.com (*)
+/^210\.188\.213\.123$/ OK
+
+# Jul 29, 2009: www.suteki-catalog.com (*)
+/^125\.206\.111\.43$/ OK
+
+# Jul 29, 2009: www.delta-port.com (*)
+/^175\.1\.111\.219\.st\.bbexcite\.jp$/ OK
+
+# Jul 28, 2009: ebank.co.jp's (*)
+/^150\.48\.249\.87$/ OK
+
+# Jul 28, 2009: nikinokashi.co.jp (*)
+/^221\.243\.33\.18$/ OK
+
+# Jul 25, 2009: ns2.sanei-tsushin.co.jp, etc. (*)
+/^211\.7\.156\.[2-9]$/ OK
+
+# Jul 25, 2009: uclnet.co.jp's, etc. (*)
+/^s184170\.ppp\.asahi-net\.or\.jp$/ OK
+
+# Jul 24, 2009: okitour.net's (*)
+/^hkfix-hs237-225\.ii-okinawa\.ne\.jp$/ OK
+
+# Jul 24, 2009: www.pac-or.jp (*)
+/^marugoto-5-210-157-013-059\.interq\.or\.jp$/ OK
+
+# Jul 23, 2009: ns.haguruma.co.jp, mail.haguruma.co.jp (*)
+/^220\.110\.162\.13(0|2)$/ OK
+
+# Jul 23, 2009: incom.co.jp's (*)
+/^202\.228\.206\.139$/ OK
+
+# Jul 23, 2009: jc154.jaycee.or.jp, mail.jaycee.or.jp (*)
+/^60\.32\.72\.15(4|8)$/ OK
+
+# Jul 22, 2009: kujira.biz's (*)
+/^211\.130\.95\.227$/ OK
+
+# Jul 22, 2009: k-sc.co.jp's (*)
+/^60\.32\.219\.213$/ OK
+
+# Jul 22, 2009: ma.ehimeliving.co.jp (*)
+/^210\.141\.223\.50$/ OK
+
+# Jul 22, 2009: his-world.co.jp's (*)
+/^119-173-27-138\.rev\.home\.ne\.jp$/ OK
+
+# Jul 21, 2009: mail.nihonet.co.jp (*)
+/^220\.110\.166\.240$/ OK
+
+# Jul 21, 2009: intec.co.jp's (*)
+/^202\.222\.88\.20$/ OK
+
+# Jul 21, 2009: mail.zaiho.jp (*)
+/^220\.110\.220\.41$/ OK
+
+# Jul 21, 2009: qonline.jp's (*)
+/^115\.69\.193\.[0-9]+$/ OK
+
+# Jul 21, 2009: team-6.jp's (*)
+/^sv-1-85-31-114\.isde\.jp$/ OK
+
+# Jul 21, 2009: ahnlab.co.jp's (*)
+/^211\.115\.106\.231$/ OK
+
+# Jul 21, 2009: nichiigakkan.co.jp's (*)
+/^210\.174\.94\.29$/ OK
+
+# Jul 21, 2009: do-reg.jp's (*)
+/^158\.205\.124\.90$/ OK
+
+# Jul 21, 2009: mail.seisakujo.com (*)
+/^202\.171\.139\.254\.static\.zoot\.jp$/ OK
+
+# Jul 19, 2009: phenix.co.jp (*)
+/^222\.146\.57\.12$/ OK
+
+# Jul 18, 2009: vmail.isami.co.jp (*)
+/^210\.225\.199\.43$/ OK
+
+# Jul 18, 2009: it-cast.co.jp's (*)
+/^219\.166\.44\.152$/ OK
+
+# Jul 18, 2009: mail.ito-ya.co.jp (*)
+/^202\.229\.64\.159$/ OK
+
+# Jul 18, 2009: itojuku.co.jp's (*)
+/^218\.216\.75\.129$/ OK
+
+# Jul 18, 2009: itoracing.co.jp's (*)
+/^cl017\.202229175\.technowave\.ne\.jp$/ OK
+
+# Jul 18, 2009: itougumi.co.jp's (*)
+/^219-118-169-194\.cust\.bit-drive\.ne\.jp$/ OK
+
+# Jul 18, 2009: ivys.co.jp's (*)
+/^ns11-2\.spice\.or\.jp$/ OK
+
+# Jul 16, 2009: seoulmate.org's (*)
+/^118\.219\.232\.44$/ OK
+
+# Jul 16, 2009: imail.sunloft.co.jp (*)
+/^p008\.net218219062\.tokai\.or\.jp$/ OK
+
+# Jul 16, 2009: gw.indyzone.co.jp (*)
+/^203\.179\.83\.145$/ OK
+
+# Jul 16, 2009: inet02.jashiga.co.jp (*)
+/^219\.122\.55\.103$/ OK
+
+# Jul 16, 2009: infinisys.co.jp (*)
+/^c193025\.ppp\.asahi-net\.or\.jp$/ OK
+
+# Jul 16, 2009: mail.inrock.co.jp (*)
+/^sbas09\.apsv11\.kids-way\.ne\.jp$/ OK
+
+# Jul 16, 2009: ins-saison.co.jp's (*)
+/^210\.160\.212\.110$/ OK
+
+# Jul 16, 2009: inte.co.jp's (*)
+/^128\.121\.249\.49$/ OK
+
+# Jul 16, 2009: inter-ment.co.jp's (*)
+/^61\.194\.39\.78$/ OK
+
+# Jul 16, 2009: mail.internal.co.jp (*)
+/^162\.252\.214\.202\.bf\.2iij\.net$/ OK
+
+# Jul 16, 2009: b-gw.iret.co.jp (*)
+/^115\.30\.7\.126$/ OK
+
+# Jul 16, 2009: i-line.co.jp's (*)
+/^aa2008110858d2e6cfa2\.userreverse\.dion\.ne\.jp$/ OK
+
+# Jul 16, 2009: i-mobile.co.jp's (*)
+/^122x216x58x91\.ap122\.ftth\.ucom\.ne\.jp$/ OK
+
+# Jul 16, 2009: mail.iarsys.co.jp (*)
+/^F00-018\.238\.218\.202\.fs-user\.net$/ OK
+
+# Jul 16, 2009: www.ibis-h.co.jp (*)
+/^219\.163\.50\.178$/ OK
+
+# Jul 16, 2009: ibix.co.jp's (*)
+/^210\.251\.245\.209$/ OK
+
+# Jul 16, 2009: ibridge.co.jp's (*)
+/^61\.195\.171\.205$/ OK
+
+# Jul 16, 2009: www.ichiran.co.jp (*)
+/^210\.172\.164\.149$/ OK
+
+# Jul 16, 2009: idion.co.jp's (*)
+/^221x240x226x36\.ap221\.ftth\.ucom\.ne\.jp$/ OK
+
+# Jul 16, 2009: ifsoken.co.jp's (*)
+/210\.162\.151\.(19[3-9]|2([0-4][0-9]|5[0-4]))$/ OK
+
+# Jul 14, 2009: smtp.posa.or.jp (*)
+/^122x220x254x164\.ap122\.ftth\.ucom\.ne\.jp$/ OK
+
+# Jul 07, 2009: (revised)
+# Feb 03, 2008: mailgw.mixi.co.jp, mailgw2.mixi.co.jp (*)
+/^122x216x10x[0-9]+\.ap122\.ftth\.ucom\.ne\.jp$/ OK
+
+# Jul 07, 2009: makeshop.jp's (*)
+/^d249i(1(2[8-9]|[3-9][0-9])|2([0-4][0-9]|5[0-5]))\.bbx\.ad\.jp$/ OK
+
+# Jul 07, 2009: luxottica.com's p03c11o143.symantecmail.net (*)
+/\.symantecmail\.net$/ OK
+
+# Jun 07, 2009: ns.sankodo.co.jp (*)
+/^60\.32\.159\.122$/ OK
+
+# Jun 06, 2009: comf0-1.isuzu.co.jp (*)
+/\.isuzu\.co\.jp$/ OK
+
+# Jun 06, 2009: mail2-isp2.jama.or.jp (*)
+/\.jama\.or\.jp$/ OK
+
+# Jun 03, 2009: mail.parco.jp, etc. (*)
+/^113\.146\.134\.13[1-2]$/ OK
+
+# Jul 03, 2009: surfnavi.daishowasiko.com (*)
+/^219\.166\.80\.250$/ OK
+
+# Jul 03, 2009: haagen-dazs.co.jp's (*)
+/^210\.253\.120\.139$/ OK
+
+# Jul 03, 2009: hakuho-do.co.jp's (*)
+/^202\.232\.80\.195$/ OK
+
+# Jul 03, 2009: mail.hangame.co.jp (*)
+/^119\.235\.226\.136$/ OK
+
+# Jul 03, 2009: hatobus.co.jp's (*)
+/^119\.245\.202\.97$/ OK
+
+# Jul 03, 2009: hi-bridge.co.jp's ns1.webstream.co.jp (*)
+/^122x214x4x130\.ap122\.ftth\.ucom\.ne\.jp$/ OK
+
+# Jul 03, 2009: hifido.co.jp's (*)
+/^211\.125\.175\.108$/ OK
+
+# Jul 03, 2009: hiraki.co.jp's (*)
+/^61\.115\.206\.194$/ OK
+
+# Jul 03, 2009: ns2.hokkohu.co.jp (*)
+/^122\.214\.197\.35$/ OK
+
+# Jul 03, 2009: nttls.co.jp's (*)
+/^203\.138\.237\.67$/ OK
+
+# Jul 03, 2009: mail.houtec.co.jp (*)
+/^202\.212\.69\.157$/ OK
+
+# Jul 03, 2009: humantrust.co.jp's (*)
+/^202\.218\.245\.132$/ OK
+
+# Jul 01, 2009: mail1.denpa.soumu.go.jp, mail2.denpa.soumu.go.jp (*)
+/^210\.148\.44\.7(0|1)$/ OK
+
+# Jul 01, 2009: mail1-2.denpa.soumu.go.jp, mail2-2.denpa.soumu.go.jp (*)
+/^210\.239\.3\.1(0|1)$/ OK
+
+# Jul 01, 2009: golfdigest.co.jp's (*)
+/^aa2007031182d29b40da\.userreverse\.dion\.ne\.jp$/ OK
+
+# Jul 01, 2009: g-work.co.jp (*)
+/^219\.94\.173\.103$/ OK
+
+# Jul 01, 2009: gladv.co.jp's (*)
+/^202\.218\.213\.111$/ OK
+
+# Jul 01, 2009: gnavi.co.jp's (*)
+/^124x39x39x2\.ap124\.ftth\.ucom\.ne\.jp$/ OK
+
+# Jul 01, 2009: www.get-grp.co.jp (*)
+/^202\.224\.46\.127$/ OK
+
+# Jul 01, 2009: ginnan.miyaji-kensetu.co.jp (*)
+/^199\.143\.32\.202\.bf\.2iij\.net$/ OK
+
+# Jul 01, 2009: mail.grand-eagle.co.jp
+/^58\.4\.29\.57$/ OK
+
+# Jul 01, 2009: www.gt-net.co.jp (*)
+/^210\.172\.165\.61$/ OK
+
+# Jun 30, 2009: (revised)
+# Feb 03, 2008: yazuya.com's (*)
+/^203-135-196-228\.ppps\.bbiq\.jp$/ OK
+
+# Jun 30, 2009: ac-law.jp (*)
+/^c217084\.ppp\.asahi-net\.or\.jp$/ OK
+
+# Jun 30, 2009: mail.tsukaki.com (*)
+/^219\.166\.138\.114$/ OK
+
+# Jun 30, 2009: zzz01001.duskin.co.jp (*)
+/\.duskin\.co\.jp$/ OK
+
+# Jun 29, 2009: fms.fujisan.co.jp, etc. (*)
+/^210\.239\.172\.7[2-9]$/ OK
+
+# Jun 28, 2009: meinet2.nagoya.melco.co.jp, etc. (*)
+/^203\.178\.105\.[0-9]+$/ OK
+
+# Jun 28, 2009: pop3.farm-tomita.co.jp (*)
+/^124\.211\.22\.159$/ OK
+
+# Jun 28, 2009: ms.fens.co.jp (*)
+/^122x216x168x44\.ap122\.ftth\.ucom\.ne\.jp$/ OK
+
+# Jun 28, 2009: fmfuji.co.jp's (*)
+/^61\.204\.193\.218\.customerlink\.pwd\.ne\.jp$/ OK
+
+# Jun 28, 2009: forever21.co.jp's (*)
+/^218\.38\.15\.150$/ OK
+
+# Jun 28, 2009: froute.co.jp (*)
+/^202\.218\.126\.218$/ OK
+
+# Jun 28, 2009: fts.co.jp's (*)
+/^221x117x223x110\.ap221\.ftth\.ucom\.ne\.jp$/ OK
+
+# Jun 28, 2009: ta001240.fujikasai.co.jp (*)
+/\.fujikasai\.co\.jp$/ OK
+
+# Jun 28, 2009: dc-mail.fujisan.co.jp (*)
+/^210\.239\.169\.49$/ OK
+
+# Jun 28, 2009: fumiko.co.jp's (*)
+/^202\.134\.209\.1$/ OK
+
+# Jun 28, 2009: fxprime.co.jp's (*)
+/^202\.51\.50\.(8[0-9]|9[0-5])$/ OK
+
+# Jun 28, 2009: fxtrademail.cosmo-sec.co.jp (*)
+/^117\.55\.208\.163$/ OK
+
+# Jun 28, 2009: mail.oscar.elec.waseda.ac.jp (*)
+/^133\.9\.187\.232$/ OK
+
+# Jun 27, 2009: easytrans.co.jp's credit-cgiserver.com (*)
+/^203\.191\.240\.82$/ OK
+
+# Jun 26, 2009: dns1.eaglegroup.co.jp (*)
+/^211\.9\.58\.209$/ OK
+
+# Jun 26, 2009: eap.t-pec.co.jp (*)
+/^124x39x39x53\.ap124\.ftth\.ucom\.ne\.jp$/ OK
+
+# Jun 26, 2009: eatsmart.co.jp's (*)
+/^58x81x110x34\.ap58\.ftth\.ucom\.ne\.jp$/ OK
+
+# Jun 26, 2009: e-bike.co.jp's (*)
+/^210\.249\.136\.146$/ OK
+
+# Jun 26, 2009: wonder.co.jp's (*)
+/^125x100x73x196\.ap125\.ftth\.ucom\.ne\.jp$/ OK
+
+# Jun 26, 2009: e-dream.co.jp (*)
+/^210\.188\.206\.208$/ OK
+
+# Jun 26, 2009: edsp.co.jp's (*)
+/^133\.250\.213\.81$/ OK
+
+# Jun 26, 2009: eigeki.co.jp's (*)
+/^219\.109\.217\.189$/ OK
+
+# Jun 26, 2009: ekishopro.co.jp's (*)
+/^119\.82\.30\.152$/ OK
+
+# Jun 26, 2009: d0000dn01.daiei.co.jp (*)
+/\.daiei\.co\.jp$/ OK
+
+# Jun 26, 2009: emi-net.co.jp's (*)
+/^host\.124-38-112-(2|46)\.sfriend\.ne\.jp$/ OK
+
+# Jun 26, 2009: nttdocomo.co.jp's (*)
+/^202\.7\.103\.76$/ OK
+
+# Jun 26, 2009: fujitv.co.jp's (*)
+/^216\.255\.228\.35$/ OK
+
+# Jun 26, 2009: mail.estatehome.co.jp (*)
+/^202\.218\.253\.172$/ OK
+
+# Jun 26, 2009: gunze.co.jp's (*)
+/^211\.12\.39\.13$/ OK
+
+# Jun 26, 2009: tokyo-toyopet.co.jp's (*)
+/^210\.175\.138\.118$/ OK
+
+# Jun 26, 2009: mail1.ewc.co.jp, mail2.ewc.co.jp (*)
+/^2(50|46)\.254\.32\.202\.ts\.2iij\.net$/ OK
+
+# Jun 26, 2009: material.extra.co.jp (*)
+/^219\.117\.221\.178\.static\.zoot\.jp$/ OK
+
+# Jun 23, 2009: www2.town.ina.ibaraki.jp (*)
+/^202\.214\.217\.141$/ OK
+
+# Jun 23, 2009: rmxex001.dai-ichi-life.co.jp, rmxex002.dai-ichi-life.co.jp (*)
+/^202\.221\.130\.16(1|2)$/ OK
+
+# Jun 22, 2009: mail.jinzai.diamond.ne.jp (*)
+/^221\.186\.76\.201$/ OK
+
+# Jun 22, 2009: mx.digimarket.co.jp (*)
+/^60\.32\.170\.218$/ OK
+
+# Jun 22, 2009: ns.daito-gakki.co.jp (*)
+/^219\.166\.132\.178$/ OK
+
+# Jun 22, 2009: oolongcp.jp's
+/^202\.8\.83\.101$/ OK
+
+# Jun 21, 2009: brita.co.jp's (*)
+/^x3250-33\.a-mode\.jp$/ OK
+
+# Jun 21, 2009: mail.dacks.co.jp (*)
+/^i125-206-41-128\.s30\.a048\.ap\.plala\.or\.jp$/ OK
+
+# Jun 21, 2009: ns.daijyo.co.jp (*)
+/^61\.211\.236\.200$/ OK
+
+# Jun 21, 2009: msg1gwx1.daikin.co.jp, etc. (*)
+/\.daikin\.co\.jp$/ OK
+
+# Jun 21, 2009: mail.daio-group.co.jp (*)
+/^116\.197\.137\.37$/ OK
+
+# Jun 21, 2009: mx-gw1-2.daitec.co.jp, etc. (*)
+/\.daitec\.co\.jp$/ OK
+
+# Jun 21, 2009: daiwa-am.co.jp's (*)
+/^203\.86\.249\.63$/ OK
+
+# Jun 21, 2009: mitsubishi-motors.co.jp's (*)
+/^d2e594(0|4)8\.plus\.pwd\.ne\.jp$/ OK
+
+# Jun 21, 2009: 59-106-53-146.softel.co.jp, etc. (*)
+/\.softel\.co\.jp$/ OK
+
+# Jun 21, 2009: dhc-mailm4.dhc.co.jp (*)
+/^61\.120\.158\.83$/ OK
+
+# Jun 21, 2009: digit.co.jp's (*)
+/^113x33x37x5\.ap113\.ftth\.ucom\.ne\.jp$/ OK
+
+# Jun 21, 2009: e00s1209.direct.chuomitsui.co.jp (*)
+/\.chuomitsui\.co\.jp$/ OK
+
+# Jun 21, 2009: world.co.jp's (*)
+/^203\.99\.244\.[0-9]+$/ OK
+
+# Jun 21, 2009: diy.co.jp's (*)
+/^211\.120\.52\.16(4|5)$/ OK
+
+# Jun 21, 2009: cdl001016253.d-kintetsu.co.jp (*)
+/\.d-kintetsu\.co\.jp$/ OK
+
+# Jun 21, 2009: d-kintetsu.co.jp's (*)
+/^122x216x7x202\.ap122\.ftth\.ucom\.ne\.jp$/ OK
+
+# Jun 21, 2009: dns.itoen.co.jp (*)
+/^61\.195\.168\.34$/ OK
+
+# Jun 21, 2009: dohomail1.doho1.seagreen.co.jp, etc. (*)
+/\.seagreen\.co\.jp$/ OK
+
+# Jun 21, 2009: dreamv.co.jp's (*)
+/^bi-3-212\.yumemi\.st$/ OK
+
+# Jun 21, 2009: gb1k1.dsp.co.jp (*)
+/\.dsp\.co\.jp$/ OK
+
+# Jun 21, 2009: ducknet.88888.co.jp (*)
+/^61\.114\.187\.24$/ OK
+
+# Jun 20, 2009: mail2.johnsoncontrols.co.jp (*)
+/^210\.249\.82\.226$/ OK
+
+# Jun 20, 2009: cadbox.co.jp's (*)
+/^211\.10\.5\.(83|94)$/ OK
+
+# Jun 20, 2009: calpis.co.jp's (*)
+/^61\.206\.228\.248$/ OK
+
+# Jun 20, 2009: canon-its.co.jp's (*)
+/^202\.228\.141\.25$/ OK
+
+# Jun 20, 2009: canopus.co.jp's (*)
+/^220x218x138x50\.ap220\.ftth\.ucom\.ne\.jp$/ OK
+
+# Jun 20, 2009: careermart.co.jp's (*)
+/^210-175-245-249\.cust\.bit-drive\.ne\.jp$/ OK
+
+# Jun 20, 2009: carenet.co.jp's (*)
+/^202\.228\.231\.90$/ OK
+/^219x120x53x2(4(5|9)|50)\.ap219\.ftth\.ucom\.ne\.jp$/ OK
+
+# Jun 20, 2009: cave.co.jp's (*)
+/^210\.238\.178\.224$/ OK
+
+# Jun 20, 2009: cess.co.jp's (*)
+/^122x219x254x131\.ap122\.ftth\.ucom\.ne\.jp$/ OK
+
+# Jun 20, 2009: chanoma.co.jp's (*)
+/^h21013311100(6|7)\.mediagalaxy\.ne\.jp$/ OK
+
+# Jun 20, 2009: mail.cheeseclub.co.jp (*)
+/^e2srv9\.clickmax\.com$/ OK
+
+# Jun 20, 2009: chiiroba.co.jp's (*)
+/^a0\.in11\.squarestart\.ne\.jp$/ OK
+
+# Jun 20, 2009: chikara.co.jp's (*)
+/^220\.151\.197\.68$/ OK
+
+# Jun 20, 2009: avion.co.jp's (*)
+/^210\.158\.205\.171$/ OK
+
+# Jun 20, 2009: chronomedia.co.jp's (*)
+/^211\.125\.77\.119$/ OK
+
+# Jun 20, 2009: ciss.co.jp's (*)
+/^202\.51\.50\.17$/ OK
+
+# Jun 20, 2009: mx.clematis-no-oka.co.jp (*)
+/^220\.110\.50\.41$/ OK
+
+# Jun 20, 2009: clubnets.co.jp's (*)
+/^sv1x[0-9]\.g\.mmexp\.jp$/ OK
+
+# Jun 20, 2009: cman.co.jp's (*)
+/^221x242x76x82\.ap221\.ftth\.ucom\.ne\.jp$/ OK
+
+# Jun 20, 2009: cms.co.jp's (*)
+/^2182182510(39|41)\.cidr\.jtidc\.jp$/ OK
+
+# Jun 20, 2009: coachville.co.jp's (*)
+/^210\.239\.46\.30$/ OK
+
+# Jun 20, 2009: coamix.co.jp's (*)
+/^122x208x15x45\.ap122\.ftth\.ucom\.ne\.jp$/ OK
+
+# Jun 20, 2009: commerce.co.jp's (*)
+/^210\.158\.77\.1(78|80)$/ OK
+
+# Jun 20, 2009: creastitch.co.jp's (*)
+/^203\.83\.241\.197$/ OK
+
+# Jun 20, 2009: cte.co.jp's (*)
+/^58\.133\.232\.202\.bf\.2iij\.net$/ OK
+
+# Jun 20, 2009: hitman.ctie.co.jp (*)
+/^2\.0\.251\.202\.ctie\.co\.jp$/ OK
+
+# Jun 20, 2009: famimacredit.co.jp's (*)
+/^219\.127\.88\.74$/ OK
+
+# Jun 20, 2009: customers.bunken.co.jp (*)
+/^219x123x157x164\.ap219\.ftth\.ucom\.ne\.jp$/ OK
+
+# Jun 20, 2009: cycly.co.jp's (*)
+/^202\.229\.16\.15(4|9)$/ OK
+
+# Jun 19, 2009: bookwebml.kinokuniya.co.jp (*)
+/^210\.165\.4\.155$/ OK
+
+# Jun 19, 2009: shueisha.net's (*)
+/^h210133105174\.mediagalaxy\.ne\.jp$/ OK
+
+# Jun 19, 2009: ns.powercom.co.jp (*)
+/^218\.224\.239\.98$/ OK
+
+# Jun 19, 2009: cafegroove.com's (*)
+/^211\.14\.30\.89$/ OK
+
+# Jun 19, 2009: busannavi.jp's (*)
+/^mailhub2-2[0-9]\.tt\.co\.kr$/ OK
+
+# Jun 19, 2009: optmarket.jp's (*)
+/^61\.197\.185\.179$/ OK
+
+# Jun 19, 2009: svfj0603001.sunnymart.co.jp (*)
+/\.sunnymart\.co\.jp$/ OK
+
+# Jun 19, 2009: arario.co.jp's (*)
+/^119\.75\.233\.46$/ OK
+
+# Jun 19, 2009: architect.co.jp's (*)
+/^125x100x126x221\.ap125\.ftth\.ucom\.ne\.jp$/ OK
+
+# Jun 19, 2009: digilab.co.jp's (*)
+/^211\.15\.55\.68$/ OK
+
+# Jun 19, 2009: associa.co.jp's (*)
+/^aa2006110204d2a8ea91\.userreverse\.dion\.ne\.jp$/ OK
+
+# Jun 19, 2009: asuka-pro.co.jp (*)
+/^124\.146\.169\.220$/ OK
+
+# Jun 19, 2009: attax.co.jp's (*)
+/^221x249x62x10\.ap221\.ftth\.ucom\.ne\.jp$/ OK
+
+# Jun 19, 2009: auntstella.co.jp's (*)
+/^203183160100\.infomarks\.net$/ OK
+
+# Jun 19, 2009: autoglass-kawaguchi.co.jp's (*)
+/^E210168231105\.ec-userreverse\.dion\.ne\.jp$/ OK
+
+# Jun 19, 2009: d2e59af0.avonlady.co.jp (*)
+/\.avonlady\.co\.jp$/ OK
+
+# Jun 19, 2009: bang.co.jp's (*)
+/^211\.14\.147\.100$/ OK
+
+# Jun 19, 2009: beadsfactory.co.jp's (*)
+/^210\.172\.73\.28$/ OK
+
+# Jun 19, 2009: mail.befool.co.jp
+/^202\.171\.139\.242\.static\.zoot\.jp$/ OK
+
+# Jun 19, 2009: beisia.co.jp's (*)
+/^202\.229\.236\.74$/ OK
+
+# Jun 19, 2009: mail.bigmotor.co.jp (*)
+/^210\.227\.178\.18$/ OK
+
+# Jun 19, 2009: bitwallet.co.jp's (*)
+/^210\.234\.127\.197$/ OK
+
+# Jun 19, 2009: bizen-ya.co.jp's (*)
+/^219\.94\.147\.191$/ OK
+
+# Jun 19, 2009: mail.bluebox.co.jp (*)
+/^210\.226\.109\.3$/ OK
+
+# Jun 19, 2009: bluemark.co.jp's (*)
+/^61\.195\.168\.3$/ OK
+
+# Jun 19, 2009: boutique-sha.co.jp's (*)
+/^122x208x232x54\.ap122\.ftth\.ucom\.ne\.jp$/ OK
+
+# Jun 19, 2009: mail.brilliance.co.jp (*)
+/^202\.171\.159\.173\.static\.zoot\.jp$/ OK
+
+# Jun 19, 2009: mail.bsbit.co.jp (*)
+/^123\.108\.4\.118$/ OK
+
+# Jun 19, 2009: bungeisha.co.jp's (*)
+/^221x249x21x148\.ap221\.ftth\.ucom\.ne\.jp$/ OK
+
+# Jun 18, 2009: a-auc.co.jp's (*)
+/^211\.126\.243\.146$/ OK
+
+# Jun 18, 2009: mail.a-denki.co.jp (*)
+/^210\.150\.89\.131$/ OK
+
+# Jun 18, 2009: ns.a-vsn.co.jp (*)
+/^210\.166\.217\.210$/ OK
+
+# Jun 18, 2009: aapas.co.jp's (*)
+/^221\.186\.126\.32$/ OK
+
+# Jun 18, 2009: abide.co.jp's (*)
+/^219\.118\.160\.97$/ OK
+
+# Jun 18, 2009: abo-world.co.jp's (*)
+/^210\.253\.209\.131$/ OK
+
+# Jun 18, 2009: advancecreate.co.jp's (*)
+/^218\.44\.43\.162$/ OK
+
+# Jun 18, 2009: ady.co.jp's (*)
+/^220\.110\.34\.46$/ OK
+
+# Jun 18, 2009: aficli.co.jp (*)
+/^58x156x62x34\.ap58\.ftth\.ucom\.ne\.jp$/ OK
+
+# Jun 18, 2009: fw-os.aicinc.co.jp (*)
+/^61-121-217-114\.bitcat\.net$/ OK
+
+# Jun 18, 2009: a4ic5000.aiful.co.jp (*)
+/\.aiful\.co\.jp$/ OK
+
+# Jun 18, 2009: ak.m-cs.co.jp (*)
+/^122x209x127x234\.ap122\.ftth\.ucom\.ne\.jp$/ OK
+
+# Jun 18, 2009: cybermail.aktio.co.jp (*)
+/^203\.139\.135\.168$/ OK
+
+# Jun 18, 2009: alc.co.jp's (*)
+/^211\.4\.208\.[0-9]+$/ OK
+
+# Jun 18, 2009: mail.all-biz-link.co.jp (*)
+/^pee5a64\.tokyff01\.ap\.so-net\.ne\.jp$/ OK
+
+# Jun 18, 2009: amon.co.jp's (*)
+/^211\.10\.17\.130$/ OK
+
+# Jun 18, 2009: alsok.co.jp's (*)
+/^zz2008020044769bf0[0-3][0-9a-f]\.userreverse\.dion\.ne\.jp$/ OK
+
+# Jun 18, 2009: mail1.apco.co.jp (*)
+/^203\.140\.64\.82$/ OK
+
+# Jun 18, 2009: applied-net.co.jp's (*)
+/^122x209x209x180\.ap122\.ftth\.ucom\.ne\.jp$/ OK
+
+# Jun 18, 2009: satsukimasu.aquatotto.co.jp (*)
+/^p201067\.mirai\.ne\.jp$/ OK
+
+# Jun 18, 2009: mail1.aqura.co.jp (*)
+/^125\.206\.218\.243$/ OK
+
+# Jun 16, 2009: sagawa-exp.co.jp's (*)
+/^61\.200\.40\.(1(29|[3-9][0-9])|2([0-4][0-9]|5[0-4]))$/ OK
+/^211\.12\.23\.((6[5-9]|[7-9][0-9])|1([0-1][0-9]|2[0-6]))$/ OK
+/^219\.127\.219\.[0-9]+$/ OK
+
+# Jun 16, 2009: softbankhawks.co.jp's (*)
+/^115x125x239x1([6-8][0-9]|9[0-1])\.ap115\.ftth\.ucom\.ne\.jp$/ OK
+
+# Jun 16, 2009: isetan.co.jp's (*)
+/^202\.232\.182\.([1-9]|[1-2][0-9]|30)$/ OK
+
+# Jun 16, 2009: ml01.m1.jibunbank.co.jp, etc. (*)
+/\.jibunbank\.co\.jp$/ OK
+
+# Jun 16, 2009: kakoki.co.jp's (*)
+/^061196231217\.cidr\.odn\.ne\.jp$/ OK
+
+# Jun 15, 2009: jqac.com's (*)
+/^219x120x62x218\.ap219\.ftth\.ucom\.ne\.jp$/ OK
+
+# Jun 13, 2009: wave-nakano.co.jp's (*)
+/^122x219x36x182\.ap122\.ftth\.ucom\.ne\.jp$/ OK
+
+# Jun 13, 2009: www2.daishin-giken.co.jp (*)
+/^219\.166\.156\.182$/ OK
+
+# Jun 13, 2009: mail.mgame.jp (*)
+/^221x253x96x99\.ap221\.ftth\.ucom\.ne\.jp$/ OK
+
+# Jun 13, 2009: stampbox.jp's (*)
+/^219\.106\.228\.221$/ OK
+
+# Jun 13, 2009: asahi.com's (*)
+/^202\.191\.29\.198$/ OK
+
+# Jun 13, 2009: ns.sanwanet.co.jp (*)
+/^61\.197\.182\.78$/ OK
+
+# Jun 11, 2009: infomart.co.jp's (*)
+/^s217739jp6ew(20|34)-p\.jptkyo6\.savvis\.net$/ OK
+
+# Jun 10, 2009: va3ehsobe005.messaging.microsoft.com (*)
+/\.microsoft\.com$/ OK
+
+# Jun 09, 2009: ctr1ex02.wam.go.jp (*)
+/\.wam\.go\.jp$/ OK
+
+# Jun 09, 2009: netrust.co.jp's (*)
+/^211\.14\.25\.50$/ OK
+
+# Jun 09, 2009: ninja.co.jp's (*)
+/^125\.100\.100\.[0-9]+$/ OK
+
+# Jun 08, 2009: seiko-opt.co.jp's (*)
+/^t35-52\.dedicated\.clara\.ne\.jp$/ OK
+
+# Jun 08, 2009: d-kintetsu.co.jp's (*)
+/^122x216x7x198\.ap122\.ftth\.ucom\.ne\.jp$/ OK
+
+# Jun 08, 2009: mail.kinki-s-h.co.jp (*)
+/^p11ns7\.puretopure\.jp$/ OK
+
+# Jun 08, 2009: mail.tsurugacorp.co.jp (*)
+/^202\.218\.237\.175$/ OK
+
+# Jun 08, 2009: mail.classe-hotel.com (*)
+/^s228103\.ppp\.asahi-net\.or\.jp$/ OK
+
+# Jun 08, 2009: smtp.asahikei.co.jp (*)
+/^senyo5z57\.digitalink\.ne\.jp$/ OK
+
+# Jun 08, 2009: taisei-wellnet.co.jp's PH00236.cside.jp (*)
+/^PH00236\.cside\.jp$/ OK
+
+# Jun 08, 2009: hoccori.com's (*)
+/^210\.158\.75\.138$/ OK
+
+# Jun 08, 2009: luminouskobe.co.jp's (*)
+/^122x216x58x2\.ap122\.ftth\.ucom\.ne\.jp$/ OK
+
+# Jun 08, 2009: sc4mx164.travelzoo.com, etc. (*)
+/\.travelzoo\.com$/ OK
+
+# Jun 08, 2009: kurashide.com (*)
+/^122x215x200x68\.ap122\.ftth\.ucom\.ne\.jp$/ OK
+
+# Jun 08, 2009: koubin.co.jp's (*)
+/^s2mx01\.siteserve\.jp$/ OK
+
+# Jun 08, 2009: payment.paytrans.net (*)
+/^59\.106\.112\.151$/ OK
+
+# Jun 08, 2009: gamechu.jp's (*)
+/^203\.141\.243\.[0-9]+$/ OK
+
+# Jun 08, 2009: jgc08gwdm01.pref.ibaraki.jp (*)
+/\.pref\.ibaraki\.jp$/ OK
+
+# Jun 08, 2009: v102v131.city.shinagawa.tokyo.jp (*)
+/\.city\.shinagawa\.tokyo\.jp$/ OK
+
+# Jun 08, 2009: ccjc-net.or.jp's (*)
+/^173-34-173\.biwa\.ne\.jp$/ OK
+
+# Jun 08, 2009: gaido.jp (*)
+/^210\.188\.219\.11$/ OK
+
+# Jun 08, 2009: amusement-center.com's 203-167-48-77.rev.kvh.ne.jp (*)
+/\.kvh\.ne\.jp$/ OK
+
+# Jun 08, 2009: motto.club-ntt-w.com's (*)
+/^x2v8\.dga\.jp$/ OK
+
+# Jun 08, 2009: eigaseikatsu.com's (*)
+/^124x38x128x57\.ap124\.ftth\.ucom\.ne\.jp$/ OK
+
+# Jun 08, 2009: aaaf.jp's (*)
+/^221x240x99x178\.ap221\.ftth\.ucom\.ne\.jp$/ OK
+
+# Jun 08, 2009: r0608004.platinumgames.co.jp (*)
+/\.platinumgames\.co\.jp$/ OK
+
+# Jun 05, 2009: mx03-fbr-01.dci.ad.jp (*)
+/\.dci\.ad\.jp$/ OK
+
+# Jun 05, 2009: cafegroove.com's (*)
+/^122x212x179x99\.ap122\.ftth\.ucom\.ne\.jp$/ OK
+
+# Jun 04, 2009: ms00.type.jp (*)
+/^117\.55\.214\.8$/ OK
+
+# Jun 04, 2009: www.cubic1.jp (*)
+/^211\.126\.243\.228$/ OK
+
+# Jun 04, 2009: sv249-034.thats.ne.jp (*)
+/\.thats\.ne\.jp$/ OK
+
+# Jun 04, 2009: blayn2.bk1.jp (*)
+/^(219\.101\.159\.186|121\.111\.244\.58)$/ OK
+
+# Jun 03, 2009: www.ko-seikan.co.jp (*)
+/^61\.197\.235\.28$/ OK
+
+# Jun 03, 2009: mail.db-aflo.com (*)
+/^58\.81\.94\.178$/ OK
+
+# Jun 03, 2009: i2i.jp's (*)
+/^59\.106\.97\.237$/ OK
+
+# Jun 03, 2009: paypal.com's (*)
+/^206\.165\.243\.1(09|[1-3][0-9]|4[0-1])$/ OK
+
+# Jun 03, 2009: mail.mother.co.jp (*)
+/^122x214x237x132\.ap122\.ftth\.ucom\.ne\.jp$/ OK
+
+# Jun 03, 2009: dena.jp's (*)
+/^122x220x64x254\.ap122\.ftth\.ucom\.ne\.jp$/ OK
+
+# Jun 03, 2009: mail.miura.com (*)
+/^122x217x18x243\.ap122\.ftth\.ucom\.ne\.jp$/ OK
+
+# Jun 03, 2009: b1-smtpproxy1.benefit-one.co.jp (*)
+/\.benefit-one\.co\.jp$/ OK
+
+# Jun 03, 2009: ns1-2.isbbdo.co.jp (*)
+/\.isbbdo\.co\.jp$/ OK
+
+# Jun 02, 2009: j-roi.com's (*)
+/^122x220x5x204\.ap122\.ftth\.ucom\.ne\.jp$/ OK
+
+# Jun 02, 2009: srv90030.t-gaia.co.jp (*)
+/\.t-gaia\.co\.jp$/ OK
+
+# Jun 02, 2009: jdc2mailrelay02.trendmicro.co.jp (*)
+/\.trendmicro\.co\.jp$/ OK
+
+# Jun 02, 2009: ncrslf00010001.loft.co.jp (*)
+/\.loft\.co\.jp$/ OK
+
+# Jun 02, 2009: senyo6z161.digitalink.ne.jp (*)
+/\.digitalink\.ne\.jp$/ OK
+
+# Jun 02, 2009: promob.jp's (*)
+/^220x218x68x139\.ap220\.ftth\.ucom\.ne\.jp$/ OK
+
+# Jun 02, 2009: inter.net's (*)
+/^58x12x53x237\.ap58\.ftth\.ucom\.ne\.jp$/ OK
+
+# Jun 02, 2009: tsite.jp's (*)
+/^59\.106\.125\.(1[6-9][0-9]|2([0-1][0-9]|2[0-8]))$/ OK
+
+# Jun 01, 2009: mail.nihonkaisui.co.jp (*)
+/^220\.110\.201\.203$/ OK
+
+# Jun 01, 2009: wiwiw.com's (*)
+/^124x39x213x2\.ap124\.ftth\.ucom\.ne\.jp$/ OK
+
+# Jun 01, 2009: k1gmaild0.city.kushiro.hokkaido.jp (*)
+/\.city\.kushiro\.hokkaido\.jp$/ OK
+
+# Jun 01, 2009: smtp.city.nankoku.kochi.jp (*)
+/^202\.126\.16\.53$/ OK
+
+# Jun 01, 2009: avex.jp's (*)
+/^210\.136\.114\.10(4|5)$/ OK
+
+# May 31, 2009: e500-01.matsuyama-u.ac.jp, etc. (*)
+/\.matsuyama-u\.ac\.jp$/ OK
+
+# May 29, 2009: mail.souken.co.jp
+/^211\.132\.174\.180$/ OK
+
+# May 29, 2009: jpn00000ap0049.hitachi-kenki.co.jp, etc. (*)
+/\.hitachi-kenki\.co\.jp$/ OK
+
+# May 29, 2009: mcdonalds.co.jp's (*)
+/^59\.106\.140\.([1-9]|1[0-1])$/ OK
+
+# May 28, 2009: 223.tbs.co.jp, etc. (*)
+/\.tbs\.co\.jp$/ OK
+
+# May 27, 2009: city.minato.tokyo.jp's (*)
+/^h219-111-207-067\.user\.rosenet\.ne\.jp$/ OK
+
+# May 27, 2009: izfwac960001.izumi.co.jp (*)
+/\.izumi\.co\.jp$/ OK
+
+# May 27, 2009: s2mx01.siteserve.jp (*)
+/\.siteserve\.jp$/ OK
+
+# May 27, 2009: svma15-2.kanden.ne.jp (*)
+/\.kanden\.ne\.jp$/ OK
+
+# May 27, 2009: tls01.ktk.gr.jp (*)
+/^122x219x254x240\.ap122\.ftth\.ucom\.ne\.jp$/ OK
+
+# May 26, 2009: 211-10-18-77.mizuho-sc.com, etc. (*)
+/\.mizuho-sc\.com$/ OK
+
+# May 25, 2009: mx1.vsn.co.jp, mx2.vsn.co.jp, mx3.vsn.co.jp (*)
+/^2190671521(49|5(0|5))\.cidr\.odn\.ne\.jp$/ OK
+
+# May 25, 2009: s017vnim22.nichirei.co.jp (*)
+/\.nichirei\.co\.jp$/ OK
+
+# May 25, 2009: p11ns7.puretopure.jp (*)
+/\.puretopure\.jp$/ OK
+
+# May 25, 2009: si03-s6.dena.ne.jp (*)
+/\.dena\.ne\.jp$/ OK
+
+# May 25, 2009: ph00276.cside.jp (*)
+/\.cside\.jp$/ OK
+
+# May 25, 2009: e9-os198.xbit.jp (*)
+/\.xbit\.jp$/ OK
+
+# May 25, 2009: netcreate.jp's (*)
+/^122x216x18x219\.ap122\.ftth\.ucom\.ne\.jp$/ OK
+
+# May 25, 2009: nm05omta02.auone-net.jp (*)
+/\.auone-net\.jp$/ OK
+
+# May 25, 2009: (revised)
+# Dec 15, 2007: nmomta.auone-net.jp (*)
+/^61\.117\.3\.(69|7[1-9]|8[0-4])$/ OK
+/^210\.196\.14\.(69|7[0-9]|8[0-4])$/ OK
+/^211\.5\.2\.(69|7[1-9]|8[0-4])$/ OK
+
+# May 24, 2009: mta01.lawsonticket.jp, mta02.lawsonticket.jp (*)
+/^219\.127\.152\.2[3-4][0-7]$/ OK
+
+# May 24, 2009: mail.mailpia.jp (*)
+/^ec2-174-129-217-216\.compute-1\.amazonaws\.com$/ OK
+
+# May 21, 2009: mail.kmmo.jp (*)
+/^122\.1\.116\.15[0-7]$/ OK
+
+# May 21, 2009: m8mls.meti.go.jp (*)
+/^118\.155\.220\.11[0-1]$/ OK
+
+# May 20, 2009: smtp.114bank.chance.co.jp (*)
+/\.chance\.co\.jp$/ OK
+
+# May 20, 2009: ijmas01v3.jamp.jiji.com, etc. (*)
+/\.jiji\.com$/ OK
+
+# may 19, 2009: maccs04.mitsui-kinzoku.co.jp (*)
+/^202\.219\.81\.1(31|47)$/ OK
+
+# May 19, 2009: dcf-scm3300-0481.comsys.co.jp
+/\.comsys\.co\.jp$/ OK
+
+# May 15, 2009: (revised)
+# May 11, 2009: mail.ebookoff.co.jp (*)
+/^202-94-136-109\.cust\.bit-drive\.ne\.jp$/ OK
+
+# May 10, 2009: linksynergy.com's (*)
+/^65\.245\.193\.4$/ OK
+
+# May 09, 2009: linksynergy.com's 208-187-91-250.dataside.com (*)
+/^208\.187\.91\.250$/ OK
+
+# May 08, 2009: rcpt-expgw.biglobe.ne.jp (*)
+/^133\.205\.19\.6[5-8]$/ OK
+
+# May 08, 2009: blue666.iidanet.or.jp (*)
+/^janis220254197224\.janis\.or\.jp$/ OK
+
+# May 08, 2009: smtp-gateway1.gaba.co.jp, smtp-gateway2.gaba.co.jp
+/^202\.218\.216\.(3[5-9]|40)$/ OK
+
+# May 05, 2009: 194.kin-ei.co.jp (*)
+/\.kin-ei\.co\.jp$/ OK
+
+# Apr 25, 2009: ktm011.mlg1.orico.co.jp, etc. (*)
+/\.orico\.co\.jp$/ OK
+
+# Apr 21, 2009: esk03-gwy216.shinseibank.co.jp (*)
+/\.shinseibank\.co\.jp$/ OK
+
+# Apr 21, 2009: d2fe6884.ec-current.com, etc. (*)
+/\.ec-current\.com$/ OK
+
+# Mar 31, 2009: seesaa.jp's (*)
+/^59\.106\.28\.152$/ OK
+
+# Mar 21, 2009: webike.jp's (*)
+/^i121-119-164-66\.s30\.a048\.ap\.plala\.or\.jp$/ OK
+
+# Mar 15, 2009: (revised)
+# Jan 14, 2008: raymondwine.com's (*)
+/^64-161-123-6(6|7)\.raymondwine\.com$/ OK
+
+# Mar 15, 2009: (revised)
+# Dec 23, 2007: themarineclub.co.jp's (*)
+/^ns12-2\.spice\.or\.jp$/ OK
+
+# Mar 15, 2009: (revised)
+# Dec 14, 2007: filesend.to's (*)
+/^241\.18\.214\.202\.bf\.2iij\.net$/ OK
+
+# Mar 11, 2009: mail-gx0-f21.google.com, etc. (*)
+/\.google\.com$/ OK
+
+# Mar 04, 2009: gk03-1.club-off.com, etc. (*)
+/\.club-off\.com$/ OK
+
+# Jan 18, 2009: toq1ns04.tokyu-cnst.co.jp (*)
+/\.tokyu-cnst\.co\.jp$/ OK
+
+# Dec 16, 2008: kyodotokyo.com's (*)
+/^p30230-ipbffx02marunouchi\.tokyo\.ocn\.ne\.jp$/ OK
+
+# Dec 09, 2008: h036.n157.pid.nhk.jp (*)
+/\.nhk\.jp$/ OK
+
+# Oct 26, 2008: nuks.jp's (*)
+/^58x12x53x254\.ap58\.ftth\.ucom\.ne\.jp$/ OK
+
+# Oct 17, 2008: svibms01.cn10.netbk.co.jp (*)
+/\.netbk\.co\.jp$/ OK
+
+# Sep 28, 2008: (revised)
+# Nov 25, 2004: mta12.m2.home.ne.jp, smtpa21.m2.home.ne.jp, etc.
+/\.m[0-9]+\.home\.ne\.jp$/ OK
+
+# Sep 28, 2008: jp.playonline.com's (*)
+/^61\.195\.62\.19$/ OK
+
+# Sep 28, 2008: by2acblnma02.alerts.live.com, etc. (*)
+/\.live\.com$/ OK
+
+# Sep 28, 2008: teglet.co.jp/teglet.jp's (*)
+/^61\.194\.5\.203$/ OK
+
+# Aug 20, 2008: fimmh411v1.mail.ebankjp.com, etc. (*)
+/\.ebankjp\.com$/ OK
+
+# Aug 09, 2008: president-vision.com (*)
+/^59\.106\.53\.40$/ OK
+
+# Aug 09, 2008: tilelife.com (*)
+/^host196-205\.to-no\.jp$/ OK
+
+# Aug 09, 2008: hisago.co.jp's (*)
+/^p5181-ipbffx01atuta2\.aichi\.ocn\.ne\.jp$/ OK
+
+# Aug 09, 2008: directresponsemanager.com (*)
+/^211\.10\.131\.118\.wide\.ne\.jp$/ OK
+
+# Aug 09, 2008: www.homepe.net (*)
+/^w235222\.ppp\.asahi-net\.or\.jp$/ OK
+
+# Aug 09, 2008: mail.one-mail.jp (*)
+/^211\.10\.20\.150$/ OK
+
+# Aug 09, 2008: mailhaishin.jp (*)
+/^210\.188\.207\.205$/ OK
+
+# Jul 27, 2008: (revised)
+# Jul 23, 2008: tokyo42195.org's (*)
+/^s18[7-9]\.ALPHA-e[0-9]\.vectant\.ne\.jp$/ OK
+
+# Jul 22, 2008: g242-001.appletz.net, etc. (*)
+/\.appletz\.net$/ OK
+
+# Jul 14, 2008: mx.sprocket.in (*)
+/^co192\.opt2\.point\.ne\.jp$/ OK
+
+# Jul 10, 2008: rv-out-0102.google.com, etc. (*)
+/^209\.85\.(1(2[8-9]|[3-9][0-9])|2([0-4][0-9]|5[0-5]))\.[0-9]+$/ OK
+
+# Jul 10, 2008: py-out-0102.google.com, etc. (*)
+/^64\.233\.1([6-8][0-9]|9[0-1])\.[0-9]+$/ OK
+
+# Jul 10, 2008: ag-out-0102.google.com, etc. (*)
+/^72\.14\.(19[2-9]|2([0-4][0-9]|5[0-5]))\.[0-9]+$/ OK
+
+# Jul 09, 2008: 203-104-241-4.baza.jp, etc. (*)
+/\.baza\.jp$/ OK
+
+# Jul 09, 2008: 203-104-241-196.hyperzoom.jp, etc. (*)
+/\.hyperzoom\.jp$/ OK
+
+# Jul 09, 2008: 203-104-241-200.zasshi-online.com, etc. (*)
+/\.zasshi-online\.com$/ OK
+
+# Jul 05, 2008: ad3v1.shinagawa.4and5.com (*)
+/\.shinagawa\.4and5\.com$/ OK
+
+# Jul 04, 2008: shorinjikempo.jp's (*)
+/^210\.157\.237\.1(6[1-9]|[7-8][0-9]|90)$/ OK
+
+# Jun 25, 2008: (revised)
+# Apr 21, 2008: discas.net's (*)
+/^bgag[0-9]+\.tk\.mesh\.ad\.jp$/ OK
+
+# Jun 25, 2008: clubwinners.jp's mail-hsd1-nm-2.static.hosting.plala.or.jp (*)
+/\.static\.hosting\.plala\.or\.jp$/ OK
+
+# Jun 25, 2008: frontservice.jp's (*)
+/^61\.205\.192\.118$/ OK
+
+# Jun 25, 2008: mx1.nfc.co.jp, etc. (*)
+/^210\.169\.133\.([1-9]|1[0-4])$/ OK
+
+# Jun 01, 2008: bsac50250.tk.mesh.ad.jp, etc. (*)
+/^bsac[0-9]+\.tk\.mesh\.ad\.jp$/ OK
+
+# May 13, 2008: kewpie.co.jp's (*)
+/^124\.211\.58\.5$/ OK
+
+# May 13, 2008: global-ace.co.jp's
+/^125\.206\.192\.3$/ OK
+
+# May 11, 2008: voiceport.jp's (*)
+/^64\.56\.166\.67$/ OK
+
+# Apr 16, 2008: godaddy.com's smtpout24-02.prod.mesa1.secureserver.net (*)
+/^smtpout.*\.secureserver\.net$/ OK
+
+# Apr 16, 2008: trustico.com's (*)
+/^220995\.ds\.nac\.net$/ OK
+
+# Apr 15, 2008: legacy.transcend.co.jp (*)
+/^219-118-179-4\.cust\.bit-drive\.ne\.jp$/ OK
+
+# Apr 12, 2008: cardservice.co.jp's (*)
+/^50\.139\.221\.202\.ts\.2iij\.net$/ OK
+
+# Apr 12, 2008: dccinfba4mtv01s.jregroup.ne.jp (mobilesuica.com's) (*)
+/\.jregroup\.ne\.jp$/ OK
+
+# Apr 10, 2008: ml.iot.ipsj.or.jp (vps56-101.asaren.jp) (*)
+/vps.*\.asaren\.jp$/ OK
+
+# Apr 04, 2008: (revised)
+# Feb 03, 2008: melonpan.net's (*)
+/^211\.133\.248\.(1(29|[3-9][0-9])|2([0-4][0-9]|5[0-4]))$/ OK
+
+# Apr 01, 2008: wpc.koizumi.co.jp (*)
+/^122x214x205x201\.ap122\.ftth\.ucom\.ne\.jp$/ OK
+
+# Mar 27, 2008: kokusen.go.jp's (*)
+/^61-114-179-71\.secomtrust\.net$/ OK
+
+# Mar 26, 2008: mail.dss-net.co.jp (*)
+/^218-42-147-99\.cust\.bit-drive\.ne\.jp$/ OK
+
+# Mar 24, 2008: cw3d-123.e-shop.co.jp, etc. (*)
+/\.e-shop\.co\.jp$/ OK
+
+# Mar 24, 2008: sv058c01.tokyostarbank.co.jp (*)
+/\.tokyostarbank\.co\.jp$/ OK
+
+# Mar 24, 2008: eizo.co.jp's (*)
+/^219\.117\.251\.213\.static\.zoot\.jp$/ OK
+
+# Mar 24, 2008: eizo.co.jp's (*)
+/^202\.213\.113\.113$/ OK
+
+# Mar 22, 2008: netspring.co.jp's (*)
+/^221x251x211x(5[8-9]|6[0-2])\.ap221\.ftth\.ucom\.ne\.jp$/ OK
+
+# Mar 15, 2008: fishmail.shimano.co.jp (*)
+/^61\.122\.160\.144$/ OK
+
+# Mar 15, 2008: mail.bandion.net
+/^62-99-218-215\.c-wberggasse\.xdsl-line\.inode\.at$/ OK
+
+# Mar 15, 2008: diurnus.com's
+/^llsc494-a02\.servidoresdns\.net$/ OK
+
+# Mar 14, 2008: ns.ict-ics.com
+/^210-175-254-69\.cust\.bit-drive\.ne\.jp$/ OK
+
+# Feb 21, 2008: (revised)
+# Feb 07, 2007: carenet.co.jp's (*)
+/^219x120x53x24(3|6)\.ap219\.ftth\.ucom\.ne\.jp$/ OK
+
+# Feb 07, 2008: certomail.certo.jp (*)
+/^211\.0\.75\.4$/ OK
+
+# Feb 07, 2008: iec.co.jp's (*)
+/^221\.249\.196\.100$/ OK
+
+# Feb 07, 2008: m13-85.163.com (*)
+/^m[0-9]+-[0-9]+\.163\.com$/ OK
+
+# Feb 07, 2008: superhotel.co.jp's (*)
+/^202\.53\.20\.2(2[5-9]|[3-4][0-9]|5[0-4])$/ OK
+
+# Feb 07, 2008: u-can.co.jp's (*)
+/^bsaa42150\.tk\.mesh\.ad\.jp$/ OK
+
+# Feb 07, 2008: mail.dietitian.or.jp (*)
+/^210\.153\.118\.173$/ OK
+
+# Feb 07, 2008: mx.241241.jp (*)
+/^211\.13\.231\.171$/ OK
+
+# Feb 07, 2008: ef-one.net (*)
+/^218\.251\.116\.27$/ OK
+
+# Feb 06, 2008: etc-plaza.jp's (*)
+/^202\.211\.207\.10$/ OK
+
+# Feb 03, 2008: mag.jobengine.jp (*)
+/^219-106-251-106\.cust\.bit-drive\.ne\.jp$/ OK
+
+# Feb 03, 2008: mail.furuhonn.com (*)
+/^219-118-164-66\.cust\.bit-drive\.ne\.jp$/ OK
+
+# Feb 03, 2008: nissen.jp's (*)
+# Jan 14, 2008: nissen.jp's (*)
+# Nov 29, 2007: nissen.jp's (*)
+/^219\.127\.209\.19[3-8]$/ OK
+
+# Feb 03, 2008: b2cmail2.noritzstyle.jp (*)
+/\.noritzstyle\.jp$/ OK
+
+# Feb 03, 2008: event-information.jp's (*)
+/^222\.143\.32\.202\.bf\.2iij\.net$/ OK
+
+# Feb 03, 2008: webtravel.jp's (*)
+/^211\.132\.187\.1(6[1-9]|7[0-4])$/ OK
+
+# Feb 03, 2008: access-t.co.jp's (*)
+/^aa20070105127d355aa2\.userreverse\.dion\.ne\.jp$/ OK
+
+# Feb 03, 2008: s03001.kyoritsu-wu.ac.jp (*)
+/^249-81\.hus\.aics\.ne\.jp$/ OK
+
+# Feb 03, 2008: mail.tokai-wjc.ac.jp (*)
+/^202\.223\.198\.200$/ OK
+
+# Feb 03, 2008: tcue.ac.jp's (*)
+/^202\.236\.70\.[0-9]+$/ OK
+
+# Feb 03, 2008: mus-his.city.osaka.jp's (*)
+/^210\.254\.133\.2(09|1[0-4])$/ OK
+
+# Feb 03, 2008: po.s-sip.jp (*)
+/^203\.141\.201\.148$/ OK
+
+# Feb 03, 2008: bdz-s03001.toyohashi-mh.jp (*)
+/\.toyohashi-mh\.jp$/ OK
+
+# Feb 03, 2008: kyoto-u.ac.jp's (*)
+/^130\.54\.[0-9]+\.[0-9]+$/ OK
+
+# Feb 03, 2008: mail2.reseblog.jp (*)
+/^219\.94\.144\.236$/ OK
+
+# Feb 03, 2008: dhc.co.jp's (*)
+/^61\.120\.158\.(6[5-9]|7[0-8])$/ OK
+
+# Feb 03, 2008: bs.petoffice.co.jp (*)
+/^220x218x224x58\.ap220\.ftth\.ucom\.ne\.jp$/ OK
+
+# Feb 03, 2008: dmap.jp's (*)
+/^220\.110\.3\.1(4[5-9]|5[0-8])$/ OK
+
+# Feb 03, 2008: transdigital.co.jp's (*)
+/^61\.197\.185\.181$/ OK
+
+# Feb 03, 2008: smtp.taitec.org (*)
+/^61\.123\.207\.117$/ OK
+
+# Feb 03, 2008: indexokinawa.co.jp's (*)
+/^210\.175\.229\.([1-9]|[1-2][0-9]|30)$/ OK
+
+# Feb 03, 2008: mailgateway.fureai.or.jp (*)
+/^s22\.HibarakiFL1\.vectant\.ne\.jp$/ OK
+
+# Feb 03, 2008: mail.chipu.jp (*)
+/^59\.106\.93\.3$/ OK
+
+# Feb 03, 2008: js-corp.co.jp's (*)
+/^210\.167\.21[0-1]\.[0-9]+$/ OK
+
+# Feb 03, 2008: fukubiki.com's (*)
+/^211\.125\.95\.6$/ OK
+
+# Feb 03, 2008: smtp.mi-gaku.to (*)
+/^211\.9\.195\.99$/ OK
+
+# Feb 03, 2008: kin9.info's (*)
+/^61\.122\.227\.2(4[0-9]|5[0-4])$/ OK
+
+# Feb 03, 2008: concierge.aoyama-tower.jp (*)
+/^122x216x114x100\.ap122\.ftth\.ucom\.ne\.jp$/ OK
+
+# Feb 03, 2008: mail.pipa.jp
+/^219\.117\.193\.226\.static\.zoot\.jp$/ OK
+
+# Jan 14, 2008: ns.betterhome.co.jp (*)
+/^219-106-250-226\.cust\.bit-drive\.ne\.jp$/ OK
+
+# Jan 14, 2008: mta01-01.mp.pia.jp, etc. (*)
+/\.pia\.jp$/ OK
+
+# Jan 14, 2008: ns.mc-compass.com (*)
+/^227-133\.hus\.aics\.ne\.jp$/ OK
+
+# Jan 14, 2008: green.asahipress.com (*)
+/^219x120x50x146\.ap219\.ftth\.ucom\.ne\.jp$/ OK
+
+# Jan 14, 2008: donpen.com's (*)
+/^125\.29\.52\.84$/ OK
+
+# Jan 14, 2008: smail.calbee.co.jp (*)
+/^210\.239\.54\.45$/ OK
+
+# Jan 14, 2008: mx02.goodwill.com (*)
+/^dh00002\.dh\.idc\.jp$/ OK
+
+# Jan 14, 2008: jti.co.jp's (*)
+/^210\.197\.101\.107$/ OK
+
+# Jan 14, 2008: sakado-s.tsukuba.ac.jp (*)
+/^130\.158\.197\.243$/ OK
+
+# Jan 14, 2008: mail.enat.org (*)
+/^210\.172\.192\.36$/ OK
+
+# Jan 14, 2008: nbunka.ac.jp's (*)
+/^s61201021-232\.bizhost\.odn\.ne\.jp$/ OK
+
+# Jan 14, 2008: city.hamamatsu-szo.ed.jp's (*)
+/^125\.206\.247\.30$/ OK
+
+# Jan 14, 2008: kasugai.ed.jp's (*)
+/^219\.163\.14\.150$/ OK
+/^218\.216\.193\.1(86|90)$/ OK
+
+# Jan 14, 2008: meiji.co.jp's (*)
+/^202\.217\.34\.28$/ OK
+
+# Jan 14, 2008: jalcard.co.jp's (*)
+/^202\.33\.17\.88$/ OK
+
+# Jan 14, 2008: koizumi.co.jp's (*)
+/^124x37x86x246\.ap124\.ftth\.ucom\.ne\.jp$/ OK
+
+# Jan 14, 2008: j-click.co.jp's (*)
+/^211\.125\.116\.224$/ OK
+
+# Jan 14, 2008: mail2.jcc-sd.co.jp (gakubun.co.jp's) (*)
+/^58x156x5x179\.ap58\.ftth\.ucom\.ne\.jp$/ OK
+
+# Jan 14, 2008: daiwaliving.co.jp's (*)
+/^61\.215\.197\.204$/ OK
+
+# Jan 14, 2008: mx.avex.jp (*)
+/^221x251x57x106\.ap221\.ftth\.ucom\.ne\.jp$/ OK
+
+# Jan 14, 2008: drecom.co.jp's (*)
+/^210\.141\.232\.135$/ OK
+
+# Jan 14, 2008: mutsumi-bussan.co.jp's (*)
+/^210\.168\.225\.102$/ OK
+
+# Jan 14, 2008: mailgate.sunac.co.jp (*)
+/^aa2003020002005\.userreverse\.dion\.ne\.jp$/ OK
+
+# Jan 14, 2008: mail.dosankonet.com (*)
+/^218\.44\.232\.229$/ OK
+
+# Jan 14, 2008: opus541.jp's 
+/^tgny6cc1\.itsudemo\.net$/ OK
+
+# Jan 14, 2008: festivalgolf.jp's (*)
+/^211\.18\.255\.132$/ OK
+
+# Jan 14, 2008: mph.jp's (*)
+/^61\.197\.195\.55$/ OK
+
+# Jan 14, 2008: eole.co.jp's (*)
+/^210\.128\.220\.33$/ OK
+
+# Jan 14, 2008: mail.creativecommons.jp (*)
+/^13\.145\.221\.202\.bf\.2iij\.net$/ OK
+
+# Jan 14, 2008: shop.tsumagari.co.jp (*)
+/^210\.153\.93\.50$/ OK
+
+# Jan 14, 2008: mail.wariticket.jp (*)
+/^CS2-6FG2-12\.d-r\.jp$/ OK
+
+# Jan 14, 2008: hitachihk6.hitachi.cn (*)
+/^static-ip-174-194-65-202\.rev\.dyxnet\.com$/ OK
+
+# Jan 14, 2008: ns.yutakacopy.com (*)
+/^202\.224\.242\.186$/ OK
+
+# Jan 14, 2008: fames.jp's (*)
+/^59\.159\.236\.44$/ OK
+
+# Jan 14, 2008: rafra.co.jp's (*)
+/^202\.218\.35\.90$/ OK
+
+# Jan 14, 2008: mail.pjdmp.forts.jp (*)
+/^202\.53\.20\.91$/ OK
+
+# Jan 14, 2008: kewpie.co.jp's (*)
+/^61\.117\.157\.5$/ OK
+
+# Jan 14, 2008: cookpad.com's (*)
+/^203\.140\.47\.(19(3|8|9)|200)$/ OK
+
+# Jan 14, 2008: mail.otaba.jp (*)
+/^219\.94\.132\.170$/ OK
+
+# Jan 14, 2008: mail-1.point-ec.jp (*)
+/^61\.213\.188\.87$/ OK
+
+# Jan 14, 2008: j-cda.org's (*)
+/^211\.120\.60\.23$/ OK
+
+# Jan 14, 2008: mail.funasaki.net
+/^202\.171\.148\.125$/ OK
+
+# Jan 14, 2008: mail3-1.webcas.net, etc. (*)
+/\.webcas\.net$/ OK
+
+# Jan 06, 2008: secure5.stune.jp (selme.net's)
+/122x212x134x253\.ap122\.ftth\.ucom\.ne\.jp$/ OK
+
+# Dec 23, 2007: asp51-180.digiichigo.com (u-style.net's), etc. (*)
+/^asp.*\.digiichigo\.com$/ OK
+
+# Dec 23, 2007: sonypoint.com's (*)
+/^x088035\.ppp\.asahi-net\.or\.jp$/ OK
+
+# Dec 23, 2007: unicef.or.jp's (*)
+/^202\.182\.214\.202\.bf\.2iij\.net$/ OK
+
+# Dec 23, 2007: edym.jp (*)
+/^59\.106\.113\.([3-9]|1[0-9]|2[0-2])$/ OK
+
+# Dec 23, 2007: konamistyle.com's (*)
+/^211\.132\.11\.179$/ OK
+
+# Dec 23, 2007: mail.cosmo-index.com (*)
+/^219\.94\.149\.22$/ OK
+
+# Dec 23, 2007: mail.koukokunavi.jp (*)
+/^219\.94\.154\.39$/ OK
+
+# Dec 20, 2007: aex-mail1-1.eneos.co.jp (*)
+/\.eneos\.co\.jp$/ OK
+
+# Dec 18, 2007: elf.no-ip.org, oss.poyo.jp (*)
+/^150\.220\.192\.61\.tokyo\.global\.alpha-net\.ne\.jp$/ OK
+
+# Dec 18, 2007: hirose.co.jp's (*)
+/^210\.158\.223\.38$/ OK
+
+# Dec 18, 2007: g1t0027.austin.hp.com, g5t0009.atlanta.hp.com, etc. (*)
+/\.hp\.com$/ OK
+
+# Dec 18, 2007: uwbw.bk.mufg.jp (*)
+/^211\.130\.197\.126$/ OK
+
+# Dec 17, 2007: sofnet-japan.co.jp (*)
+/^58x4x140x166\.ap58\.ftth\.ucom\.ne\.jp$/ OK
+
+# Dec 14, 2007: nbn.co.jp's (*)
+/^210-251-250-78\.cust\.bit-drive\.ne\.jp$/ OK
+
+# Dec 14, 2007: greeting-card.jp (*)
+/^210-251-251-204\.cust\.bit-drive\.ne\.jp$/ OK
+
+# Dec 14, 2007: v2awebbflmtr03s.viewsnet.jp (*)
+/\.viewsnet\.jp$/ OK
+
+# Dec 14, 2007: nhk.jp's (*)
+/^216\.255\.239\.1(0[1-9]|1[0-9]|2[0-4])$/ OK
+
+# Dec 14, 2007: dccard.co.jp's (*)
+/^210\.148\.239\.[0-9]+$/ OK
+
+# Dec 14, 2007: j1xsas05.nwa.com (*)
+/\.nwa\.com$/ OK
+
+# Dec 14, 2007: honda.co.jp's (*)
+/^203\.178\.93\.145$/ OK
+
+# Dec 14, 2007: ab-road.net's (*)
+/^4-164-148-210\.r-rackie\.com$/ OK
+
+# Dec 14, 2007: yayoi-kk.co.jp's (*)
+/^202\.8\.81\.88$/ OK
+
+# Dec 14, 2007: access-t.co.jp's (*)
+/^aa20070105127d355aa5\.userreverse\.dion\.ne\.jp$/ OK
+
+# Dec 14, 2007: band-navi.net's (*)
+/^203\.152\.200\.242\.static\.zoot\.jp$/ OK
+
+# Dec 14, 2007: kagakudojin.co.jp's (*)
+/^senyo3z55\.digitalink\.ne\.jp$/ OK
+
+# Dec 14, 2007: chubu-ip.com's (*)
+/^219\.117\.237\.157\.static\.zoot\.jp$/ OK
+
+# Dec 14, 2007: clinical.or.jp's (*)
+/^s219067240-218\.bizhost\.odn\.ne\.jp$/ OK
+
+# Dec 14, 2007: dnc.ac.jp's (*)
+/^zz2007090152796feec4\.userreverse\.dion\.ne\.jp$/ OK
+
+# Dec 14, 2007: jnet-inc.co.jp's (*)
+/^s219067241-110\.bizhost\.odn\.ne\.jp$/ OK
+
+# Dec 14, 2007: mail.ato-shoten.co.jp (*)
+/^fnttkyo010004\.tkyo\.fnt\.ftth\.ppp\.infoweb\.ne\.jp$/ OK
+
+# Dec 14, 2007: mail.jissen.ac.jp (*)
+/^s11\.ALPHA-c2\.vectant\.ne\.jp$/ OK
+
+# Dec 14, 2007: mail10-2.kcn.ne.jp (*)
+/^mail10-2\.kcn\.ne\.jp$/ OK
+
+# Dec 14, 2007: termina.co.jp's (*)
+/^61\.122\.227\.226$/ OK
+
+# Dec 14, 2007: mail.j-gr.com (*)
+/^122x209x253x51\.ap122\.ftth\.ucom\.ne\.jp$/ OK
+
+# Dec 14, 2007: mail.sadamitsu-shokuryo.jp (*)
+/^210\.142\.245\.60$/ OK
+
+# Dec 14, 2007: mail.artifact.jp (*)
+/^58x81x71x243\.ap58\.ftth\.ucom\.ne\.jp$/ OK
+
+# Dec 14, 2007: corp148mr3-8.mcgraw-hill.com, etc. (*)
+/\.mcgraw-hill\.com$/ OK
+
+# Dec 14, 2007: netprotections.com's (*)
+/^s216726jp6el01-p\.jptkyo6\.savvis\.net$/ OK
+
+# Dec 14, 2007: hgp.co.jp's (*)
+/^210\.136\.237\.202$/ OK
+
+# Dec 14, 2007: aise.jp's (*)
+/^202\.143\.85\.163$/ OK
+
+# Dec 14, 2007: daletto.jp's (*)
+/^202\.248\.187\.[0-9]+$/ OK
+
+# Dec 14, 2007: mail.plandam.co.jp (*)
+/^sbas12\.apsv10\.kids-way\.ne\.jp$/ OK
+
+# Dec 14, 2007: mx.h-t.co.jp
+/^219\.117\.225\.178\.static\.zoot\.jp$/ OK
+
+# Dec 14, 2007: oem38-01.blayn.com (*)
+/\.blayn\.com$/ OK
+
+# Dec 14, 2007: ktk2-03.k-t-k.jp
+/\.k-t-k\.jp$/ OK
+
+# Dec 14, 2007: researchonline.jp's (*)
+/^210\.248\.134\.124$/ OK
+
+# Dec 14, 2007: err.mailstar.jp (*)
+/^59\.187\.32\.202\.xf\.2iij\.net$/ OK
+
+# Dec 05, 2007: wajapan.net (*)
+/^FLH9Aad001\.hyg\.mesh\.ad\.jp$/ OK
+
+# Dec 05, 2007: mail.wagoonline.com
+/^FLH9Aaa025\.hyg\.mesh\.ad\.jp$/ OK
+
+# Dec 05, 2007: (revised)
+# May 12, 2007: proliant1.sigmain.co.jp (*)
+/^FL9-125-199-220-88\.tky\.mesh\.ad\.jp$/ OK
+
+# Dec 05, 2007: (revised)
+# Feb 10, 2007: bgbs50017.tk.mesh.ad.jp (*)
+/bgbs.*\.tk\.mesh\.ad\.jp$/ OK
+
+# Dec 01, 2007: au1-s1.au1.com.au, au1-p1.au1.com.au, etc. (*)
+/^au.*\.au1\.com\.au$/ OK
+
+# Dec 01, 2007: stm1.rakuten-sec.co.jp (*)
+/^221x114x210x21\.ap221\.ftth\.ucom\.ne\.jp$/ OK
+
+# Nov 29: 2007: ig3.jp's (*)
+/^218-42-159-113\.cust\.bit-drive\.ne\.jp$/ OK
+
+# Nov 29, 2007: ipmail05.adl2.internode.on.net (*)
+/^ipmail.*\.internode\.on\.net$/ OK
+
+# Nov 29, 2007: jtis.co.jp's (*)
+/^58\.147\.161\.4$/ OK
+
+# Nov 29: 2007: wise-p.co.jp's (*)
+/^58x157x247x188\.ap58\.ftth\.ucom\.ne\.jp$/ OK
+
+# Nov 29: 2007: axdd.jp's (*)
+/^64\.56\.171\.210$/ OK
+
+# Nov 29: 2007: jkiss.or.jp's (*)
+/^202\.248\.42\.34$/ OK
+
+# Nov 29: 2007: merumo02-12.sender.mailsp.jp (*)
+/\.mailsp\.jp$/ OK
+
+# Nov 29, 2007: mbos141-169.alpenstock.jp, etc. (rim.or.jp's) (*)
+/\.alpenstock\.jp$/ OK
+
+# Nov 29, 2007: mail.cc.rim.or.jp, etc. (*)
+/^220\.156\.141\.[0-9]+$/ OK
+
+# Nov 29, 2007: maimi.jp's (*)
+/^125x100x85x232\.ap125\.ftth\.ucom\.ne\.jp$/ OK
+
+# Nov 29, 2007: kishindo.co.jp's (*)
+/^w137082\.ppp\.asahi-net\.or\.jp$/ OK
+
+# Nov 29, 2007: blu0-omc2-s4.blu0.hotmail.com, etc. (*)
+# Mar 08, 2004: mc1-s3.bay6.hotmail.com, etc.
+/\.hotmail\.com$/ OK
+
+# Nov 29, 2007: (revised)
+# Mar 26, 2006: blkmf05000.ac.yahoo.co.jp (*)
+# Aug 30, 2005: web10902.mail.bbt.yahoo.co.jp (*)
+/\.yahoo\.co\.jp$/ OK
+
+# Nov 29, 2007: (revised)
+# Aug 30, 2005: web35509.mail.mud.yahoo.com (*)
+/\.yahoo\.com$/ OK
+
+# Nov 14, 2007: mailgw.dairix-net.co.jp
+/^218\.222\.195\.140$/ OK
+
+# Oct 31, 2007: mg1a0.netmile.co.jp, mg2b0.netmile.co.jp, etc. (*)
+/\.netmile\.co\.jp$/ OK
+
+# Oct 31, 2007: yayoi-kk.co.jp's (*)
+/^202\.8\.81\.93$/ OK
+
+# Oct 31, 2007: dpj.or.jp's (*)
+/^210\.253\.211\.2$/ OK
+
+# Oct 30, 2007: wmg.jp's (*)
+/^202\.232\.180\.234$/ OK
+
+# Oct 30, 2007: int-w011e0a0.tr.mufg.jp, etc. (*)
+/\.mufg\.jp$/ OK
+
+# Oct 30, 2007: dc6snat01.element5.com (*)
+/\.element5\.com$/ OK
+
+# Oct 30, 2007: a124211045121.image-net.info, etc. (image-net.co.jp's) (*)
+/\.image-net\.info$/ OK
+
+# Oct 30, 2007: smtp01-01.mms.disney.jp, etc. (*)
+/\.disney\.jp$/ OK
+
+# Oct 30, 2007: cc2-mta3.ecampaign.jp (*)
+/\.ecampaign\.jp$/ OK
+
+# Oct 30, 2007: (revised)
+# Mar 26, 2006: gwa01-1.kabu.com, etc. (*)
+/\.kabu\.com$/ OK
+
+# Oct 30, 2007: (revised)
+# Sep 07, 2007: ss01-0.mail-boss.com, etc. (*)
+/\.mail-boss\.com$/ OK
+
+# Oct 30, 2007: (revised)
+# Sep 07, 2007: sw-59-106-90-196.gree.jp, etc. (*)
+/\.gree\.jp$/ OK
+
+# Oct 30, 2007: (revised)
+# Sep 07, 2007: portal-mail01-01.dwango.jp, etc. (*)
+/\.dwango\.jp$/ OK
+
+# Oct 30, 2007: (revised)
+# Sep 07, 2007: node-025069.ext.ameba.jp, etc. (*)
+/\.ameba\.jp$/ OK
+
+# Oct 30, 2007: (revised)
+# Apr 18, 2007: x6nat713.mail.boj.or.jp (*)
+/\.boj\.or\.jp$/ OK
+
+# Oct 30, 2007: (revised)
+# Jan 11, 2007: dmdhonbb5mtr05s.dmail.eki-net.com (*)
+/\.eki-net\.com$/ OK
+
+# Oct 30, 2007: (revised)
+# Sep 11, 2006: adm2-bge0.cc.uec.ac.jp
+/\.uec\.ac\.jp$/ OK
+
+# Oct 30, 2007: (revised)
+# Aug 01, 2006: cms02011\.mids\.flets\.com
+/\.flets\.com$/ OK
+
+# Oct 30, 2007: (revised)
+# Mar 26, 2006: mp-mta01011.bellemaison.jp, etc. (*)
+/\.bellemaison\.jp$/ OK
+
+# Mar 26, 2006: 210.230.252.119.sanc.co.jp (*)
+/\.sanc\.co\.jp$/ OK
+
+# Oct 26, 2007: mail01.real-order.com, mail02.real-order.com
+/^206\.100\.169\.2(0|1)$/ OK
+
+# Oct 23, 2007: atgames.jp's (*)
+/^124x39x15x13\.ap124\.ftth\.ucom\.ne\.jp$/ OK
+
+# Oct 23, 2007: (revised)
+# Mar 01, 2007: f00nsm12.the-seiyu.com (*)
+/\.the-seiyu\.com$/ OK
+
+# Oct 16, 2007: chara-ani.com's
+/^202\.213\.45\.133$/ OK
+
+# Oct 15, 2007: mail.gadget.ne.jp
+/^d10\.IakitaFL1\.vectant\.ne\.jp$/ OK
+
+# Oct 12, 2007: q-daito.co.jp's (*)
+/^ppps0347\.hakata01\.bbiq\.jp$/ OK
+
+# Oct 09, 2007: ns2.ecstudio.jp (hptouroku.com's) (*)
+/^202\.218\.50\.192$/ OK
+
+# Oct 08, 2007: A17-250-248-47.apple.com
+# Jan 11, 2007: badger[0-9]{5}.apple.com (*)
+/\.apple\.com$/ OK
+
+# Sep 21, 2007: eol.co.jp's (*)
+/^61\.121\.195\.243$/ OK
+
+# Sep 21, 2007: sb117inmr02.dowjones.com (*)
+/\.dowjones\.com$/ OK
+
+# Sep 21, 2007: z047208s.idemitsu.co.jp, z047201s.idemitsu.co.jp (*)
+/\.idemitsu\.co\.jp$/ OK
+
+# Sep 11, 2007: omron.co.jp's (*)
+/^202\.32\.13\.249$/ OK
+
+# Sep 07, 2007: del.4cast.smp.ne.jp, agt01.s318.smp.ne.jp, etc. (*)
+# Mar 26, 2006: agt06.s311.smp.ne.jp (*)
+/\.smp\.ne\.jp$/ OK
+
+# Sep 07, 2007: chip2og51.obsmtp.com, exprod6og50.obsmtp.com, etc. (*)
+/\.obsmtp\.com$/ OK
+
+# Aug 28, 2007: mos35015.mitsukoshi.co.jp (*)
+/\.mitsukoshi\.co\.jp$/ OK
+
+# Jul 26, 2007: 202x143x90x38.server1ban.ne.jp, etc. (*)
+/\.server1ban\.ne\.jp$/ OK
+
+# Jul 23, 2007: s002a001.town.nishiizu.shizuoka.jp (*)
+/\.town\.nishiizu\.shizuoka\.jp$/ OK
+
+# Jun 19, 2007: mail.ifscorp.co.jp
+/^210-175-254-67\.cust\.bit-drive\.ne\.jp$/ OK
+
+# Jun 18, 2007: sd22-01.domainserver.ne.jp, etc. (*)
+/\.domainserver\.ne\.jp$/ OK
+
+# Jun 14, 2007: rohto.co.jp's (*)
+/^4\.120\.138\.210\.bf\.2iij\.net$/ OK
+
+# Jun 12, 2007: mmrky022p01c.softbank.ne.jp (*)
+# Mar 01, 2007: mmrts006p01c.softbank.ne.jp, etc. (*)
+# Feb 22, 2007: tgmsmttk01sc1.softbank.ne.jp (*)
+# Feb 05, 2007: tgmsmtkn01sc1.softbank.ne.jp, etc. (*)
+/\.softbank\.ne\.jp$/ OK
+
+# Apr 18, 2007: e4ns01.city.ise.mie.jp (*)
+/\.city\.ise\.mie\.jp$/ OK
+
+# Apr 18, 2007: h090.n068.nhk.or.jp (*)
+/\.nhk\.or\.jp$/ OK
+
+# Apr 18, 2007: sn90013.matsuzakaya.co.jp (*)
+/\.matsuzakaya\.co\.jp$/ OK
+
+# Apr 18, 2007: s0mailt01.takenaka.co.jp (*)
+/\.takenaka\.co\.jp$/ OK
+
+# Mar 01, 2007: mail.viewsnet.jp (*)
+/^v2awebbf1mtr01s\.viewsnet\.jp$/ OK
+
+# Mar 01, 2007: mokuyouichi.com (*)
+/^246017\.kinet-tv\.ne\.jp$/ OK
+
+# Mar 01, 2007: sunfinity.co.jp's (*)
+/^k1-174\.kujira1\.net$/ OK
+
+# Feb 10, 2007: y19excore001.ahe.sagamino.ibm.com (*)
+/\.ibm\.com$/ OK
+
+# Feb 10, 2007: sjr0p113.nissan.co.jp (*)
+/\.nissan\.co\.jp$/ OK
+
+# Feb 10, 2007: ns.omotokai.jp (*)
+/^218\.44\.163\.170$/ OK
+
+# Feb 08, 2007: tachikawa-roukikyo.or.jp (*)
+/^219-118-191-144\.cust\.bit-drive\.ne\.jp$/ OK
+
+# Dec 12, 2006: otopaze.121.ana.co.jp (*)
+/\.ana\.co\.jp$/ OK
+
+# Dec 12, 2006: cube2mta1.asia.creative.info (*)
+/\.asia\.creative\.info$/ OK
+
+# Mar 26, 2006: twweb8.gocyberlink.com (*)
+/^203\.73\.25\.208$/ OK
+
+# Mar 26, 2006: 219.117.192.203.user.rb.il24.net (*)
+/^219\.117\.192\.203\.user\.rb\.il24\.net$/ OK
+
+# Mar 26, 2006: 61-63-84-host19.kbtelecom.net.tw (*)
+/^61-63-84-host19\.kbtelecom\.net\.tw$/ OK
+
+# Mar 26, 2006: newsmail.phaseone.com (*)
+/^ipx10864\.ipxserver\.de$/ OK
+
+# Mar 26, 2006: ogc01.mitsui.co.jp (*)
+/^210\.164\.30\.194$/ OK
+/^61\.213\.177\.109$/ OK
+
+# Mar 26, 2006: mq7.aimail.ne.jp (*)
+# Feb 16, 2006: mq8.aimail.ne.jp (*)
+/^218\.45\.254\.19(1|2)$/ OK
+
+# Jan 29, 2006: ns.transdigital.co.jp (*)
+/^61\.197\.185\.178$/ OK
+
+# Jan 10, 2006: n2.59-106-41-68.mixi.jp, etc. (*)
+/\.mixi\.jp$/ OK
+
+# Oct 26, 2005: dns1.ryuden.co.jp
+/^202\.224\.246\.138$/ OK
+
+# Oct 26, 2005: c11e11h3.securesites.net
+/\.securesites\.net$/ OK
+
+# Aug 22, 2005: 221-251-37-149.platz.jp
+/\.platz\.jp$/ OK
+
+# Jul 13, 2005: imt1omta04-s0.ezweb.ne.jp, etc. (*)
+/\.ezweb\.ne\.jp$/ OK
+
+# Jun 29, 2005: zns001-0m9001.yokogawa.co.jp, etc.
+/\.yokogawa\.co\.jp$/ OK
+
+# Jun 07, 2005: toshiba-pro.co.jp's
+/^211\.14\.137\.62$/ OK
+
+# May 26, 2005: bay-w1-inf5.verisign.net, benicia-w2-inf30.verisign.net (*)
+/\.verisign\.net$/ OK
+
+# May 13, 2005: ex02-mal000.nils.go.jp
+/\.nils\.go\.jp$/ OK
+
+# Dec 08, 2004: megasoft.co.jp's
+/^219\.163\.0\.34$/ OK
+
+# Nov 29, 2004: cpsexchange.cpstrategy.com (*)
+/^65\.201\.25\.2$/ OK
+
+# Nov 29, 2004: lrmail01.lawroom.com (*)
+/^63-199-151-170\.ded\.pacbell\.net$/ OK
+
+# Nov 29, 2004: www.stoc.co.jp (*)
+/^252\.218\.244\.43\.ap\.yournet\.ne\.jp$/ OK
+
+# Nov 29, 2004: rohhc.com's h216.70.22.140.superiorbroadband.com, etc. (*)
+/\.superiorbroadband\.com$/ OK
+
+# Nov 24, 2004: wserver.alliance.co.jp (*)
+/^210-172-21-218\.cust\.bit-drive\.ne\.jp$/ OK
+
+# Nov 24, 2004: ticketmaster.com's (*)
+/^vg2\.irp3\.ntf\.lax1\.tmcs\.net$/ OK
+
+# Nov 24, 2004: ebpass.com's (*)
+/^69\.64\.193\.170\.nyc\.electricfiber\.net$/ OK
+
+# Nov 24, 2004: esampo.com's (*)
+/^61\.120\.197\.250$/ OK
+
+# Nov 23, 2004: c151240.vh.plala.or.jp, etc. (*)
+/\.vh\.plala\.or\.jp$/ OK
+
+# Nov 23, 2004: ausc60ps301.us.dell.com (*)
+/\.dell\.com$/ OK
+
+# Nov 22, 2004: mx1.zentek.com (*)
+/^h-67-102-70-3\.snfccasy\.covad\.net$/ OK
+
+# Nov 15, 2004: cs1mr1.comsourceone.com, etc.
+/\.comsourceone\.com$/ OK
+
+# Oct 28, 2004: 207-171-180-101.amazon.com
+/\.amazon\.com$/ OK
+
+# Oct 04, 2004: mail.daha.co.jp
+/^pee4b38\.tokyff01\.ap\.so-net\.ne\.jp$/ OK
+
+# Jun 10, 2004: megasoft.co.jp's
+/^221x115x158x242\.ap221\.ftth\.ucom\.ne\.jp$/ OK
+
+# Apr 26, 2004: h04-a1.data-hotel.net, etc.
+/\.data-hotel\.net$/ OK
+
+# Apr 17, 2004: info-ntt.co.jp's
+/^ps23\.suite2\.arena\.ne\.jp$/ OK
+
+# Feb 24, 2004: pioneer.co.jp's
+/^221x115x147x174\.ap221\.ftth\.ucom\.ne\.jp$/ OK

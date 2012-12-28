@@ -1,0 +1,316 @@
+@charset "utf-8";
+
+/*
+ *  Copyright 2010-2012 ZiWAVE Co., Ltd.
+ *
+ *  table-layout.css
+ */
+
+/******************************************
+	　テーブルレイアウト
+*******************************************/
+
+/*** th緑　td薄い青色 のテーブル **/
+.itemtable01 {
+	border-collapse:collapse;
+	}
+
+.itemtable01 caption {
+	text-align: left;
+	margin-left: 5px;
+	padding-bottom: 2px;
+	}
+
+.itemtable01 th {
+	padding: 2px ;
+	border: solid #79b434 1px;
+	white-space: nowrap;
+	background:url(../image/bg_gren.gif) repeat-x #f0ffe0;
+	}
+
+.itemtable01 td {
+	background-color:#FBFCEB;
+	padding: 2px;
+	border: solid #999999 1px;
+	}
+
+/*** th青　td白　のテーブル **/
+.itemtable02 {
+	border-collapse:collapse;
+	}
+
+.itemtable02 caption {
+	text-align: left;
+	margin-left: 5px;
+	padding-bottom: 2px;
+	}
+
+.itemtable02 th {
+	padding: 3px 0 2px 0;
+	border: solid #369ebc 1px;
+	border-top: solid #369ebc 1px;
+	border-bottom: solid #1e95b8 1px;
+	background:url(../image/bg_blue.gif) repeat-x #a5e1fc;
+	}
+
+.itemtable02 td {
+	padding: 1px;
+	border: solid #999 1px;
+	}
+
+.itemtable02 .errtd {
+	background: #fff ;
+	border: 1px solid #FF3300;
+	}
+
+.itemtable02 .get{
+	background: #ffe59e;
+	border: solid #9f8743 1px;
+	}
+
+/*** 白 グレーボーダーのテーブル **/
+.itemtable03 {
+	border:0;
+	border-collapse:collapse;
+	}
+
+.itemtable03 caption {
+	text-align: left;
+	margin: 0 0 10px 5px;
+	padding-bottom: 3px;
+	}
+
+.itemtable03 th {
+	border: solid #dddddd 1px;
+	border-right: solid #bbbbbb 1px;
+	border-bottom: solid #bbbbbb 1px;
+	white-space: nowrap;
+	padding: 0 4px;
+	background:url(../image/bg_gray.gif) repeat-x top;
+	}
+
+.itemtable03 td {
+	padding:3px 8px 1px 8px;
+	border-left: 0;
+	border-bottom: dotted #bbbbbb 1px;
+	}
+
+/*** th青　td薄い青　のテーブル(nowrap適用) **/
+.itemtable05 {
+	border-collapse:collapse;
+	}
+
+.itemtable05 caption {
+	text-align: left;
+	margin-left: 5px;
+	padding-bottom: 2px;
+	}
+
+.itemtable05 th {
+	background-color:#8DD7FE;
+	padding: 3px 0;
+	border: solid #aaaaaa 1px;
+	white-space: nowrap;
+	}
+
+.itemtable05 td {
+	background:#F9FBFB;
+	padding: 2px;
+	border: solid #999999 1px;
+	}
+
+.itemtable05 .errtd {
+	background: #fff ;
+	border: 1px solid #FF3300;
+	}
+
+/*** テーブルの線を消す **/
+.ri-table .no-border,
+.itemtable01 .no-border,
+.itemtable02 .no-border,
+.itemtable03 .no-border,
+.itemtable05 .no-border {
+	border: 0 ;
+	background:none;
+	}
+
+/*** テーブルのカラーを個別に変更 **/
+.bg-black {
+	background:url(../image/bg_gray-2.gif) repeat-x #aeaeae;
+	}
+	
+/*** テーブルの線が消える対策 **/
+.border-top { border-top: solid #aaaaaa 1px; padding-top:3px;}
+
+
+/*** テーブルのカラーをクリアにする **/
+.none-table {
+	border-collapse:collapse;
+	border: 0;
+	}
+
+.none-table th {
+	background:none;
+	padding: 1px 0 ;
+	border:0;
+	text-align: center;
+	}
+
+.none-table td {
+	background:none;
+	padding: 2px;
+	border: 0;
+	}
+
+/*** 利用者登録用 テーブル **/
+.ri-table {
+	border: 0;
+	font-size:93%;
+	margin:0 20px;
+	}
+
+.ri-table th {
+	border: solid #dddddd 1px;
+	border-right: solid #bbbbbb 1px;
+	border-bottom: solid #bbbbbb 1px;
+	white-space: nowrap;
+	padding: 0 8px;
+	background:url(../image/bg_gray.gif) repeat-x top;
+	}
+
+.ri-table td {
+	padding:3px 8px 1px 8px;
+	border-left: 0;
+	border-bottom: dotted #bbbbbb 1px;
+	}
+
+.ri-table .head {
+	background:url(../image/bg_black.gif) repeat-x top;
+	}
+
+/******** カレンダー用のテーブル *******/
+.calendar-table {
+	border-collapse:collapse;
+	font-size:150%;
+	font-weight: bold;
+	width:450px;
+	}
+
+.calendar-table caption {
+	text-align: left;
+	margin-left: 5px;
+	padding-bottom: 2px;
+	}
+
+.calendar-table th {
+	padding-top: 5px;
+	padding-bottom: 5px;
+	border: solid #999999 1px;
+	border-bottom: solid #999999 2px;
+	background:url(../image/bg_gray-2.gif) top ;
+	}
+
+.calendar-table td {
+	width:14%;
+	border: solid #bbbbbb 1px;
+	}
+
+.calendar-table td a{
+	display:block;
+	padding:8px;
+	background:url(../image/bg_gray.gif) top ;
+	}
+
+/**--土日--**/
+.calendar-table th.sun {
+	background:url(../image/bg_red.gif) top ;
+	color:#810c00;
+	}
+
+.calendar-table th.sat {
+	background:url(../image/bg_skyblue.gif) top ;
+	color:#094883;
+	}
+
+.calendar-table td a:hover{background:url(../image/navi_ore_bg.gif) top ;}
+.calendar-table td.gray {background:#f1f2e7;}
+
+/*** カレンダー用のフォントカラー **/
+.calendar-table a:link { color:#333;}
+.calendar-table a:visited { color:#333;}
+.calendar-table a:active { color:#333;}
+.calendar-table a:hover { color:#FF3300;}
+
+/******** ポップアップ カレンダー用のテーブル *******/
+div#pop_up {
+	text-align:center;
+	width:300px;
+	margin: 0 auto;
+	}
+
+div#pop_up h1{
+	font-size:1.3em;
+	margin-bottom:3px;
+	}
+
+div#pop_up table {
+	width:280px;
+	}
+
+/*** 抽選用のテーブル **/
+.lot-table {
+	border:solid #bbbbbb 1px;
+	border-collapse:collapse;
+	}
+
+.lot-table th{
+	border:solid #bbbbbb 1px;
+	background:#8DD7FE;
+	text-align:center;
+	}
+
+.lot-table td{
+	border:solid #bbbbbb 1px;
+	}
+
+.lot-table td.get{
+	background: #FFFFCC;
+	}
+
+/******************************************
+	　施設情報照会のテーブルカラー
+*******************************************/
+
+.facilities-table {
+	border:0;
+	}
+
+.facilities-table th{
+	border:0;
+	text-align:center;
+	white-space: nowrap;
+	padding: 1px;
+	}
+
+.facilities-table td{
+	border:solid #cccccc 1px;
+	padding: 1px;
+	}
+
+
+/******************************************
+	　個別のテーブルカラー
+*******************************************/
+
+.td-col01{ background:#8DD7FE; border:solid #bbbbbb 1px;}
+
+
+#choice_fuzoku label {
+	display: inline-block;
+	width: 160px;
+	}
+
+#choice_purpose label {
+	display: inline-block;
+	width: 190px;
+	}

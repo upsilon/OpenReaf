@@ -1,0 +1,22 @@
+<?php
+define ('_SESSION_NAME_', 'ORGPLSRV');
+define ('_SALT_', 'y9zj4lxg');
+
+define ('_FOOTER_MESSAGE_', '○○市施設管理課<br>電話:050-3762-0676');
+
+define ('_IDLE_TIMEOUT_', '3600');
+
+define ('_LIST_DISP_MAX_', '12');
+define ('_SHISETSU_BUTTON_MAX_', '8');
+define ('_SHITSUJYOU_BUTTON_MAX_', '8');
+define ('_MEN_BUTTON_MAX_', '8');
+
+define ('_USE_SSL_', false);
+define ('_USE_NUMERICKEY_', true);
+
+define ('_LIST_RESERVE_ONLY_', false);
+define ('_SHOW_GUIDANCE_BUTTON_', true);
+define ('_SHOW_PRINT_BUTTON_', true);
+define ('_USE_FACILITY_GUIDE_', true);
+define ('_USE_FAQ_', true);
+?>

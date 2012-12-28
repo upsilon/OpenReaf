@@ -1,0 +1,35 @@
+<?php
+
+$GLOBALS['_OPENREAF_DSN_'] = array(
+	'phptype'  => 'mysql',
+	'username' => 'DBUSER',
+	'password' => 'DBPASSWORD',
+	'hostspec' => 'DBHOST',
+	'database' => 'DBNAME'
+);
+
+define ('OPENREAF_ROOT_PATH', '..');
+
+define ('_SYSTEM_NAME_', '公共施設予約システム');
+
+define ('_EXAMPLE_DATE_', '20120501');
+
+define ('_CONTACT_TEL_', '050-3762-0676');
+
+define ('_PRESET_MAX_NUM_', '5');
+
+define ('_MAYOR_', '市長');
+define ('_INSIDE_', '市内');
+define ('_OUTSIDE_', '市外');
+define ('_KANA_', 'かな');
+
+define ('_UNREGISTED_USER_ID_', '0');
+
+define ('_CITY_CODE_', '001');
+define ('_YOYAKUKANRI_TABLE_', true);
+
+define ('_COLOR_VACANCY_', '#d1fafa');
+define ('_COLOR_RESERVED_', '#ffe0c1');
+define ('_COLOR_LOT_', '#ffff66');
+define ('_COLOR_CLOSE_', '#90ee90');
+?>

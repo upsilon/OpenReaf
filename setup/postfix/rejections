@@ -1,0 +1,92 @@
+# S25R client rejection specifications for Postfix
+# Contributed by ASAMI Hideo (Japan), Jun 2004; Jul 2007
+# Refer to: http://www.gabacho-net.jp/en/anti-spam/
+#
+# To use this file, add following lines into the /etc/postfix/main.cf file:
+#
+# smtpd_client_restrictions =
+#   permit_mynetworks,
+#   check_client_access regexp:/etc/postfix/white_list
+#   check_client_access regexp:/etc/postfix/rejections
+#
+# where "rejections" is the name of this file.
+#
+# *** BLACK LIST ***
+#
+# When you find a UCE sender's FQDN which is not rejected by the generic
+# protection rules specified below, insert here a denial specification taking
+# a leaf from the following practical examples. You should specify a subdomain
+# name or a substring together with the domain name if possible so that you can
+# avoid rejecting legitimate mail relay servers in the same domain.
+#
+# pr86.internetdsl.tpnet.pl
+# fq217.neoplus.adsl.tpnet.pl
+# pa148.braniewo.sdi.tpnet.pl
+/\.(internetdsl|adsl|sdi)\.tpnet\.pl$/          450 domain check, be patient
+#
+# user-0cetcbr.cable.mindspring.com
+# user-vc8fldi.biz.mindspring.com
+/^user.+\.mindspring\.com$/                     450 domain check, be patient
+#
+# c9531ecc.virtua.com.br (hexadecimal used)
+# c9066a60.static.spo.virtua.com.br (hexadecimal used)
+/^[0-9a-f]{8}\.(.+\.)?virtua\.com\.br$/         450 domain check, be patient
+#
+# catv-5984bdee.catv.broadband.hu (hexadecimal used)
+/\.catv\.broadband\.hu$/                        450 domain check, be patient
+#
+# Edc3e.e.pppool.de
+# BAA1408.baa.pppool.de
+/[0-9a-f]{4}\.[a-z]+\.pppool\.de$/              450 domain check, be patient
+#
+# pD9EB80CB.dip0.t-ipconnect.de (hexadecimal used)
+/\.dip[0-9]+\.t-ipconnect\.de$/                 450 domain check, be patient
+#
+# pD9E799A1.dip.t-dialin.net (hexadecimal used)
+/\.dip\.t-dialin\.net$/                         450 domain check, be patient
+#
+# ool-43511bdc.dyn.optonline.net (hexadecimal used)
+/\.dyn\.optonline\.net$/                        450 domain check, be patient
+#
+# rt-dkz-1699.adsl.wanadoo.nl
+# c3eea5738.cable.wanadoo.nl (hexadecimal used)
+/\.(adsl|cable)\.wanadoo\.nl$/                  450 domain check, be patient
+#
+# ACBBD419.ipt.aol.com (hexadecimal used)
+/\.ipt\.aol\.com$/                              450 domain check, be patient
+#
+# *** GENERIC PROTECTION ***
+#
+# [rule 0]
+/^unknown$/                         450 reverse lookup failure, be patient
+#
+# [rule 1]
+# ex.: evrtwa1-ar3-4-65-157-048.evrtwa1.dsl-verizon.net
+# ex.: a12a190.neo.rr.com
+/^[^.]*[0-9][^0-9.]+[0-9].*\./                  450 S25R check, be patient
+#
+# [rule 2]
+# ex.: pcp04083532pcs.levtwn01.pa.comcast.net
+/^[^.]*[0-9]{5}/                                450 S25R check, be patient
+#
+# [rule 3]
+# ex.: 398pkj.cm.chello.no
+# ex.: host.101.169.23.62.rev.coltfrance.com
+/^([^.]+\.)?[0-9][^.]*\.[^.]+\..+\.[a-z]/       450 S25R check, be patient
+#
+# [rule 4]
+# ex.: wbar9.chi1-4-11-085-222.dsl-verizon.net
+/^[^.]*[0-9]\.[^.]*[0-9]-[0-9]/                 450 S25R check, be patient
+#
+# [rule 5]
+# ex.: d5.GtokyoFL27.vectant.ne.jp
+/^[^.]*[0-9]\.[^.]*[0-9]\.[^.]+\..+\./          450 S25R check, be patient
+#
+# [rule 6]
+# ex.: dhcp0339.vpm.resnet.group.upenn.edu
+# ex.: dialupM107.ptld.uswest.net
+# ex.: PPPbf708.tokyo-ip.dti.ne.jp
+# ex.: dsl411.rbh-brktel.pppoe.execulink.com
+# ex.: adsl-1415.camtel.net
+# ex.: xdsl-5790.lubin.dialog.net.pl
+/^(dhcp|dialup|ppp|[achrsvx]?dsl)[^.]*[0-9]/    450 S25R check, be patient
